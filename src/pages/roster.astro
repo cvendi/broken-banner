@@ -11,10 +11,14 @@ const response = await fetch(
     "https://raider.io/api/v1/characters/profile?region=us&realm=area-52&name=Agaloch&fields=mythic_plus_scores_by_season:current",
 );
 const data = await response.json();
+console.log("Fetched rio data");
 ---
 
-<BaseLayout>
+<BaseLayout guild="Broken Banner" page="Roster">
     <h1>Roster</h1>
-    <p>{data.name} ({data.race}, {data.class}, {data.active_spec_role})</p>
-    <p>{data.mythic_plus_scores_by_season[0].scores.all}</p>
+    <p>
+        {data.name} ({data.active_spec_name}
+        {data.class}, {data.active_spec_role})
+    </p>
+    <p>Score: {data.mythic_plus_scores_by_season[0].scores.all}</p>
 </BaseLayout>
