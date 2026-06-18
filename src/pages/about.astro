@@ -4,15 +4,12 @@ import AboutCard from "../components/AboutCard.astro";
 ---
 
 <BaseLayout guild="Broken Banner" page="About">
-    <h1
-        id="about-us"
-        class="text-5xl font-bold text-accent mb-2 text-center mt-4"
-    >
+    <h1 class="font-bebas text-5xl font-bold text-accent mb-2 text-center mt-4">
         About Us
     </h1>
-    <p class="text-muted mb-8">
-        <p>
-            <h1 class="text-2xl font-bold text-accent mb-2">
+    <div class="mb-8 gap-8 grid grid-cols-1">
+        <div class="col-span-1 row-span-1 mb-4">
+            <h1 class="text-2xl font-bold text-accent mb-5">
                 We are a cross faction, cross realm guild founded on Area 52.
             </h1><br />
             <p>
@@ -27,7 +24,9 @@ import AboutCard from "../components/AboutCard.astro";
                 Mythic+, with organized raiding on the horizon - pending
                 rostering and demand. Raiding will be completely optional, but
                 encouraged. We have 0 tolerance for toxicity of any kind.
-            </p><br />
+            </p>
+        </div>
+        <div class="col-span-1 row-span-1">
             <AboutCard heading="What We're Building">
                 <p>
                     A diverse Mythic Plus player pool, from casual to hardcore.<br
@@ -36,7 +35,7 @@ import AboutCard from "../components/AboutCard.astro";
                     compassionate WoW players.<br />
                     A community of players who desire to consistently play the game,
                     with others alike, who want to learn, improve and teach.
-                    <br /><br />Our members:<br /><br />
+                    <br /><br />Our members:<br />
                     Show up to dungeons and raids prepared<br />
                     Work well with others<br />
                     Want long-term consistency<br />
@@ -46,46 +45,53 @@ import AboutCard from "../components/AboutCard.astro";
                     Accomplish their goals, then elevate others
                 </p>
             </AboutCard>
-            <h2 class="text-5xl">What We're Looking For</h2><br />
-            <p>Positive, non-toxic players ages 21 and up</p>
-            <p>People who value teamwork over ego</p>
-            <p>Players willing to improve and help others</p>
-            <p>Consistency over skill (skill comes with time)</p>
-            <p>
-                People who love to spend time in game, running content and
-                socializing with other players
-            </p><br />
-            <h2 class="text-5xl">Guild Culture</h2><br />
-            <p>Respect first, always</p>
-            <p>No elitism, no drama</p>
-            <p>Natural friend groups are welcome, but community comes first</p>
-            <p>Everyone should feel included and able to participate</p>
-            <p>Always do the right thing - even when nobody is looking</p>
-            <p>
-                Be a leader, when required - sometimes you must start and run
-                your own groups when no others are available. This inspires
-                independence and confidence.
-            </p>
-            <p>Mistakes happen. We learn and move on.</p>
-            <p>Schedule Mythic+ groups forming daily.</p>
-            <p>
-                We attempt to roster for highest player activity at times past
-                5pm EST.
-            </p><br />
-            <h2 class="text-5xl">Leadership</h2><br />
-            <p>Structured but not overbearing</p>
-            <p>
-                Officers and GM lead by example (prepared, punctual, respectful,
-                active)
-            </p>
-            <p>Set clear expectations, with no micromanagement</p>
-            <p>Strictly adhere to a code of conduct, above any individual</p>
-        </p>
-    </p>
+        </div>
+        <div class="col-span-1 row-span-1">
+            <AboutCard heading="What We're Looking For">
+                <p>Positive, non-toxic players ages 21 and up</p>
+                <p>People who value teamwork over ego</p>
+                <p>Players willing to improve and help others</p>
+                <p>Consistency over skill (skill comes with time)</p>
+                <p>
+                    People who love to spend time in game, running content and
+                    socializing with other players
+                </p>
+            </AboutCard>
+        </div>
+        <div class="col-span-1 row-span-1">
+            <AboutCard heading="Guild Culture">
+                <p>Respect first, always</p>
+                <p>No elitism, no drama</p>
+                <p>
+                    Natural friend groups are welcome, but community comes first
+                </p>
+                <p>Everyone should feel included and able to participate</p>
+                <p>Always do the right thing - even when nobody is looking</p>
+                <p>
+                    Be a leader, when required - sometimes you must start and
+                    run your own groups when no others are available. This
+                    inspires independence and confidence.
+                </p>
+                <p>Mistakes happen. We learn and move on.</p>
+                <p>Schedule Mythic+ groups forming daily.</p>
+                <p>
+                    We attempt to roster for highest player activity at times
+                    past 5pm EST.
+                </p>
+            </AboutCard>
+        </div>
+        <div class="col-span-1 row-span-1">
+            <AboutCard heading="Leadership">
+                <p>Structured but not overbearing</p>
+                <p>
+                    Officers and GM lead by example (prepared, punctual,
+                    respectful, active)
+                </p>
+                <p>Set clear expectations, with no micromanagement</p>
+                <p>
+                    Strictly adhere to a code of conduct, above any individual
+                </p>
+            </AboutCard>
+        </div>
+    </div>
 </BaseLayout>
-<style>
-    #about-us,
-    h2 {
-        font-family: "Bebas Neue", sans-serif;
-    }
-</style>
