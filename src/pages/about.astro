@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import AboutCard from "../components/AboutCard.astro";
 ---
 
 <BaseLayout guild="Broken Banner" page="About">
@@ -27,27 +28,24 @@ import BaseLayout from "../layouts/BaseLayout.astro";
                 rostering and demand. Raiding will be completely optional, but
                 encouraged. We have 0 tolerance for toxicity of any kind.
             </p><br />
-            <h2 class="text-5xl mt-5">What We're Building</h2><br />
-            <p>A diverse Mythic Plus player pool, from casual to hardcore.</p>
-            <p>
-                The potential to forge long or lifelong relationships with other
-                compassionate WoW players.
-            </p>
-            <p>
-                A community of players who desire to consistently play the game,
-                with others alike, who want to learn, improve and teach.
-            </p><br />
-            <p>Our members:</p>
-            <ul>
-                <li>Show up to dungeons and raids prepared</li>
-                <li>Work well with others</li>
-                <li>Want long-term consistency</li>
-                <li>Have a strong desire to play and improve</li>
-                <li>
-                    Aspire to carry a positive mental attitude, as a default
-                </li>
-                <li>Accomplish their goals, then elevate others</li>
-            </ul><br />
+            <AboutCard heading="What We're Building">
+                <p>
+                    A diverse Mythic Plus player pool, from casual to hardcore.<br
+                    />
+                    The potential to forge long or lifelong relationships with other
+                    compassionate WoW players.<br />
+                    A community of players who desire to consistently play the game,
+                    with others alike, who want to learn, improve and teach.
+                    <br /><br />Our members:<br /><br />
+                    Show up to dungeons and raids prepared<br />
+                    Work well with others<br />
+                    Want long-term consistency<br />
+                    Have a strong desire to play and improve<br />
+                    Aspire to carry a positive mental attitude, as a default<br
+                    />
+                    Accomplish their goals, then elevate others
+                </p>
+            </AboutCard>
             <h2 class="text-5xl">What We're Looking For</h2><br />
             <p>Positive, non-toxic players ages 21 and up</p>
             <p>People who value teamwork over ego</p>

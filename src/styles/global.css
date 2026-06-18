@@ -1,1 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import "tailwindcss";
+
+@theme {
+    --font-inter: "Inter", sans-serif;
+    --font-bebas: "Bebas Neue", sans-serif;
+
+    --color-page-bg: #2e3440;
+    --color-header: #88c0d0;
+    --color-header-bg: #434c5e;
+    --color-nav-link: #e5e9f0;
+}
