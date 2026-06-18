@@ -1,0 +1,41 @@
+{
+  "name": "Moonraven",
+  "race": "Night Elf",
+  "class": "Demon Hunter",
+  "active_spec_name": "Vengeance",
+  "active_spec_role": "TANK",
+  "gender": "female",
+  "faction": "alliance",
+  "achievement_points": 17140,
+  "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/5/201926917-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+  "region": "us",
+  "realm": "Sargeras",
+  "last_crawled_at": "2026-06-16T11:44:55.000Z",
+  "profile_url": "https://raider.io/characters/us/sargeras/Moonraven",
+  "profile_banner": "alliancebanner1",
+  "mythic_plus_scores_by_season": [
+    {
+      "season": "season-mn-1",
+      "scores": {
+        "all": 3114.2,
+        "dps": 335,
+        "healer": 0,
+        "tank": 3114.2,
+        "spec_0": 0,
+        "spec_1": 3114.2,
+        "spec_2": 335,
+        "spec_3": 0
+      },
+      "segments": {
+        "all": { "score": 3114.2, "color": "#286dde" },
+        "dps": { "score": 335, "color": "#f7fff4" },
+        "healer": { "score": 0, "color": "#ffffff" },
+        "tank": { "score": 3114.2, "color": "#286dde" },
+        "spec_0": { "score": 0, "color": "#ffffff" },
+        "spec_1": { "score": 3114.2, "color": "#286dde" },
+        "spec_2": { "score": 335, "color": "#f7fff4" },
+        "spec_3": { "score": 0, "color": "#ffffff" }
+      }
+    }
+  ]
+}
