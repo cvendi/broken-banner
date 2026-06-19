@@ -8,6 +8,15 @@ import { getCollection } from "astro:content";
 const posts = (await getCollection("news", ({ data }) => !data.draft)).sort(
     (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
+
+const topPlayers = guildRoster.members
+    .filter((member) => member.mythic_plus_scores_by_season[0].scores.all !== 0)
+    .sort(
+        (a, b) =>
+            b.mythic_plus_scores_by_season[0].scores.all -
+            a.mythic_plus_scores_by_season[0].scores.all,
+    )
+    .slice(0, 6);
 ---
 
 <BaseLayout guild="Broken Banner" page="Home">
@@ -17,35 +26,22 @@ const posts = (await getCollection("news", ({ data }) => !data.draft)).sort(
         </h1>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
             {
-                guildRoster.members
-                    .filter(
-                        (member) =>
-                            member.mythic_plus_scores_by_season[0].scores
-                                .all !== 0,
-                    )
-                    .sort(
-                        (a, b) =>
-                            b.mythic_plus_scores_by_season[0].scores.all -
-                            a.mythic_plus_scores_by_season[0].scores.all,
-                    )
-                    .slice(0, 6)
-                    .map((member) => (
-                        <PlayerCard
-                            key={member.name}
-                            name={member.name}
-                            playerClass={member.class}
-                            playerSpec={member.active_spec_name}
-                            playerRole={member.active_spec_role}
-                            score={
-                                member.mythic_plus_scores_by_season[0].scores
-                                    .all
-                            }
-                            scoreColor={
-                                member.mythic_plus_scores_by_season[0].segments
-                                    .all.color
-                            }
-                        />
-                    ))
+                topPlayers.map((member) => (
+                    <PlayerCard
+                        key={member.name}
+                        name={member.name}
+                        playerClass={member.class}
+                        playerSpec={member.active_spec_name}
+                        playerRole={member.active_spec_role}
+                        score={
+                            member.mythic_plus_scores_by_season[0].scores.all
+                        }
+                        scoreColor={
+                            member.mythic_plus_scores_by_season[0].segments.all
+                                .color
+                        }
+                    />
+                ))
             }
         </div>
     </div>
@@ -71,4 +67,4 @@ const posts = (await getCollection("news", ({ data }) => !data.draft)).sort(
             </ul>
         </div>
     </div>
-</BaseLayout>
+</BaseLayout>; ---

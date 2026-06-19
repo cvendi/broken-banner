@@ -26,6 +26,7 @@ async function fetchCharacterScore(realm, name) {
     console.warn(`Failed to fetch ${name}: ${res.status}`);
     return null;
   }
+  console.log(`Fetched ${name}`);
   return res.json();
 }
 
