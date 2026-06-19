@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import PlayerCard from "../components/PlayerCard.astro";
+import guildRoster from "../data/guild-roster.json" with { type: "json" };
 
 import { getCollection } from "astro:content";
 
@@ -12,57 +13,62 @@ const posts = (await getCollection("news", ({ data }) => !data.draft)).sort(
 <BaseLayout guild="Broken Banner" page="Home">
     <div class="grid grid-cols-1 gap-8">
         <h1 class="font-header text-3xl text-text-muted">
-            Top scores this week
+            Top scoring players
         </h1>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <PlayerCard
-                name="Agaloch"
-                playerClass="Druid"
-                playerSpec="Guardian"
-                playerRole="Tank"
-                score="3537"
-                scoreColor="epic-accent"
-            />
-            <PlayerCard
-                name="Moonraven"
-                playerClass="Demon Hunter"
-                playerSpec="Vengeance"
-                playerRole="Tank"
-                score="3113"
-                scoreColor="blue-800"
-            />
-            <PlayerCard
-                name="Astrevea"
-                playerClass="Monk"
-                playerSpec="Mistweaver"
-                playerRole="Healer"
-                score="3430"
-                scoreColor="epic-accent"
-            />
+            {
+                guildRoster.members
+                    .filter(
+                        (member) =>
+                            member.mythic_plus_scores_by_season[0].scores
+                                .all !== 0,
+                    )
+                    .sort(
+                        (a, b) =>
+                            b.mythic_plus_scores_by_season[0].scores.all -
+                            a.mythic_plus_scores_by_season[0].scores.all,
+                    )
+                    .slice(0, 6)
+                    .map((member) => (
+                        <PlayerCard
+                            key={member.name}
+                            name={member.name}
+                            playerClass={member.class}
+                            playerSpec={member.active_spec_name}
+                            playerRole={member.active_spec_role}
+                            score={
+                                member.mythic_plus_scores_by_season[0].scores
+                                    .all
+                            }
+                            scoreColor={
+                                member.mythic_plus_scores_by_season[0].segments
+                                    .all.color
+                            }
+                        />
+                    ))
+            }
         </div>
-        <div class="mt-8">
-            <p class="text-3xl text-text-muted font-header">Latest News</p>
-            <div class="grid grid-cols-1 gap-4 mt-4">
-                <ul>
-                    {
-                        posts.map((post) => (
-                            <li>
-                                <a
-                                    class="hover:text-legendary-accent"
-                                    href={`/news/${post.id}`}
-                                >
-                                    {post.data.title}
-                                </a>
-                                <time
-                                    datetime={post.data.pubDate.toISOString()}
-                                >
-                                    {post.data.pubDate.toLocaleDateString()}
-                                </time>
-                            </li>
-                        ))
-                    }
-                </ul>
-            </div>
+    </div>
+    <div class="mt-8">
+        <p class="text-3xl text-text-muted font-header">Latest News</p>
+        <div class="grid grid-cols-1 gap-4 mt-4">
+            <ul>
+                {
+                    posts.map((post) => (
+                        <li>
+                            <a
+                                class="hover:text-legendary-accent"
+                                href={`/news/${post.id}`}
+                            >
+                                {post.data.title}
+                            </a>
+                            <time datetime={post.data.pubDate.toISOString()}>
+                                {post.data.pubDate.toLocaleDateString()}
+                            </time>
+                        </li>
+                    ))
+                }
+            </ul>
         </div>
     </div>
 </BaseLayout>

@@ -2,21 +2,10 @@
 const { name, playerClass, playerSpec, playerRole, score, scoreColor } =
     Astro.props;
 
-const scoreColorClasses = {
-    "epic-accent": {
-        text: "text-epic-accent",
-        border: "border-l-epic-accent",
-    },
-    "blue-800": {
-        text: "text-blue-800",
-        border: "border-l-blue-800",
-    },
-};
-
-const colors = scoreColorClasses[scoreColor] ?? {
-    text: "text-body-text",
-    border: "border-l-border-accent",
-};
+const resolvedScoreColor =
+    typeof scoreColor === "string" && scoreColor.trim().length > 0
+        ? scoreColor.trim()
+        : undefined;
 
 import {
     Card,
@@ -30,7 +19,10 @@ import {
 
 <Card
     size="sm"
-    class={`border-l-4 ${colors.border} mx-auto w-full max-w-sm bg-card-bg ${colors.text} ring-border-accent`}
+    class="mx-auto w-full max-w-sm border-l-4 bg-card-bg ring-border-accent"
+    style={resolvedScoreColor
+        ? `border-left-color: ${resolvedScoreColor};`
+        : undefined}
 >
     <CardHeader>
         <CardTitle><p class="text-body-text text-2xl">{name}</p></CardTitle>
@@ -41,6 +33,13 @@ import {
         >
     </CardHeader>
     <CardContent>
-        <p class={`text-4xl text-${scoreColor}`}>{score}</p>
+        <p
+            class="text-4xl"
+            style={resolvedScoreColor
+                ? `color: ${resolvedScoreColor};`
+                : undefined}
+        >
+            {score}
+        </p>
     </CardContent>
 </Card>

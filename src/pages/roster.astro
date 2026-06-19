@@ -1,24 +1,35 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import guildRoster from "../data/guild-roster.json" with { type: "json" };
 
 // Rate limiting
 // Unauthenticated requests are limited to 200 requests per minute.
 // Exceeding this limit will result in HTTP 429 responses.
 // Please implement appropriate backoff and retry logic.
 // To unlock higher request rates, register your application at raider.io/settings/apps.
-
+/*
 const response = await fetch(
     "https://raider.io/api/v1/characters/profile?region=us&realm=area-52&name=Agaloch&fields=mythic_plus_scores_by_season:current",
 );
 const data = await response.json();
-console.log("Fetched rio data");
+console.log("Fetched rio data"); */
 ---
 
 <BaseLayout guild="Broken Banner" page="Roster">
     <h1 class="text-3xl font-bold text-accent mb-2">Roster</h1>
     <p class="text-muted mb-8">
-        {data.name} ({data.active_spec_name}
-        {data.class}, {data.active_spec_role})
+        {
+            guildRoster.members
+                .filter(
+                    (member) =>
+                        member.mythic_plus_scores_by_season[0].scores.all !== 0,
+                )
+                .map((member) => (
+                    <p key={member.name}>
+                        {member.name} ({member.active_spec_name} {member.class},{" "}
+                        {member.active_spec_role})
+                    </p>
+                ))
+        }
     </p>
-    <p>Score: {data.mythic_plus_scores_by_season[0].scores.all}</p>
 </BaseLayout>

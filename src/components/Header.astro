@@ -16,18 +16,9 @@ import { Swords } from "@lucide/astro";
     <div
         class="mx-auto flex w-full max-w-7xl items-center justify-between gap-4 px-6 py-4 sm:px-8 lg:px-10 xl:px-12"
     >
-        <h1
-            class="shrink-0 text-body-text transition-colors hover:text-legendary-accent md:text-7xl"
-        >
-            <a href="/" class="inline-flex items-center gap-2">
-                <Swords size="32" aria-hidden="true" />
-                <span class="md:text-4xl text-xl">Broken Banner</span>
-            </a>
-        </h1>
-
-        <details class="group relative md:hidden">
+        <details class="mobile-nav group order-2 ml-auto md:hidden">
             <summary
-                class="flex h-11 w-11 list-none items-center justify-center rounded-md border border-border text-body-text transition-colors hover:text-legendary-accent [&::-webkit-details-marker]:hidden"
+                class="order-2 flex h-11 w-11 shrink-0 list-none items-center justify-center rounded-md border border-border text-body-text transition-colors hover:text-legendary-accent [&::-webkit-details-marker]:hidden"
             >
                 <span class="sr-only">Toggle navigation menu</span>
                 <svg
@@ -61,19 +52,16 @@ import { Swords } from "@lucide/astro";
                 </svg>
             </summary>
 
-            <nav
-                aria-label="Primary"
-                class="absolute right-0 top-full mt-3 w-44 rounded-md border border-border bg-header-bg shadow-xl"
-            >
+            <nav aria-label="Primary" class="order-1 flex-1">
                 <ul
-                    class="flex flex-col items-center gap-4 px-6 py-5 text-2xl text-body-text"
+                    class="flex flex-wrap items-center justify-end gap-x-5 gap-y-3 pr-4 text-lg text-body-text"
                 >
                     {
                         navLinks.map((link) => (
                             <li>
                                 {link.variant === "button" ? (
                                     <Button
-                                        class="bg-epic-accent text-xl hover:bg-card-bg"
+                                        class="bg-epic-accent text-base hover:bg-card-bg"
                                         href={link.href}
                                         variant="default"
                                         size="lg"
@@ -94,6 +82,15 @@ import { Swords } from "@lucide/astro";
                 </ul>
             </nav>
         </details>
+
+        <h1
+            class="site-logo order-1 shrink-0 text-body-text transition-colors hover:text-legendary-accent md:order-0 md:text-7xl"
+        >
+            <a href="/" class="inline-flex items-center gap-2">
+                <Swords size="32" aria-hidden="true" />
+                <span class="md:text-4xl text-xl">Broken Banner</span>
+            </a>
+        </h1>
 
         <nav aria-label="Primary" class="hidden md:block">
             <ul
@@ -126,3 +123,18 @@ import { Swords } from "@lucide/astro";
         </nav>
     </div>
 </header>
+
+<style>
+    @media (max-width: 767px) {
+        .mobile-nav[open] {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+        .mobile-nav[open] + .site-logo {
+            display: none;
+        }
+    }
+</style>
