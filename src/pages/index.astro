@@ -13,39 +13,8 @@ import {
 
 import ResourcesCard from "../components/ResourcesCard.astro";
 
-// will convert to content collection
-
-const resources = [
-    {
-        title: "Ellesmere UI",
-        content: "A performant UI suite for WoW Midnight",
-        image: "ellesmere-ui.png",
-    },
-    {
-        title: "Archon",
-        content: "Data to help you improve your performance",
-    },
-    {
-        title: "Oak LFG Sorter",
-        content:
-            "A tool to help you find the right group when searching for a dungeon",
-    },
-    {
-        title: "Ellesmere UI",
-        content: "A performant UI suite for WoW Midnight",
-    },
-    {
-        title: "Archon",
-        content: "Data to help you improve your performance",
-    },
-    {
-        title: "Oak LFG Sorter",
-        content:
-            "A tool to help you find the right group when searching for a dungeon",
-    },
-];
-
 import { getCollection } from "astro:content";
+const resources = await getCollection("resources");
 
 const posts = (await getCollection("news", ({ data }) => !data.draft)).sort(
     (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
@@ -116,26 +85,30 @@ const topPlayers = guildRoster.members
                 }
             </ul>
             <p class="text-3xl text-text-muted font-header mt-4">Resources</p>
-            <ul>
-                <Carousel opts={{ align: "start" }} class="mx-auto w-full">
-                    <CarouselContent>
-                        {
-                            resources.map((resource) => (
-                                <CarouselItem class="md:basis-1/2 lg:basis-1/4">
-                                    <div class="p-1">
-                                        <ResourcesCard
-                                            title={resource.title}
-                                            content={resource.content}
-                                        />
-                                    </div>
-                                </CarouselItem>
-                            ))
-                        }
-                    </CarouselContent>
-                    <CarouselPrevious />
-                    <CarouselNext />
-                </Carousel>
-            </ul>
+            <Carousel opts={{ align: "start" }} class="mx-auto w-full">
+                <CarouselContent>
+                    {
+                        resources.map((resource) => (
+                            <CarouselItem class="md:basis-1/2 lg:basis-1/4">
+                                <div class="p-1">
+                                    <ResourcesCard
+                                        title={resource.data.title}
+                                        author={resource.data.author}
+                                        postUrl={`resources/${resource.id}`}
+                                        description={resource.data.description}
+                                        cover={resource.data.cover}
+                                        coverAlt={resource.data.coverAlt}
+                                        externalUrl={resource.data.externalUrl}
+                                        category={resource.data.category}
+                                    />
+                                </div>
+                            </CarouselItem>
+                        ))
+                    }
+                </CarouselContent>
+                <CarouselPrevious />
+                <CarouselNext />
+            </Carousel>
         </div>
     </div>
 </BaseLayout>

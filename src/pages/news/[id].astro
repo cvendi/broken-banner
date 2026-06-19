@@ -22,6 +22,9 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
         <time class="text-text-muted text-sm"
             >{post.data.pubDate.toLocaleDateString()}</time
         >
+        <span class="text-text-muted text-sm"
+            >Posted by: {post.data.author}</span
+        >
         <Content />
     </article>
 </BaseLayout>
