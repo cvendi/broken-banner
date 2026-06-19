@@ -3,6 +3,47 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import PlayerCard from "../components/PlayerCard.astro";
 import guildRoster from "../data/guild-roster.json" with { type: "json" };
 import { Button } from "@/components/starwind/button";
+import {
+    Carousel,
+    CarouselContent,
+    CarouselItem,
+    CarouselNext,
+    CarouselPrevious,
+} from "@/components/starwind/carousel";
+
+import ResourcesCard from "../components/ResourcesCard.astro";
+
+// will convert to content collection
+
+const resources = [
+    {
+        title: "Ellesmere UI",
+        content: "A performant UI suite for WoW Midnight",
+        image: "ellesmere-ui.png",
+    },
+    {
+        title: "Archon",
+        content: "Data to help you improve your performance",
+    },
+    {
+        title: "Oak LFG Sorter",
+        content:
+            "A tool to help you find the right group when searching for a dungeon",
+    },
+    {
+        title: "Ellesmere UI",
+        content: "A performant UI suite for WoW Midnight",
+    },
+    {
+        title: "Archon",
+        content: "Data to help you improve your performance",
+    },
+    {
+        title: "Oak LFG Sorter",
+        content:
+            "A tool to help you find the right group when searching for a dungeon",
+    },
+];
 
 import { getCollection } from "astro:content";
 
@@ -76,11 +117,24 @@ const topPlayers = guildRoster.members
             </ul>
             <p class="text-3xl text-text-muted font-header mt-4">Resources</p>
             <ul>
-                <li class="flex justify-between">
-                    <a href="#"
-                        >Ellesmere UI, a performant UI suite for WoW Midnight</a
-                    >
-                </li>
+                <Carousel opts={{ align: "start" }} class="mx-auto w-full">
+                    <CarouselContent>
+                        {
+                            resources.map((resource) => (
+                                <CarouselItem class="md:basis-1/2 lg:basis-1/4">
+                                    <div class="p-1">
+                                        <ResourcesCard
+                                            title={resource.title}
+                                            content={resource.content}
+                                        />
+                                    </div>
+                                </CarouselItem>
+                            ))
+                        }
+                    </CarouselContent>
+                    <CarouselPrevious />
+                    <CarouselNext />
+                </Carousel>
             </ul>
         </div>
     </div>

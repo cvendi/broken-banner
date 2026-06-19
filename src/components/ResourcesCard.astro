@@ -1,0 +1,29 @@
+---
+import { Card, CardContent } from "@/components/starwind/card";
+import { Image } from "astro:assets";
+import ellesmere from "../assets/ellesmere-ui.png";
+
+const { title, content, image } = Astro.props;
+---
+
+<Card
+    class="relative mx-auto w-full max-w-sm bg-card-bg border-transparent ring-border-accent"
+>
+    <Image
+        src={ellesmere}
+        alt="ellesmere-ui"
+        class="aspect-video w-full object-cover"
+    />
+    <CardContent
+        class="aspect-square flex flex-col justify-between p-6 text-body-text"
+    >
+        <span class="text-2xl font-semibold">
+            {title}
+        </span>
+        <li class="text-sm">
+            <a href="#">
+                {content}
+            </a>
+        </li>
+    </CardContent>
+</Card>
