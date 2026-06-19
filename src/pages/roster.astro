@@ -1,18 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import guildRoster from "../data/guild-roster.json" with { type: "json" };
-
-// Rate limiting
-// Unauthenticated requests are limited to 200 requests per minute.
-// Exceeding this limit will result in HTTP 429 responses.
-// Please implement appropriate backoff and retry logic.
-// To unlock higher request rates, register your application at raider.io/settings/apps.
-/*
-const response = await fetch(
-    "https://raider.io/api/v1/characters/profile?region=us&realm=area-52&name=Agaloch&fields=mythic_plus_scores_by_season:current",
-);
-const data = await response.json();
-console.log("Fetched rio data"); */
 ---
 
 <BaseLayout guild="Broken Banner" page="Roster">
