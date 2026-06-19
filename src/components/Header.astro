@@ -1,25 +1,27 @@
 ---
 const navLinks = [
-    { href: "/", label: "Home" },
-    { href: "/about", label: "About" },
-    { href: "/roster", label: "Roster" },
-    { href: "/join", label: "Join" },
+    { href: "/", label: "Home", variant: "text" },
+    { href: "/about", label: "About", variant: "text" },
+    { href: "/roster", label: "Roster", variant: "text" },
+    { href: "/join", label: "Join", variant: "button" },
 ];
+
+import { Button } from "@/components/starwind/button";
 ---
 
-<header
-    class="font-bebas bg-header-bg border-b border-border shadow-1xl sticky top-0 z-20"
->
+<header class="font-bebas border-b border-border shadow-1xl sticky top-0 z-20">
     <div
         class="mx-auto flex w-full max-w-7xl items-center justify-between gap-4 px-6 py-4 sm:px-8 lg:px-10 xl:px-12"
     >
-        <h1 class="shrink-0 text-4xl text-body-text md:text-7xl">
-            Broken Banner
+        <h1
+            class="shrink-0 text-4xl text-body-text md:text-7xl transition-colors hover:text-legendary-accent"
+        >
+            <a href="/"> Broken Banner </a>
         </h1>
 
         <details class="group relative md:hidden">
             <summary
-                class="flex h-11 w-11 list-none items-center justify-center rounded-md border border-border text-body-text transition-colors hover:text-header [&::-webkit-details-marker]:hidden"
+                class="flex h-11 w-11 list-none items-center justify-center rounded-md border border-border text-body-text transition-colors hover:text-legendary-accent [&::-webkit-details-marker]:hidden"
             >
                 <span class="sr-only">Toggle navigation menu</span>
                 <svg
@@ -63,12 +65,23 @@ const navLinks = [
                     {
                         navLinks.map((link) => (
                             <li>
-                                <a
-                                    class="transition-colors hover:text-header"
-                                    href={link.href}
-                                >
-                                    {link.label}
-                                </a>
+                                {link.variant === "button" ? (
+                                    <Button
+                                        class="bg-epic-accent text-xl hover:bg-card-bg"
+                                        href={link.href}
+                                        variant="default"
+                                        size="lg"
+                                    >
+                                        {link.label}
+                                    </Button>
+                                ) : (
+                                    <a
+                                        class="transition-colors hover:text-header"
+                                        href={link.href}
+                                    >
+                                        {link.label}
+                                    </a>
+                                )}
                             </li>
                         ))
                     }
@@ -83,12 +96,23 @@ const navLinks = [
                 {
                     navLinks.map((link) => (
                         <li>
-                            <a
-                                class="transition-colors hover:text-header"
-                                href={link.href}
-                            >
-                                {link.label}
-                            </a>
+                            {link.variant === "button" ? (
+                                <Button
+                                    class="bg-page-bg border border-epic-accent text-xl hover:bg-epic-accent"
+                                    href={link.href}
+                                    variant="default"
+                                    size="lg"
+                                >
+                                    {link.label}
+                                </Button>
+                            ) : (
+                                <a
+                                    class="transition-colors hover:text-header"
+                                    href={link.href}
+                                >
+                                    {link.label}
+                                </a>
+                            )}
                         </li>
                     ))
                 }
