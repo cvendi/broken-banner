@@ -6,33 +6,39 @@ const { title, postUrl, description, cover, coverAlt, externalUrl, category } =
     Astro.props;
 ---
 
-<a href={postUrl}>
+<a href={postUrl} class="block h-[21rem] min-w-0 sm:h-[22rem]">
     <Card
-        class="relative mx-auto w-full max-w-sm bg-card-bg border-transparent ring-border-accent"
+        class="relative mx-auto h-full w-full max-w-sm gap-0 overflow-hidden border-transparent bg-card-bg py-0 ring-border-accent transition-colors hover:ring-legendary-accent"
     >
         {
             cover && (
                 <Image
                     src={cover}
                     alt={coverAlt ?? title}
-                    class="aspect-video w-full object-cover"
+                    class="aspect-video w-full shrink-0 object-cover"
                 />
             )
         }
-        <CardContent class="flex flex-col justify-between text-body-text">
-            <span class="text-2xl font-semibold">
+        <CardContent
+            class="flex min-h-0 flex-1 flex-col gap-3 p-4 text-body-text sm:p-5"
+        >
+            <span
+                class="line-clamp-2 break-words text-xl font-semibold leading-tight"
+            >
                 {title}
             </span>
-            <ul class="text-sm">
-                <li>
-                    {description}
-                </li>
-                <li>
-                    <span class="text-sm text-text-muted">
+            <p
+                class="line-clamp-3 break-words text-sm leading-6 text-text-muted"
+            >
+                {description}
+            </p>
+            {
+                category && (
+                    <span class="mt-auto w-fit max-w-full truncate rounded-full bg-border-accent/20 px-2.5 py-1 text-xs font-medium uppercase tracking-wide text-text-muted">
                         {category}
                     </span>
-                </li>
-            </ul>
+                )
+            }
         </CardContent>
     </Card>
 </a>
