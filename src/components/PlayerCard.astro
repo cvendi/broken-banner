@@ -1,0 +1,29 @@
+---
+const { name, playerClass, playerSpec, playerRole, score, scoreColor } =
+    Astro.props;
+import {
+    Card,
+    CardContent,
+    CardDescription,
+    CardFooter,
+    CardHeader,
+    CardTitle,
+} from "@/components/starwind/card";
+---
+
+<Card
+    size="sm"
+    class={`border-l-4 border-l-${scoreColor} mx-auto w-full max-w-sm bg-card-bg text-body-text ring-border-accent`}
+>
+    <CardHeader>
+        <CardTitle><p class="text-2xl">{name}</p></CardTitle>
+        <CardDescription
+            ><p class="text-text-muted">
+                {playerClass} • {playerSpec} • {playerRole}
+            </p></CardDescription
+        >
+    </CardHeader>
+    <CardContent>
+        <p class={`text-4xl text-${scoreColor}`}>{score}</p>
+    </CardContent>
+</Card>
