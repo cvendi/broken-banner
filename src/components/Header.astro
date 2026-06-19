@@ -1,19 +1,98 @@
 ---
-
+const navLinks = [
+    { href: "/", label: "Home" },
+    { href: "/about", label: "About" },
+    { href: "/roster", label: "Roster" },
+    { href: "/join", label: "Join" },
+];
 ---
 
 <header
-    class="font-bebas bg-header-bg border-b border-gray-950 shadow-1xl px-6 py-4 flex flex-col items-center justify-center gap-3 sticky top-0"
+    class="font-bebas bg-header-bg border-b border-border shadow-1xl sticky top-0 z-20"
 >
-    <h1 class="text-4xl md:text-7xl text-header">Broken Banner</h1>
-    <nav aria-label="Primary">
-        <ul
-            class="flex flex-wrap items-center justify-center gap-x-9 gap-y-4 text-lg md:text-2xl text-nav-link"
-        >
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/roster">Roster</a></li>
-            <li><a href="/join">Join</a></li>
-        </ul>
-    </nav>
+    <div
+        class="mx-auto flex w-full max-w-7xl items-center justify-between gap-4 px-6 py-4 sm:px-8 lg:px-10 xl:px-12"
+    >
+        <h1 class="shrink-0 text-4xl text-body-text md:text-7xl">
+            Broken Banner
+        </h1>
+
+        <details class="group relative md:hidden">
+            <summary
+                class="flex h-11 w-11 list-none items-center justify-center rounded-md border border-border text-body-text transition-colors hover:text-header [&::-webkit-details-marker]:hidden"
+            >
+                <span class="sr-only">Toggle navigation menu</span>
+                <svg
+                    class="h-6 w-6 group-open:hidden"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                >
+                    <path d="M4 7h16"></path>
+                    <path d="M4 12h16"></path>
+                    <path d="M4 17h16"></path>
+                </svg>
+                <svg
+                    class="hidden h-6 w-6 group-open:block"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                >
+                    <path d="M18 6 6 18"></path>
+                    <path d="m6 6 12 12"></path>
+                </svg>
+            </summary>
+
+            <nav
+                aria-label="Primary"
+                class="absolute right-0 top-full mt-3 w-44 rounded-md border border-border bg-header-bg shadow-xl"
+            >
+                <ul
+                    class="flex flex-col items-center gap-4 px-6 py-5 text-2xl text-body-text"
+                >
+                    {
+                        navLinks.map((link) => (
+                            <li>
+                                <a
+                                    class="transition-colors hover:text-header"
+                                    href={link.href}
+                                >
+                                    {link.label}
+                                </a>
+                            </li>
+                        ))
+                    }
+                </ul>
+            </nav>
+        </details>
+
+        <nav aria-label="Primary" class="hidden md:block">
+            <ul
+                class="flex flex-wrap items-center justify-center gap-x-9 gap-y-4 text-lg text-body-text md:text-2xl"
+            >
+                {
+                    navLinks.map((link) => (
+                        <li>
+                            <a
+                                class="transition-colors hover:text-header"
+                                href={link.href}
+                            >
+                                {link.label}
+                            </a>
+                        </li>
+                    ))
+                }
+            </ul>
+        </nav>
+    </div>
 </header>

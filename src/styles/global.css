@@ -5,10 +5,15 @@
     --font-inter: "Inter", sans-serif;
     --font-bebas: "Bebas Neue", sans-serif;
 
-    --color-page-bg: #2e3440;
+    --color-page-bg: #13151a;
+    --color-header-bg: #13151a;
+    --color-card-bg: #1c1f26;
     --color-header: #88c0d0;
-    --color-header-bg: #434c5e;
     --color-nav-link: #e5e9f0;
+    --color-border: #2a2e38;
+    --color-body-text: #e8e6e3;
+    --color-epic-accent: #a335ee;
+    --color-legendary-accent: #ff8000;
 }
 
 html {
