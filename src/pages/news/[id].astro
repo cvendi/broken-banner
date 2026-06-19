@@ -15,9 +15,13 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 ---
 
 <BaseLayout>
-    <article>
-        <h1>{post.data.title}</h1>
-        <time>{post.data.pubDate.toLocaleDateString()}</time>
+    <article class="flex flex-col items-start gap-8">
+        <h1 class="text-6xl text-legendary-accent font-header">
+            {post.data.title}
+        </h1>
+        <time class="text-text-muted text-sm"
+            >{post.data.pubDate.toLocaleDateString()}</time
+        >
         <Content />
     </article>
 </BaseLayout>

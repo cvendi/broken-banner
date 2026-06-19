@@ -2,6 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import PlayerCard from "../components/PlayerCard.astro";
 import guildRoster from "../data/guild-roster.json" with { type: "json" };
+import { Button } from "@/components/starwind/button";
 
 import { getCollection } from "astro:content";
 
@@ -21,6 +22,11 @@ const topPlayers = guildRoster.members
 
 <BaseLayout guild="Broken Banner" page="Home">
     <div class="grid grid-cols-1 gap-8">
+        <h1
+            class="font-header text-5xl md:text-6xl text-legendary-accent text-center mb-8"
+        >
+            Community-first guild focused on Mythic+
+        </h1>
         <h1 class="font-header text-3xl text-text-muted">
             Top scoring players
         </h1>
@@ -46,25 +52,36 @@ const topPlayers = guildRoster.members
         </div>
     </div>
     <div class="mt-8">
-        <p class="text-3xl text-text-muted font-header">Latest News</p>
-        <div class="grid grid-cols-1 gap-4 mt-4">
+        <div class="grid grid-cols-1 gap-8">
+            <p class="text-3xl text-text-muted font-header mt-4">Latest News</p>
             <ul>
                 {
                     posts.map((post) => (
-                        <li>
+                        <li class="flex justify-between">
                             <a
-                                class="hover:text-legendary-accent"
+                                class="hover:text-legendary-accent text-left"
                                 href={`/news/${post.id}`}
                             >
                                 {post.data.title}
                             </a>
-                            <time datetime={post.data.pubDate.toISOString()}>
+                            <time
+                                class="text-text-muted"
+                                datetime={post.data.pubDate.toISOString()}
+                            >
                                 {post.data.pubDate.toLocaleDateString()}
                             </time>
                         </li>
                     ))
                 }
             </ul>
+            <p class="text-3xl text-text-muted font-header mt-4">Resources</p>
+            <ul>
+                <li class="flex justify-between">
+                    <a href="#"
+                        >Ellesmere UI, a performant UI suite for WoW Midnight</a
+                    >
+                </li>
+            </ul>
         </div>
     </div>
-</BaseLayout>; ---
+</BaseLayout>
