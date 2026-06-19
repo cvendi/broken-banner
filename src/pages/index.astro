@@ -1,6 +1,12 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import PlayerCard from "../components/PlayerCard.astro";
+
+import { getCollection } from "astro:content";
+
+const posts = (await getCollection("news", ({ data }) => !data.draft)).sort(
+    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
 ---
 
 <BaseLayout guild="Broken Banner" page="Home">
@@ -37,12 +43,25 @@ import PlayerCard from "../components/PlayerCard.astro";
         <div class="mt-8">
             <p class="text-3xl text-text-muted font-header">Latest News</p>
             <div class="grid grid-cols-1 gap-4 mt-4">
-                <p class="text-body-text hover:text-legendary-accent">
-                    <a href="/">Guild website under development</a>
-                </p>
-                <p class="text-body-text hover:text-legendary-accent">
-                    <a href="/">Srandr joins MDI team</a>
-                </p>
+                <ul>
+                    {
+                        posts.map((post) => (
+                            <li>
+                                <a
+                                    class="hover:text-legendary-accent"
+                                    href={`/news/${post.id}`}
+                                >
+                                    {post.data.title}
+                                </a>
+                                <time
+                                    datetime={post.data.pubDate.toISOString()}
+                                >
+                                    {post.data.pubDate.toLocaleDateString()}
+                                </time>
+                            </li>
+                        ))
+                    }
+                </ul>
             </div>
         </div>
     </div>
