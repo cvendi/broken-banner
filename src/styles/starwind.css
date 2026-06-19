@@ -12,6 +12,18 @@ html {
     --animate-accordion-down: accordion-down 0.2s ease-out;
     --animate-accordion-up: accordion-up 0.2s ease-out;
 
+    --font-inter: "Inter", sans-serif;
+    --font-bebas: "Bebas Neue", sans-serif;
+
+    --color-page-bg: #13151a;
+    --color-header-bg: #13151a;
+    --color-card-bg: #1c1f26;
+    --color-border-accent: #2a2e38;
+    --color-body-text: #e8e6e3;
+    --color-epic-accent: #a335ee;
+    --color-legendary-accent: #ff8000;
+    --color-text-muted: #888780;
+
     @keyframes accordion-down {
         from {
             height: 0;
@@ -32,17 +44,6 @@ html {
 }
 
 @theme inline {
-    --font-inter: "Inter", sans-serif;
-    --font-bebas: "Bebas Neue", sans-serif;
-
-    --color-page-bg: #13151a;
-    --color-header-bg: #13151a;
-    --color-card-bg: #1c1f26;
-    --color-border-accent: #2a2e38;
-    --color-body-text: #e8e6e3;
-    --color-epic-accent: #a335ee;
-    --color-legendary-accent: #ff8000;
-
     --color-background: var(--background);
     --color-foreground: var(--foreground);
     --color-card: var(--card);

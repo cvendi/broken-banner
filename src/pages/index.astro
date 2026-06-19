@@ -1,10 +1,74 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { Button } from "@/components/starwind/button";
+import {
+    Card,
+    CardContent,
+    CardDescription,
+    CardFooter,
+    CardHeader,
+    CardTitle,
+} from "@/components/starwind/card";
 ---
 
 <BaseLayout guild="Broken Banner" page="Home">
-    <h1 class="text-muted mb-8">
-        We are an M+ focused WoW guild looking for mature players who are
-        dedicated to the game.
+    <h1 class="text-muted mb-8 font-bebas text-3xl text-text-muted">
+        Top scores this week
     </h1>
+    <div class="grid grid-cols-3 gap-4">
+        <Card
+            size="sm"
+            class="border-l-4 border-l-epic-accent mx-auto w-full max-w-sm bg-card-bg text-body-text ring-border-accent"
+        >
+            <CardHeader>
+                <CardTitle
+                    ><p class="text-2xl text-[#FF7D0A]">Agaloch</p></CardTitle
+                >
+                <CardDescription
+                    ><p class="text-text-muted">
+                        Guardian Druid
+                    </p></CardDescription
+                >
+            </CardHeader>
+            <CardContent>
+                <p class="text-4xl text-epic-accent">3537</p>
+            </CardContent>
+        </Card>
+        <Card
+            size="sm"
+            class="border-l-4 border-l-blue-800 mx-auto w-full max-w-sm bg-card-bg text-body-text ring-border-accent"
+        >
+            <CardHeader>
+                <CardTitle
+                    ><p class="text-2xl text-[#A330C9]">Moonraven</p></CardTitle
+                >
+                <CardDescription
+                    ><p class="text-text-muted">
+                        Vengeance Demon Hunter
+                    </p></CardDescription
+                >
+            </CardHeader>
+            <CardContent>
+                <p class="text-4xl text-blue-800">3113</p>
+            </CardContent>
+        </Card>
+        <Card
+            size="sm"
+            class="border-l-4 border-l-green-300 mx-auto w-full max-w-sm bg-card-bg text-body-text ring-border-accent"
+        >
+            <CardHeader>
+                <CardTitle
+                    ><p class="text-2xl text-[#C79C6E]">Srandr</p></CardTitle
+                >
+                <CardDescription
+                    ><p class="text-text-muted">
+                        Arms Warrior
+                    </p></CardDescription
+                >
+            </CardHeader>
+            <CardContent>
+                <p class="text-4xl text-green-300">1337</p>
+            </CardContent>
+        </Card>
+    </div>
 </BaseLayout>
