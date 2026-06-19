@@ -32,6 +32,9 @@ importers:
       astro:
         specifier: ^6.4.7
         version: 6.4.7(jiti@2.7.0)(lightningcss@1.32.0)(rollup@4.62.0)
+      embla-carousel:
+        specifier: ^8.6.0
+        version: 8.6.0
       react:
         specifier: ^19.2.7
         version: 19.2.7
@@ -1013,6 +1016,9 @@ packages:
 
   electron-to-chromium@1.5.375:
     resolution: {integrity: sha512-ZWP5eB4BVPW/ZYo9252hQZHZ5XavtsTgpbhcmMmRwymavC5AsLWQWBPaKMeNd2LW0KGby5HPXvj7+sr4ta5j/Q==}
+
+  embla-carousel@8.6.0:
+    resolution: {integrity: sha512-SjWyZBHJPbqxHOzckOfo8lHisEaJWmwd23XppYFYVh10bU66/Pn5tkVkbkCMZVdbUE5eTCI2nD8OyIP4Z+uwkA==}
 
   enhanced-resolve@5.21.6:
     resolution: {integrity: sha512-aNnGCvbJ/RIyWo1IuhNdVjnNF+EjH9wpzpNHt+ci/m9He9LJvUN8wrCcXjp9cWsGNAuvSpVFTx/vraAFQ8qGjQ==}
@@ -2781,6 +2787,8 @@ snapshots:
   dset@3.1.4: {}
 
   electron-to-chromium@1.5.375: {}
+
+  embla-carousel@8.6.0: {}
 
   enhanced-resolve@5.21.6:
     dependencies:

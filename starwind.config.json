@@ -15,6 +15,10 @@
     {
       "name": "card",
       "version": "2.0.2"
+    },
+    {
+      "name": "carousel",
+      "version": "1.0.3"
     }
   ]
 }
