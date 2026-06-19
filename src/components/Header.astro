@@ -7,6 +7,7 @@ const navLinks = [
 ];
 
 import { Button } from "@/components/starwind/button";
+import { Swords } from "@lucide/astro";
 ---
 
 <header
@@ -16,9 +17,12 @@ import { Button } from "@/components/starwind/button";
         class="mx-auto flex w-full max-w-7xl items-center justify-between gap-4 px-6 py-4 sm:px-8 lg:px-10 xl:px-12"
     >
         <h1
-            class="shrink-0 text-4xl text-body-text md:text-7xl transition-colors hover:text-legendary-accent"
+            class="shrink-0 text-4xl text-body-text transition-colors hover:text-legendary-accent md:text-7xl"
         >
-            <a href="/"> Broken Banner </a>
+            <a href="/" class="inline-flex items-center gap-2">
+                <Swords size="64" aria-hidden="true" />
+                <span>Broken Banner</span>
+            </a>
         </h1>
 
         <details class="group relative md:hidden">
