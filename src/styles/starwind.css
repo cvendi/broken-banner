@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rajdhani:wght@300;400;500;600;700&display=swap");
 @import "tailwindcss";
 @import "tw-animate-css";
 @plugin "@tailwindcss/forms";
@@ -13,7 +13,7 @@ html {
     --animate-accordion-up: accordion-up 0.2s ease-out;
 
     --font-inter: "Inter", sans-serif;
-    --font-bebas: "Bebas Neue", sans-serif;
+    --font-header: "Rajdhani", sans-serif;
 
     --color-page-bg: #13151a;
     --color-header-bg: #13151a;

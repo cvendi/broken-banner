@@ -11,17 +11,17 @@ import { Swords } from "@lucide/astro";
 ---
 
 <header
-    class="bg-page-bg font-bebas border-b border-border-accent shadow-1xl sticky top-0 z-20"
+    class="bg-page-bg font-header border-b border-border-accent shadow-1xl sticky top-0 z-20"
 >
     <div
         class="mx-auto flex w-full max-w-7xl items-center justify-between gap-4 px-6 py-4 sm:px-8 lg:px-10 xl:px-12"
     >
         <h1
-            class="shrink-0 text-4xl text-body-text transition-colors hover:text-legendary-accent md:text-7xl"
+            class="shrink-0 text-body-text transition-colors hover:text-legendary-accent md:text-7xl"
         >
             <a href="/" class="inline-flex items-center gap-2">
-                <Swords size="64" aria-hidden="true" />
-                <span>Broken Banner</span>
+                <Swords size="32" aria-hidden="true" />
+                <span class="md:text-4xl text-xl">Broken Banner</span>
             </a>
         </h1>
 
@@ -113,7 +113,7 @@ import { Swords } from "@lucide/astro";
                                 </Button>
                             ) : (
                                 <a
-                                    class="transition-colors hover:text-header"
+                                    class="transition-colors hover:text-legendary-accent"
                                     href={link.href}
                                 >
                                     {link.label}
