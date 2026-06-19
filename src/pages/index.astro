@@ -1,14 +1,5 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { Button } from "@/components/starwind/button";
-import {
-    Card,
-    CardContent,
-    CardDescription,
-    CardFooter,
-    CardHeader,
-    CardTitle,
-} from "@/components/starwind/card";
 import PlayerCard from "../components/PlayerCard.astro";
 ---
 
@@ -45,6 +36,14 @@ import PlayerCard from "../components/PlayerCard.astro";
         </div>
         <div class="mt-8">
             <p class="text-3xl text-text-muted font-header">Latest News</p>
+            <div class="grid grid-cols-1 gap-4 mt-4">
+                <p class="text-body-text hover:text-legendary-accent">
+                    <a href="/">Guild website under development</a>
+                </p>
+                <p class="text-body-text hover:text-legendary-accent">
+                    <a href="/">Srandr joins MDI team</a>
+                </p>
+            </div>
         </div>
     </div>
 </BaseLayout>
