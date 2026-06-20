@@ -19,9 +19,9 @@ import {
 import { Shield, HeartPulse, Swords } from "@lucide/astro";
 
 const ROLE_ICONS = {
-    TANK: Shield,
-    HEALING: HeartPulse,
-    DPS: Swords,
+    TANK: { icon: Shield, color: 'cyan' },
+    HEALING: { icon: HeartPulse, color: 'green' },
+    DPS: { icon: Swords, color: 'red' },
 };
 
 const CLASS_COLORS = {
@@ -59,7 +59,7 @@ const CLASS_COLORS = {
         >
         <CardDescription
             ><p class="text-text-muted flex justify-between items-center mr-1">
-                {playerSpec} {playerRole && <ROLE_ICONS[playerRole.toUpperCase()] />}
+                {playerSpec} {playerRole && <ROLE_ICONS[playerRole.toUpperCase()].icon style={{ color: ROLE_ICONS[playerRole.toUpperCase()].color }} />}
             </p></CardDescription
         >
     </CardHeader>
