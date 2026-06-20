@@ -1,7 +1,7 @@
 ---
 const navLinks = [
     { href: "/", label: "Home", variant: "text" },
-    { href: "/", label: "News", variant: "text" },
+    { href: "/news", label: "News", variant: "text" },
     { href: "/roster", label: "Roster", variant: "text" },
     { href: "/join", label: "Join", variant: "button" },
 ];
@@ -100,7 +100,7 @@ import { SiDiscord } from "react-icons/si";
                         <li>
                             {link.variant === "button" ? (
                                 <Button
-                                    class="bg-page-bg border border-epic-accent text-xl hover:bg-epic-accent"
+                                    class="bg-card-bg border border-epic-accent text-xl hover:bg-epic-accent"
                                     href={link.href}
                                     variant="default"
                                     size="lg"

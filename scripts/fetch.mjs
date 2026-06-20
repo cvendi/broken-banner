@@ -43,7 +43,7 @@ async function main() {
       member.character.name,
     );
     if (data) results.push(data);
-    await new Promise((r) => setTimeout(r, 250));
+    await new Promise((r) => setTimeout(r, 1000));
   }
 
   await writeFile(

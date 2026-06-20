@@ -4,10 +4,17 @@ import guildRoster from "../data/guild-roster.json" with { type: "json" };
 ---
 
 <BaseLayout guild="Broken Banner" page="Roster">
-    <h1 class="text-3xl font-bold text-accent mb-2">
-        Roster (Work in Progress)
+    <h1
+        class="md:text-5xl font-bold mb-2 font-header text-legendary-accent text-center"
+    >
+        Roster
     </h1>
-    <span class="text-text-muted text-sm">Data pulled from Raider.IO</span>
+    <p class="text-text-muted text-sm text-center">
+        Data provided by <a
+            href="https://raider.io"
+            class="text-legendary-accent">Raider.IO</a
+        >
+    </p>
     <p class="text-muted mb-8">
         {
             guildRoster.members
