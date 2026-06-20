@@ -19,6 +19,10 @@
     {
       "name": "carousel",
       "version": "1.0.3"
+    },
+    {
+      "name": "input",
+      "version": "1.3.3"
     }
   ]
 }
