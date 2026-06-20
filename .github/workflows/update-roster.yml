@@ -29,3 +29,17 @@ jobs:
           git add src/data/guild-roster.json
           git diff --staged --quiet || git commit -m "Update guild roster data [automated]"
           git push
+
+      - name: Notify Discord on success
+        if: success()
+        run: |
+          curl -H "Content-Type: application/json" \
+            -d '{"content": "✅ Guild roster updated successfully."}' \
+            ${{ secrets.DISCORD_WEBHOOK_URL }}
+
+      - name: Notify Discord on failure
+        if: failure()
+        run: |
+          curl -H "Content-Type: application/json" \
+            -d "{\"content\": \"❗ Guild roster update failed on **${{ github.workflow }}** (run #${{ github.run_number }}). [View logs](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})\"}" \
+            ${{ secrets.DISCORD_WEBHOOK_URL }}
