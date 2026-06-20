@@ -1,0 +1,80 @@
+---
+import guildRoster from "../data/guild-roster.json" with { type: "json" };
+import {
+    Table,
+    TableHeader,
+    TableHead,
+    TableBody,
+    TableRow,
+    TableCell,
+    TableCaption,
+    TableFoot,
+} from "@/components/starwind/table";
+
+function resolvedScoreColorStyle(
+    scoreColor: string | undefined,
+): string | undefined {
+    const color = typeof scoreColor === "string" ? scoreColor.trim() : "";
+
+    return color.length > 0 ? `color: ${color};` : undefined;
+}
+---
+
+<h1
+    class="md:text-5xl font-bold mb-2 font-header text-legendary-accent text-center"
+>
+    Roster
+</h1>
+<p class="text-text-muted text-sm text-center">
+    Data provided by <a href="https://raider.io" class="text-legendary-accent"
+        >Raider.IO</a
+    >
+</p>
+<Table class="max-w-5xl mx-auto mt-12">
+    <TableCaption
+        >Updated: {
+            new Date(guildRoster.updatedAt).toLocaleString()
+        }</TableCaption
+    >
+    <TableHeader>
+        <TableRow>
+            <TableHead>Name</TableHead>
+            <TableHead>Class</TableHead>
+            <TableHead>Spec</TableHead>
+            <TableHead>Role</TableHead>
+            <TableHead>Score</TableHead>
+        </TableRow>
+    </TableHeader>
+    <TableBody>
+        {
+            guildRoster.members
+                .filter(
+                    (member) =>
+                        member.mythic_plus_scores_by_season[0].scores.all !== 0,
+                )
+                .map((member) => (
+                    <TableRow>
+                        <TableCell>{member.name}</TableCell>
+                        <TableCell>{member.class}</TableCell>
+                        <TableCell>{member.active_spec_name}</TableCell>
+                        <TableCell>{member.active_spec_role}</TableCell>
+                        <TableCell
+                            style={resolvedScoreColorStyle(
+                                member.mythic_plus_scores_by_season[0].segments
+                                    .all.color,
+                            )}
+                        >
+                            {member.mythic_plus_scores_by_season[0].scores.all}
+                        </TableCell>
+                    </TableRow>
+                ))
+        }
+    </TableBody>
+    <TableFoot>
+        <TableRow>
+            <TableCell colspan="5"
+                >Total: {guildRoster.members.length} characters</TableCell
+            >
+        </TableRow>
+    </TableFoot>
+</Table>

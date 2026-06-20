@@ -15,6 +15,29 @@ import {
     CardHeader,
     CardTitle,
 } from "@/components/starwind/card";
+
+import { Shield, HeartPulse, Swords } from "@lucide/astro";
+
+const ROLE_ICONS = {
+    TANK: Shield,
+    HEALING: HeartPulse,
+    DPS: Swords,
+};
+
+const CLASS_COLORS = {
+  'Death Knight': '#C41F3B',
+  'Demon Hunter': '#A330C9',
+  'Druid': '#FF7D0A',
+  'Hunter': '#ABD473',
+  'Mage': '#69CCF0',
+  'Monk': '#00FF96',
+  'Paladin': '#F58CBA',
+  'Priest': '#FFFFFF',
+  'Rogue': '#FFF569',
+  'Shaman': '#0070DE',
+  'Warlock': '#8787ED',
+  'Warrior': '#C79C6E',
+};
 ---
 
 <Card
@@ -25,10 +48,18 @@ import {
         : undefined}
 >
     <CardHeader>
-        <CardTitle><p class="text-body-text text-2xl">{name}</p></CardTitle>
+        <CardTitle
+            ><p class="text-body-text text-2xl flex justify-between items-center">
+                <span style={{ color: CLASS_COLORS[playerClass] }}>{name}</span>
+                <img
+                    src={`https://wow.zamimg.com/images/wow/icons/large/classicon_${playerClass.toLowerCase()}.jpg`}
+                    class="w-8 h-8 rounded-full object-cover"
+                />
+            </p></CardTitle
+        >
         <CardDescription
-            ><p class="text-text-muted">
-                {playerClass} • {playerSpec} • {playerRole}
+            ><p class="text-text-muted flex justify-between items-center mr-1">
+                {playerSpec} {playerRole && <ROLE_ICONS[playerRole.toUpperCase()] />}
             </p></CardDescription
         >
     </CardHeader>

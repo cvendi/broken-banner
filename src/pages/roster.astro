@@ -1,33 +1,8 @@
 ---
+import RosterTable from "../components/RosterTable.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import guildRoster from "../data/guild-roster.json" with { type: "json" };
 ---
 
 <BaseLayout guild="Broken Banner" page="Roster">
-    <h1
-        class="md:text-5xl font-bold mb-2 font-header text-legendary-accent text-center"
-    >
-        Roster
-    </h1>
-    <p class="text-text-muted text-sm text-center">
-        Data provided by <a
-            href="https://raider.io"
-            class="text-legendary-accent">Raider.IO</a
-        >
-    </p>
-    <p class="text-muted mb-8">
-        {
-            guildRoster.members
-                .filter(
-                    (member) =>
-                        member.mythic_plus_scores_by_season[0].scores.all !== 0,
-                )
-                .map((member) => (
-                    <p key={member.name}>
-                        {member.name} ({member.active_spec_name} {member.class},{" "}
-                        {member.active_spec_role})
-                    </p>
-                ))
-        }
-    </p>
+    <RosterTable />
 </BaseLayout>
