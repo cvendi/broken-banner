@@ -3,6 +3,8 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection, render } from "astro:content";
 import { Image } from "astro:assets";
 
+import { MoveLeft } from "@lucide/astro";
+
 export async function getStaticPaths() {
     const posts = await getCollection("news");
     return posts.map((post) => ({
@@ -27,6 +29,7 @@ const {
 ---
 
 <BaseLayout guild="Broken Banner" page={title}>
+    <a href="/"><MoveLeft /> Back</a>
     <article class="max-w-3xl grid grid-cols-2 gap-8 px-4 py-10">
         <div class="col-span-1">
             {

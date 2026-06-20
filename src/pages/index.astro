@@ -5,6 +5,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import PlayerCard from "../components/PlayerCard.astro";
 import NewsCard from "../components/NewsCard.astro";
 
+import { Button } from "@/components/starwind/button";
 import {
     Carousel,
     CarouselContent,
@@ -12,6 +13,8 @@ import {
     CarouselNext,
     CarouselPrevious,
 } from "@/components/starwind/carousel";
+
+import { ArrowRight } from "@lucide/astro";
 
 import { getCollection } from "astro:content";
 
@@ -27,59 +30,109 @@ const topPlayers = guildRoster.members
             a.mythic_plus_scores_by_season[0].scores.all,
     )
     .slice(0, 6);
+
+function getScoreBucket(score) {
+    if (score >= 3400) return "elite"; // 3400+
+    if (score >= 3000) return "high"; // 3000-3399
+    return "developing"; // 2999 and below
+}
+
+function countByScoreBucket(members) {
+    const counts = {
+        elite: 0, // 3400+
+        high: 0, // 3000-3399
+        developing: 0, // 2999 and below
+    };
+
+    for (const member of members) {
+        const score =
+            member.mythic_plus_scores_by_season?.[0]?.scores?.all ?? 0;
+        const bucket = getScoreBucket(score);
+        counts[bucket]++;
+    }
+
+    return counts;
+}
+
+const counts = countByScoreBucket(guildRoster.members);
 ---
 
 <BaseLayout guild="Broken Banner" page="Home">
-    <div class="grid grid-cols-1 gap-8">
-        <h1
-            class="font-header text-5xl md:text-7xl text-legendary-accent text-center mt-16"
-        >
-            Community-first guild focused on Mythic+
-        </h1>
-        <p class="text-body-text text-center text-md md:text-lg">
-            We come from various gaming backgrounds and walks of life, but
-            confide in WoW as a passion and digital escape. It is the one game
-            that always brings us back. For others, it's their newest obsession.
-            Our vision is to create an atmosphere that is a safe haven for those
-            who share the same passion.
-        </p>
-        <hr class="border border-border-accent mt-16 opacity-25" />
-        <h1 class="font-header text-3xl text-text-muted mt-16 md:mt-13">
-            Top scoring players
-        </h1>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {
-                topPlayers.map((member) => (
-                    <PlayerCard
-                        key={member.name}
-                        name={member.name}
-                        playerClass={member.class}
-                        playerSpec={member.active_spec_name}
-                        playerRole={member.active_spec_role}
-                        score={
-                            member.mythic_plus_scores_by_season[0].scores.all
-                        }
-                        scoreColor={
-                            member.mythic_plus_scores_by_season[0].segments.all
-                                .color
-                        }
-                    />
-                ))
-            }
-        </div>
-    </div>
-    <div class="mt-8">
-        <hr class="border border-border-accent mt-16 md:mt-28 opacity-25" />
-        <div class="grid grid-cols-1 gap-8">
-            <h1
-                class="font-header text-3xl md:text-4xl text-body-text text-center mt-22"
-            >
-                A diverse player pool, from casual to hardcore
+    <div class="space-y-16 md:space-y-20">
+        <section class="grid grid-cols-1 gap-8 pt-8 md:pt-12 text-center">
+            <h1 class="font-header text-5xl md:text-7xl text-legendary-accent">
+                Community-first guild focused on Mythic+
             </h1>
-            <hr class="border border-border-accent mt-16 md:mt-16 opacity-25" />
-            <p class="text-3xl text-text-muted font-header mt-16 md:mt-24">
-                Latest News
+            <p class="mx-auto max-w-3xl text-body-text text-md md:text-lg">
+                We come from various gaming backgrounds and walks of life, but
+                confide in WoW as a passion and digital escape. It is the one
+                game that always brings us back. For others, it's their newest
+                obsession. Our vision is to create an atmosphere that is a safe
+                haven for those who share the same passion.
             </p>
+        </section>
+
+        <section
+            class="grid grid-cols-1 gap-8 border-t border-border-accent/25 pt-16 md:pt-20"
+        >
+            <h2 class="font-header text-3xl text-text-muted">
+                Top scoring players
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                {
+                    topPlayers.map((member) => (
+                        <PlayerCard
+                            key={member.name}
+                            name={member.name}
+                            playerClass={member.class}
+                            playerSpec={member.active_spec_name}
+                            playerRole={member.active_spec_role}
+                            score={
+                                member.mythic_plus_scores_by_season[0].scores
+                                    .all
+                            }
+                            scoreColor={
+                                member.mythic_plus_scores_by_season[0].segments
+                                    .all.color
+                            }
+                        />
+                    ))
+                }
+            </div>
+        </section>
+
+        <section
+            class="grid grid-cols-1 gap-8 border-t border-border-accent/25 pt-16 md:pt-20 text-center"
+        >
+            <h2 class="font-header text-3xl md:text-4xl text-body-text">
+                A diverse player pool, from casual to hardcore
+            </h2>
+            <p class="text-text-muted">Members at rating thresholds:</p>
+            <div
+                class="flex flex-col items-center justify-center gap-10 sm:flex-row sm:gap-16"
+            >
+                <div class="flex flex-col items-center text-epic-accent">
+                    <span class="text-6xl font-header mb-4">{counts.elite}</span
+                    >
+                    <span>3400+</span>
+                </div>
+                <div class="flex flex-col items-center text-blue-600">
+                    <span class="text-6xl font-header mb-4">{counts.high}</span>
+                    <span>3000-3399</span>
+                </div>
+                <div class="flex flex-col items-center text-green-400">
+                    <span class="text-6xl font-header mb-4"
+                        >{counts.developing}</span
+                    >
+                    <span>1-2999</span>
+                </div>
+            </div>
+        </section>
+
+        <section
+            class="grid grid-cols-1 gap-8 border-t border-border-accent/25 pt-16 md:pt-20"
+        >
+            <h2 class="text-3xl text-text-muted font-header">Latest News</h2>
             <Carousel opts={{ align: "start" }} class="mx-auto w-full">
                 <CarouselContent>
                     {
@@ -104,6 +157,22 @@ const topPlayers = guildRoster.members
                 <CarouselPrevious />
                 <CarouselNext />
             </Carousel>
-        </div>
+        </section>
+
+        <section
+            class="grid grid-cols-1 gap-8 border-t border-border-accent/25 pt-16 md:pt-20 pb-8 text-center"
+        >
+            <h2 class="text-3xl md:text-4xl text-body-text font-header">
+                Interested in joining?
+            </h2>
+            <p>
+                <a href="/about"
+                    ><Button
+                        class="bg-page-bg border border-epic-accent p-6 hover:bg-epic-accent font-header text-xl"
+                        >Apply <ArrowRight /></Button
+                    ></a
+                >
+            </p>
+        </section>
     </div>
 </BaseLayout>
