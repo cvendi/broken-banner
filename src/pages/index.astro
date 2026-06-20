@@ -79,7 +79,9 @@ const counts = countByScoreBucket(guildRoster.members);
                 <h2 class="font-header text-3xl text-text-muted">
                     Top scoring players
                 </h2>
-                <p class="text-text-muted text-xs">Updated: 6/19/26</p>
+                <p class="text-text-muted text-xs">
+                    Updated: {new Date(guildRoster.updatedAt).toLocaleString()}
+                </p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                 {
