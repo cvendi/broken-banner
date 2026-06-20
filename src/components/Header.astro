@@ -1,8 +1,10 @@
 ---
 const navLinks = [
     { href: "/", label: "Home", variant: "text" },
-    { href: "/about", label: "About", variant: "text" },
+    { href: "/", label: "News", variant: "text" },
+    { href: "/", label: "Resources", variant: "text" },
     { href: "/roster", label: "Roster", variant: "text" },
+    { href: "/about", label: "About", variant: "text" },
     { href: "/join", label: "Join", variant: "button" },
 ];
 
@@ -61,17 +63,15 @@ import { SiDiscord } from "react-icons/si";
                         navLinks.map((link) => (
                             <li>
                                 {link.variant === "button" ? (
-                                    <Button
-                                        class="bg-epic-accent text-base hover:bg-card-bg"
+                                    <a
+                                        class="text-epic-accent text-base"
                                         href={link.href}
-                                        variant="default"
-                                        size="lg"
                                     >
                                         {link.label}
-                                    </Button>
+                                    </a>
                                 ) : (
                                     <a
-                                        class="transition-colors hover:text-header"
+                                        class="transition-colors hover:text-legendary-accent"
                                         href={link.href}
                                     >
                                         {link.label}
