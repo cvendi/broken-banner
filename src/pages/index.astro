@@ -75,9 +75,12 @@ const counts = countByScoreBucket(guildRoster.members);
         <section
             class="grid grid-cols-1 gap-8 border-t border-border-accent/25 pt-16 md:pt-20"
         >
-            <h2 class="font-header text-3xl text-text-muted">
-                Top scoring players
-            </h2>
+            <div class="flex justify-between items-center">
+                <h2 class="font-header text-3xl text-text-muted">
+                    Top scoring players
+                </h2>
+                <p class="text-text-muted text-xs">Updated: 6/19/26</p>
+            </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                 {
                     topPlayers.map((member) => (
@@ -166,7 +169,7 @@ const counts = countByScoreBucket(guildRoster.members);
                 Interested in joining?
             </h2>
             <p>
-                <a href="/about"
+                <a href="/join"
                     ><Button
                         class="bg-page-bg border border-epic-accent p-6 hover:bg-epic-accent font-header text-xl"
                         >Apply <ArrowRight /></Button

@@ -3,7 +3,7 @@ title: Guild website under development
 author: "Agaloch"
 description: "Agaloch is building a new website for the guild"
 pubDate: 2026-06-20
-cover: './keyboard2.png'
+cover: './keyboard.png'
 coverAlt: "Keyboard"
 externalUrl: "https://google.com"
 category: "guild news"
