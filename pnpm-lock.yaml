@@ -68,6 +68,10 @@ importers:
       tw-animate-css:
         specifier: ^1.4.0
         version: 1.4.0
+    devDependencies:
+      wrangler:
+        specifier: ^4.102.0
+        version: 4.102.0
 
 packages:
 
