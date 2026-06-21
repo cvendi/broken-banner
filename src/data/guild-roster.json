@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T22:56:30.049Z",
+  "updatedAt": "2026-06-21T12:12:47.827Z",
   "members": [
     {
       "name": "Cheating",
@@ -655,7 +655,7 @@
       "name": "Sakoi",
       "race": "Orc",
       "class": "Warlock",
-      "active_spec_name": "Affliction",
+      "active_spec_name": "Destruction",
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "horde",
@@ -663,7 +663,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/218/226073562-avatar.jpg?alt=/wow/static/images/2d/avatar/2-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-06-19T17:31:06.000Z",
+      "last_crawled_at": "2026-06-21T05:37:13.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Sakoi",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -919,11 +919,11 @@
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "horde",
-      "achievement_points": 32920,
+      "achievement_points": 32930,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/27/232553755-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-06-14T23:47:37.000Z",
+      "last_crawled_at": "2026-06-20T23:02:37.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Tèc",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -984,11 +984,11 @@
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "horde",
-      "achievement_points": 29160,
+      "achievement_points": 29245,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/100/167495268-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-06-19T15:36:55.000Z",
+      "last_crawled_at": "2026-06-21T04:00:54.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Kageyaiba",
       "profile_banner": "classbanner_rogue1",
       "mythic_plus_scores_by_season": [
@@ -1183,25 +1183,25 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/48/230698800-avatar.jpg?alt=/wow/static/images/2d/avatar/8-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-06-20T16:59:42.000Z",
+      "last_crawled_at": "2026-06-21T11:59:50.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Kalinzani",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 3074.5,
+            "all": 3095.2,
             "dps": 0,
             "healer": 0,
-            "tank": 3074.5,
+            "tank": 3095.2,
             "spec_0": 0,
             "spec_1": 0,
-            "spec_2": 3074.5,
+            "spec_2": 3095.2,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3074.5,
+              "score": 3095.2,
               "color": "#2175d8"
             },
             "dps": {
@@ -1213,7 +1213,7 @@
               "color": "#ffffff"
             },
             "tank": {
-              "score": 3074.5,
+              "score": 3095.2,
               "color": "#2175d8"
             },
             "spec_0": {
@@ -1225,7 +1225,7 @@
               "color": "#ffffff"
             },
             "spec_2": {
-              "score": 3074.5,
+              "score": 3095.2,
               "color": "#2175d8"
             },
             "spec_3": {
@@ -1696,7 +1696,7 @@
       "name": "Shumey",
       "race": "Gnome",
       "class": "Hunter",
-      "active_spec_name": "Beast Mastery",
+      "active_spec_name": "Marksmanship",
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "alliance",
@@ -1704,30 +1704,30 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/95/252025439-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-06-18T09:25:27.000Z",
+      "last_crawled_at": "2026-06-21T11:58:52.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Shumey",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 2328.5,
-            "dps": 2328.5,
+            "all": 2387.2,
+            "dps": 2387.2,
             "healer": 0,
             "tank": 0,
-            "spec_0": 2218.8,
-            "spec_1": 0,
+            "spec_0": 2282.9,
+            "spec_1": 293.2,
             "spec_2": 1949,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 2328.5,
-              "color": "#38ff1f"
+              "score": 2387.2,
+              "color": "#28ff0e"
             },
             "dps": {
-              "score": 2328.5,
-              "color": "#38ff1f"
+              "score": 2387.2,
+              "color": "#28ff0e"
             },
             "healer": {
               "score": 0,
@@ -1738,12 +1738,12 @@
               "color": "#ffffff"
             },
             "spec_0": {
-              "score": 2218.8,
-              "color": "#52ff37"
+              "score": 2282.9,
+              "color": "#43ff2a"
             },
             "spec_1": {
-              "score": 0,
-              "color": "#ffffff"
+              "score": 293.2,
+              "color": "#fafff8"
             },
             "spec_2": {
               "score": 1949,
@@ -1769,7 +1769,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/98/237135714-avatar.jpg?alt=/wow/static/images/2d/avatar/2-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-06-17T07:05:41.000Z",
+      "last_crawled_at": "2026-06-20T23:02:40.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Thuñderclap",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -2036,35 +2036,35 @@
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 2708.8,
+            "all": 2742,
             "dps": 328.9,
-            "healer": 2708.8,
+            "healer": 2742,
             "tank": 0,
-            "spec_0": 2708.8,
+            "spec_0": 2742,
             "spec_1": 0,
             "spec_2": 328.9,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 2708.8,
-              "color": "#5fc086"
+              "score": 2742,
+              "color": "#5fb692"
             },
             "dps": {
               "score": 328.9,
               "color": "#f7fff4"
             },
             "healer": {
-              "score": 2708.8,
-              "color": "#5fc086"
+              "score": 2742,
+              "color": "#5fb692"
             },
             "tank": {
               "score": 0,
               "color": "#ffffff"
             },
             "spec_0": {
-              "score": 2708.8,
-              "color": "#5fc086"
+              "score": 2742,
+              "color": "#5fb692"
             },
             "spec_1": {
               "score": 0,
@@ -3253,71 +3253,6 @@
       ]
     },
     {
-      "name": "Jincíe",
-      "race": "Undead",
-      "class": "Monk",
-      "active_spec_name": "Brewmaster",
-      "active_spec_role": "TANK",
-      "gender": "female",
-      "faction": "horde",
-      "achievement_points": 25970,
-      "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/162/246005666-avatar.jpg?alt=/wow/static/images/2d/avatar/5-1.jpg",
-      "region": "us",
-      "realm": "Area 52",
-      "last_crawled_at": "2026-06-20T14:19:32.000Z",
-      "profile_url": "https://raider.io/characters/us/area-52/Jincíe",
-      "profile_banner": "alliancebanner1",
-      "mythic_plus_scores_by_season": [
-        {
-          "season": "season-mn-1",
-          "scores": {
-            "all": 3470.7,
-            "dps": 0,
-            "healer": 0,
-            "tank": 3470.7,
-            "spec_0": 3470.7,
-            "spec_1": 0,
-            "spec_2": 0,
-            "spec_3": 0
-          },
-          "segments": {
-            "all": {
-              "score": 3470.7,
-              "color": "#ae39e2"
-            },
-            "dps": {
-              "score": 0,
-              "color": "#ffffff"
-            },
-            "healer": {
-              "score": 0,
-              "color": "#ffffff"
-            },
-            "tank": {
-              "score": 3470.7,
-              "color": "#ae39e2"
-            },
-            "spec_0": {
-              "score": 3470.7,
-              "color": "#ae39e2"
-            },
-            "spec_1": {
-              "score": 0,
-              "color": "#ffffff"
-            },
-            "spec_2": {
-              "score": 0,
-              "color": "#ffffff"
-            },
-            "spec_3": {
-              "score": 0,
-              "color": "#ffffff"
-            }
-          }
-        }
-      ]
-    },
-    {
       "name": "Olphy",
       "race": "Orc",
       "class": "Hunter",
@@ -3455,11 +3390,11 @@
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "horde",
-      "achievement_points": 10775,
+      "achievement_points": 10795,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/230/246214374-avatar.jpg?alt=/wow/static/images/2d/avatar/31-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-06-14T23:47:28.000Z",
+      "last_crawled_at": "2026-06-20T23:02:42.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Wuzzgoodd",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -4235,11 +4170,11 @@
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "horde",
-      "achievement_points": 18825,
+      "achievement_points": 18830,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/5/247992069-avatar.jpg?alt=/wow/static/images/2d/avatar/36-0.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-06-20T14:19:32.000Z",
+      "last_crawled_at": "2026-06-21T02:20:45.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Ttempestt",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -4495,11 +4430,11 @@
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "alliance",
-      "achievement_points": 24035,
+      "achievement_points": 24050,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/moon-guard/97/183589217-avatar.jpg?alt=/wow/static/images/2d/avatar/22-0.jpg",
       "region": "us",
       "realm": "Moon Guard",
-      "last_crawled_at": "2026-06-14T23:47:30.000Z",
+      "last_crawled_at": "2026-06-20T23:02:47.000Z",
       "profile_url": "https://raider.io/characters/us/moon-guard/Èzráh",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -4560,11 +4495,11 @@
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "horde",
-      "achievement_points": 18825,
+      "achievement_points": 18830,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/179/248151475-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-06-20T14:19:33.000Z",
+      "last_crawled_at": "2026-06-21T03:36:34.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Sfakuma",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -4946,34 +4881,34 @@
       "name": "Rinfe",
       "race": "Human",
       "class": "Paladin",
-      "active_spec_name": "Retribution",
-      "active_spec_role": "DPS",
+      "active_spec_name": "Protection",
+      "active_spec_role": "TANK",
       "gender": "male",
       "faction": "alliance",
-      "achievement_points": 16370,
+      "achievement_points": 16400,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/8/266635272-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-06-20T14:53:08.000Z",
+      "last_crawled_at": "2026-06-21T03:08:35.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Rinfe",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 2595.2,
+            "all": 2635.5,
             "dps": 832.1,
             "healer": 161.3,
-            "tank": 2223.5,
+            "tank": 2592.6,
             "spec_0": 161.3,
-            "spec_1": 2223.5,
+            "spec_1": 2592.6,
             "spec_2": 832.1,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 2595.2,
-              "color": "#59d56c"
+              "score": 2635.5,
+              "color": "#5bd073"
             },
             "dps": {
               "score": 832.1,
@@ -4984,16 +4919,16 @@
               "color": "#ffffff"
             },
             "tank": {
-              "score": 2223.5,
-              "color": "#52ff37"
+              "score": 2592.6,
+              "color": "#59d56c"
             },
             "spec_0": {
               "score": 161.3,
               "color": "#ffffff"
             },
             "spec_1": {
-              "score": 2223.5,
-              "color": "#52ff37"
+              "score": 2592.6,
+              "color": "#59d56c"
             },
             "spec_2": {
               "score": 832.1,
@@ -5080,46 +5015,46 @@
       "active_spec_role": "HEALING",
       "gender": "female",
       "faction": "horde",
-      "achievement_points": 25050,
+      "achievement_points": 25070,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/43/147320875-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-06-20T02:11:54.000Z",
+      "last_crawled_at": "2026-06-21T03:59:45.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Jinsoul",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 2885.9,
+            "all": 2930,
             "dps": 0,
-            "healer": 2885.9,
+            "healer": 2930,
             "tank": 0,
-            "spec_0": 2885.9,
+            "spec_0": 2930,
             "spec_1": 163.1,
             "spec_2": 0,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 2885.9,
-              "color": "#5597b3"
+              "score": 2930,
+              "color": "#4d8dbe"
             },
             "dps": {
               "score": 0,
               "color": "#ffffff"
             },
             "healer": {
-              "score": 2885.9,
-              "color": "#5597b3"
+              "score": 2930,
+              "color": "#4d8dbe"
             },
             "tank": {
               "score": 0,
               "color": "#ffffff"
             },
             "spec_0": {
-              "score": 2885.9,
-              "color": "#5597b3"
+              "score": 2930,
+              "color": "#4d8dbe"
             },
             "spec_1": {
               "score": 163.1,
@@ -5340,11 +5275,11 @@
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "horde",
-      "achievement_points": 8755,
+      "achievement_points": 8770,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/89/249260121-avatar.jpg?alt=/wow/static/images/2d/avatar/31-0.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-06-20T14:19:32.000Z",
+      "last_crawled_at": "2026-06-21T07:37:05.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Owlplaybbq",
       "profile_banner": "covenantbanner_kyrian",
       "mythic_plus_scores_by_season": [
@@ -5474,30 +5409,30 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/179/248858291-avatar.jpg?alt=/wow/static/images/2d/avatar/36-0.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-06-20T22:27:53.000Z",
+      "last_crawled_at": "2026-06-21T09:06:54.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Igneouz",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 3044.4,
-            "dps": 3044.4,
+            "all": 3111.9,
+            "dps": 3111.9,
             "healer": 0,
             "tank": 0,
-            "spec_0": 3044.4,
+            "spec_0": 3111.9,
             "spec_1": 1129.8,
             "spec_2": 0,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3044.4,
-              "color": "#307ad3"
+              "score": 3111.9,
+              "color": "#0070dd"
             },
             "dps": {
-              "score": 3044.4,
-              "color": "#307ad3"
+              "score": 3111.9,
+              "color": "#0070dd"
             },
             "healer": {
               "score": 0,
@@ -5508,8 +5443,8 @@
               "color": "#ffffff"
             },
             "spec_0": {
-              "score": 3044.4,
-              "color": "#307ad3"
+              "score": 3111.9,
+              "color": "#0070dd"
             },
             "spec_1": {
               "score": 1129.8,
@@ -5936,23 +5871,23 @@
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 2374.5,
-            "dps": 2374.5,
+            "all": 2412.8,
+            "dps": 2412.8,
             "healer": 0,
             "tank": 0,
-            "spec_0": 2374.5,
+            "spec_0": 2412.8,
             "spec_1": 0,
             "spec_2": 0,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 2374.5,
-              "color": "#31ff18"
+              "score": 2412.8,
+              "color": "#1eff00"
             },
             "dps": {
-              "score": 2374.5,
-              "color": "#31ff18"
+              "score": 2412.8,
+              "color": "#1eff00"
             },
             "healer": {
               "score": 0,
@@ -5963,8 +5898,8 @@
               "color": "#ffffff"
             },
             "spec_0": {
-              "score": 2374.5,
-              "color": "#31ff18"
+              "score": 2412.8,
+              "color": "#1eff00"
             },
             "spec_1": {
               "score": 0,
@@ -6315,11 +6250,11 @@
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "horde",
-      "achievement_points": 21075,
+      "achievement_points": 21085,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/227/242565347-avatar.jpg?alt=/wow/static/images/2d/avatar/70-0.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-06-17T00:42:36.000Z",
+      "last_crawled_at": "2026-06-21T06:39:36.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Ishdank",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -6579,7 +6514,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/142/249718158-avatar.jpg?alt=/wow/static/images/2d/avatar/91-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-06-20T20:36:33.000Z",
+      "last_crawled_at": "2026-06-21T07:18:05.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Elunalora",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -8070,11 +8005,11 @@
       "active_spec_role": "TANK",
       "gender": "female",
       "faction": "horde",
-      "achievement_points": 4485,
+      "achievement_points": 4545,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/228/249909220-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-06-20T14:20:06.000Z",
+      "last_crawled_at": "2026-06-21T07:56:54.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Blktulip",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -8915,11 +8850,11 @@
       "active_spec_role": "HEALING",
       "gender": "male",
       "faction": "horde",
-      "achievement_points": 8380,
+      "achievement_points": 8390,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/167/249794983-avatar.jpg?alt=/wow/static/images/2d/avatar/26-0.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-06-20T14:19:36.000Z",
+      "last_crawled_at": "2026-06-21T11:26:42.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Mspeegs",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -9306,11 +9241,11 @@
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "alliance",
-      "achievement_points": 14700,
+      "achievement_points": 14800,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/151/267570327-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-06-16T05:42:55.000Z",
+      "last_crawled_at": "2026-06-20T23:02:51.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Mustardtiger",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -9375,7 +9310,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/254/267711742-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-06-20T14:19:41.000Z",
+      "last_crawled_at": "2026-06-21T02:20:45.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Panicbeard",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -9383,10 +9318,10 @@
           "season": "season-mn-1",
           "scores": {
             "all": 3053.2,
-            "dps": 333.5,
+            "dps": 665.4,
             "healer": 3053.2,
             "tank": 0,
-            "spec_0": 333.5,
+            "spec_0": 665.4,
             "spec_1": 0,
             "spec_2": 3053.2,
             "spec_3": 0
@@ -9397,8 +9332,8 @@
               "color": "#2175d8"
             },
             "dps": {
-              "score": 333.5,
-              "color": "#f7fff4"
+              "score": 665.4,
+              "color": "#e2ffd6"
             },
             "healer": {
               "score": 3053.2,
@@ -9409,8 +9344,8 @@
               "color": "#ffffff"
             },
             "spec_0": {
-              "score": 333.5,
-              "color": "#f7fff4"
+              "score": 665.4,
+              "color": "#e2ffd6"
             },
             "spec_1": {
               "score": 0,
@@ -9566,34 +9501,34 @@
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "horde",
-      "achievement_points": 1300,
+      "achievement_points": 1470,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/159/249997471-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-06-19T19:15:48.000Z",
+      "last_crawled_at": "2026-06-21T00:45:49.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Amni",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 165.3,
-            "dps": 165.3,
+            "all": 333.6,
+            "dps": 333.6,
             "healer": 0,
             "tank": 0,
             "spec_0": 0,
             "spec_1": 0,
-            "spec_2": 165.3,
+            "spec_2": 333.6,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 165.3,
-              "color": "#ffffff"
+              "score": 333.6,
+              "color": "#f7fff4"
             },
             "dps": {
-              "score": 165.3,
-              "color": "#ffffff"
+              "score": 333.6,
+              "color": "#f7fff4"
             },
             "healer": {
               "score": 0,
@@ -9612,8 +9547,8 @@
               "color": "#ffffff"
             },
             "spec_2": {
-              "score": 165.3,
-              "color": "#ffffff"
+              "score": 333.6,
+              "color": "#f7fff4"
             },
             "spec_3": {
               "score": 0,
@@ -9891,34 +9826,34 @@
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "horde",
-      "achievement_points": 7275,
+      "achievement_points": 7305,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/17/185135377-avatar.jpg?alt=/wow/static/images/2d/avatar/35-0.jpg",
       "region": "us",
       "realm": "Wyrmrest Accord",
-      "last_crawled_at": "2026-06-20T20:29:34.000Z",
+      "last_crawled_at": "2026-06-21T06:05:52.000Z",
       "profile_url": "https://raider.io/characters/us/wyrmrest-accord/Takuo",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 1460.4,
-            "dps": 1460.4,
+            "all": 2150.7,
+            "dps": 2150.7,
             "healer": 0,
             "tank": 0,
-            "spec_0": 1460.4,
+            "spec_0": 2150.7,
             "spec_1": 0,
             "spec_2": 0,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 1460.4,
-              "color": "#a6ff8c"
+              "score": 2150.7,
+              "color": "#5aff3f"
             },
             "dps": {
-              "score": 1460.4,
-              "color": "#a6ff8c"
+              "score": 2150.7,
+              "color": "#5aff3f"
             },
             "healer": {
               "score": 0,
@@ -9929,8 +9864,8 @@
               "color": "#ffffff"
             },
             "spec_0": {
-              "score": 1460.4,
-              "color": "#a6ff8c"
+              "score": 2150.7,
+              "color": "#5aff3f"
             },
             "spec_1": {
               "score": 0,
