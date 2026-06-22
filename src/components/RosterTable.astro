@@ -10,14 +10,6 @@ import {
     TableCaption,
     TableFoot,
 } from "@/components/starwind/table";
-
-function resolvedScoreColorStyle(
-    scoreColor: string | undefined,
-): string | undefined {
-    const color = typeof scoreColor === "string" ? scoreColor.trim() : "";
-
-    return color.length > 0 ? `color: ${color};` : undefined;
-}
 ---
 
 <h1
@@ -58,12 +50,7 @@ function resolvedScoreColorStyle(
                         <TableCell>{member.class}</TableCell>
                         <TableCell>{member.active_spec_name}</TableCell>
                         <TableCell>{member.active_spec_role}</TableCell>
-                        <TableCell
-                            style={resolvedScoreColorStyle(
-                                member.mythic_plus_scores_by_season[0].segments
-                                    .all.color,
-                            )}
-                        >
+                        <TableCell>
                             {member.mythic_plus_scores_by_season[0].scores.all}
                         </TableCell>
                     </TableRow>

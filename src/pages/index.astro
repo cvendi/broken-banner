@@ -1,10 +1,8 @@
 ---
 import guildRoster from "../data/guild-roster.json" with { type: "json" };
-
 import BaseLayout from "../layouts/BaseLayout.astro";
 import PlayerCard from "../components/PlayerCard.astro";
 import NewsCard from "../components/NewsCard.astro";
-
 import { Button } from "@/components/starwind/button";
 import {
     Carousel,
@@ -13,9 +11,7 @@ import {
     CarouselNext,
     CarouselPrevious,
 } from "@/components/starwind/carousel";
-
 import { ArrowRight } from "@lucide/astro";
-
 import { getCollection } from "astro:content";
 
 const posts = (await getCollection("news", ({ data }) => !data.draft)).sort(

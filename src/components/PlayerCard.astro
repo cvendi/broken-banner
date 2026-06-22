@@ -1,12 +1,4 @@
 ---
-const { name, playerClass, playerSpec, playerRole, score, scoreColor } =
-    Astro.props;
-
-const resolvedScoreColor =
-    typeof scoreColor === "string" && scoreColor.trim().length > 0
-        ? scoreColor.trim()
-        : undefined;
-
 import {
     Card,
     CardContent,
@@ -15,28 +7,35 @@ import {
     CardHeader,
     CardTitle,
 } from "@/components/starwind/card";
-
 import { Shield, HeartPulse, Swords } from "@lucide/astro";
 
+const { name, playerClass, playerSpec, playerRole, score, scoreColor } =
+    Astro.props;
+
+const resolvedScoreColor =
+    typeof scoreColor === "string" && scoreColor.trim().length > 0
+        ? scoreColor.trim()
+        : undefined;
+
 const ROLE_ICONS = {
-    TANK: { icon: Shield, color: 'cyan' },
-    HEALING: { icon: HeartPulse, color: 'green' },
-    DPS: { icon: Swords, color: 'red' },
+    TANK: { icon: Shield, color: "cyan" },
+    HEALING: { icon: HeartPulse, color: "green" },
+    DPS: { icon: Swords, color: "red" },
 };
 
 const CLASS_COLORS = {
-  'Death Knight': '#C41F3B',
-  'Demon Hunter': '#A330C9',
-  'Druid': '#FF7D0A',
-  'Hunter': '#ABD473',
-  'Mage': '#69CCF0',
-  'Monk': '#00FF96',
-  'Paladin': '#F58CBA',
-  'Priest': '#FFFFFF',
-  'Rogue': '#FFF569',
-  'Shaman': '#0070DE',
-  'Warlock': '#8787ED',
-  'Warrior': '#C79C6E',
+    "Death Knight": "#C41F3B",
+    "Demon Hunter": "#A330C9",
+    Druid: "#FF7D0A",
+    Hunter: "#ABD473",
+    Mage: "#69CCF0",
+    Monk: "#00FF96",
+    Paladin: "#F58CBA",
+    Priest: "#FFFFFF",
+    Rogue: "#FFF569",
+    Shaman: "#0070DE",
+    Warlock: "#8787ED",
+    Warrior: "#C79C6E",
 };
 ---
 
@@ -49,7 +48,9 @@ const CLASS_COLORS = {
 >
     <CardHeader>
         <CardTitle
-            ><p class="text-body-text text-2xl flex justify-between items-center">
+            ><p
+                class="text-body-text text-2xl flex justify-between items-center"
+            >
                 <span style={{ color: CLASS_COLORS[playerClass] }}>{name}</span>
                 <img
                     src={`https://wow.zamimg.com/images/wow/icons/large/classicon_${playerClass.toLowerCase()}.jpg`}
@@ -58,19 +59,19 @@ const CLASS_COLORS = {
             </p></CardTitle
         >
         <CardDescription
-            ><p class="text-text-muted flex justify-between items-center mr-1">
-                {playerSpec} {playerRole && <ROLE_ICONS[playerRole.toUpperCase()].icon style={{ color: ROLE_ICONS[playerRole.toUpperCase()].color }} />}
+            ><p class="text-text-muted flex items-center">
+                {playerSpec}
             </p></CardDescription
         >
     </CardHeader>
     <CardContent>
         <p
-            class="text-4xl"
+            class="text-4xl justify-between items-center flex"
             style={resolvedScoreColor
                 ? `color: ${resolvedScoreColor};`
                 : undefined}
         >
-            {score}
+            {score}  {playerRole && <ROLE_ICONS[playerRole.toUpperCase()].icon style={{ color: ROLE_ICONS[playerRole.toUpperCase()].color }} />
         </p>
     </CardContent>
 </Card>
