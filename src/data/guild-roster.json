@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T12:58:26.329Z",
+  "updatedAt": "2026-06-22T15:26:09.082Z",
   "members": [
     {
       "name": "Cheating",
@@ -139,11 +139,11 @@
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "horde",
-      "achievement_points": 29160,
+      "achievement_points": 29270,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/168/166495912-avatar.jpg?alt=/wow/static/images/2d/avatar/26-0.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-06-19T02:19:12.000Z",
+      "last_crawled_at": "2026-06-22T12:55:13.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Rikudosennîn",
       "profile_banner": "classbanner_monk1",
       "mythic_plus_scores_by_season": [
@@ -1874,6 +1874,71 @@
             "spec_1": {
               "score": 0,
               "color": "#ffffff"
+            },
+            "spec_2": {
+              "score": 0,
+              "color": "#ffffff"
+            },
+            "spec_3": {
+              "score": 0,
+              "color": "#ffffff"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Draters",
+      "race": "Human",
+      "class": "Warrior",
+      "active_spec_name": "Fury",
+      "active_spec_role": "DPS",
+      "gender": "female",
+      "faction": "alliance",
+      "achievement_points": 10775,
+      "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/226/254335458-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+      "region": "us",
+      "realm": "Stormrage",
+      "last_crawled_at": "2026-06-17T19:09:54.000Z",
+      "profile_url": "https://raider.io/characters/us/stormrage/Draters",
+      "profile_banner": "alliancebanner1",
+      "mythic_plus_scores_by_season": [
+        {
+          "season": "season-mn-1",
+          "scores": {
+            "all": 3011.8,
+            "dps": 3011.8,
+            "healer": 0,
+            "tank": 0,
+            "spec_0": 0,
+            "spec_1": 3011.8,
+            "spec_2": 0,
+            "spec_3": 0
+          },
+          "segments": {
+            "all": {
+              "score": 3011.8,
+              "color": "#3a7fce"
+            },
+            "dps": {
+              "score": 3011.8,
+              "color": "#3a7fce"
+            },
+            "healer": {
+              "score": 0,
+              "color": "#ffffff"
+            },
+            "tank": {
+              "score": 0,
+              "color": "#ffffff"
+            },
+            "spec_0": {
+              "score": 0,
+              "color": "#ffffff"
+            },
+            "spec_1": {
+              "score": 3011.8,
+              "color": "#3a7fce"
             },
             "spec_2": {
               "score": 0,
@@ -5019,7 +5084,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/184/249228472-avatar.jpg?alt=/wow/static/images/2d/avatar/91-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-06-19T10:44:54.000Z",
+      "last_crawled_at": "2026-06-22T12:57:16.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Emmaróids",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -5734,7 +5799,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/227/255518947-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-06-21T19:09:05.000Z",
+      "last_crawled_at": "2026-06-22T14:23:29.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Kosmoss",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -6835,11 +6900,11 @@
       "active_spec_role": "TANK",
       "gender": "female",
       "faction": "horde",
-      "achievement_points": 20070,
+      "achievement_points": 20150,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/87/231315031-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-06-19T07:10:55.000Z",
+      "last_crawled_at": "2026-06-22T12:57:21.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Yäkko",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -7810,11 +7875,11 @@
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "alliance",
-      "achievement_points": 2620,
+      "achievement_points": 2770,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/110/267584622-avatar.jpg?alt=/wow/static/images/2d/avatar/3-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-06-19T02:07:59.000Z",
+      "last_crawled_at": "2026-06-22T12:57:42.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Pelli",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -8590,11 +8655,11 @@
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "alliance",
-      "achievement_points": 12185,
+      "achievement_points": 12455,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/100/267657828-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-06-19T03:38:12.000Z",
+      "last_crawled_at": "2026-06-22T12:58:02.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Lighthoes",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
