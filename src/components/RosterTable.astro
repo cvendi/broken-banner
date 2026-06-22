@@ -1,5 +1,9 @@
 ---
 import guildRoster from "../data/guild-roster.json" with { type: "json" };
+const updatedAt = new Date(guildRoster.updatedAt).toLocaleString("en-US", {
+    timeZone: "America/New_York",
+});
+
 import {
     Table,
     TableHeader,
@@ -23,11 +27,7 @@ import {
     >
 </p>
 <Table class="max-w-5xl mx-auto mt-12">
-    <TableCaption
-        >Updated: {
-            new Date(guildRoster.updatedAt).toLocaleString()
-        }</TableCaption
-    >
+    <TableCaption>Updated: {updatedAt} EST</TableCaption>
     <TableHeader>
         <TableRow>
             <TableHead>Name</TableHead>
