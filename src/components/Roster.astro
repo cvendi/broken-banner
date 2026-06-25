@@ -90,10 +90,12 @@ const updatedAt = new Date(guildRoster.updatedAt).toLocaleString("en-US", {
     </Table>
 </div>
 <script>
-    document.querySelectorAll("[data-sort-key]").forEach((header) => {
-        header.addEventListener("click", () => {
-            const column = header.dataset.sortKey;
-            sortTable(column);
+    document.addEventListener("astro:page-load", () => {
+        document.querySelectorAll("[data-sort-key]").forEach((header) => {
+            header.addEventListener("click", () => {
+                const column = header.dataset.sortKey;
+                sortTable(column);
+            });
         });
     });
 

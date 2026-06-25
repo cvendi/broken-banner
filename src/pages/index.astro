@@ -51,6 +51,10 @@ function countByScoreBucket(members) {
 }
 
 const counts = countByScoreBucket(guildRoster.members);
+
+const updatedAt = new Date(guildRoster.updatedAt).toLocaleString("en-US", {
+    timeZone: "America/New_York",
+});
 ---
 
 <BaseLayout guild="Broken Banner" page="Home">
@@ -76,7 +80,7 @@ const counts = countByScoreBucket(guildRoster.members);
                     Top scoring players
                 </h2>
                 <p class="text-text-muted text-xs">
-                    Updated: {new Date(guildRoster.updatedAt).toLocaleString()}
+                    Updated: {updatedAt}
                 </p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
