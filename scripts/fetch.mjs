@@ -1,9 +1,14 @@
-import { writeFile } from "fs/promises";
+import fs from "fs";
+import path from "path";
 import filterConfig from "../data/roster-filter.json" with { type: "json" };
 
 const REGION = "us";
 const REALM = "area-52";
 const GUILD_NAME = "Broken Banner";
+
+const dataDir = path.join(process.cwd(), "src/data");
+const currentRosterPath = path.join(dataDir, "guild-roster-current.json");
+const previousRosterPath = path.join(dataDir, "guild-roster-previous.json");
 
 async function fetchGuildRoster() {
   const url = `https://raider.io/api/v1/guilds/profile?region=${REGION}&realm=${REALM}&name=${encodeURIComponent(GUILD_NAME)}&fields=members`;
@@ -38,23 +43,32 @@ async function main() {
 
   const results = [];
   for (const member of filtered) {
-    const data = await fetchCharacterScore(
-      member.character.realm,
-      member.character.name,
-    );
-    if (data) results.push(data);
-    await new Promise((r) => setTimeout(r, 1000));
+    try {
+      const data = await fetchCharacterScore(
+        member.character.realm,
+        member.character.name,
+      );
+      if (data) results.push(data);
+      await new Promise((r) => setTimeout(r, 1000));
+    } catch (err) {
+      console.warn(`Failed to fetch ${member.character.name}: ${err}`);
+    }
   }
 
-  await writeFile(
-    "src/data/guild-roster.json",
+  if (fs.existsSync(currentRosterPath)) {
+    fs.renameSync(currentRosterPath, previousRosterPath);
+    console.log(`Moved current roster to ${previousRosterPath}`);
+  }
+
+  fs.writeFileSync(
+    currentRosterPath,
     JSON.stringify(
       { updatedAt: new Date().toISOString(), members: results },
       null,
       2,
     ),
   );
-  console.log(`Wrote ${results.length} characters to guild-roster.json`);
+  console.log(`Wrote ${results.length} characters to ${currentRosterPath}`);
 }
 
 main().catch((err) => {

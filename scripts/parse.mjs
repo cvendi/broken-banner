@@ -1,4 +1,4 @@
-import { writeFile, readFile } from "fs/promises";
+import { readFile } from "fs/promises";
 
 const currentRoster = "src/data/guild-roster-current.json";
 const previousRoster = "src/data/guild-roster-previous.json";
