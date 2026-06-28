@@ -12,7 +12,6 @@ const previousRosterParsed = JSON.parse(previousRosterData);
 async function getWeeklyTopPlayers(previousRosterParsed, currentRosterParsed) {
   // compare both rosters to find rating changes per week
   const ratingChanged = [];
-  const topFive = [];
 
   for (const member of currentRosterParsed.members) {
     const previousPlayer = previousRosterParsed.members.find(
@@ -41,6 +40,30 @@ async function getWeeklyTopPlayers(previousRosterParsed, currentRosterParsed) {
 
 function getTopPlayersByRole(currentRosterParsed) {
   // find top 3 players per role in current roster
+  // sort players by role
+  // determine top 3 scores of all sorted players
+  // return top 3 players per role
+
+  const membersByRole = {};
+
+  for (const member of currentRosterParsed.members) {
+    const role = member.active_spec_role;
+
+    if (!membersByRole[role]) {
+      membersByRole[role] = [];
+    }
+
+    membersByRole[role].push({
+      player: member.name,
+      score: member.mythic_plus_scores_by_season[0].scores.all,
+    });
+  }
+
+  for (const role in membersByRole) {
+    membersByRole[role].sort((a, b) => b.score - a.score);
+    membersByRole[role] = membersByRole[role].slice(0, 3);
+  }
+  return membersByRole;
 }
 
 function getTopPlayersByScore(currentRosterParsed) {
@@ -50,3 +73,5 @@ function getTopPlayersByScore(currentRosterParsed) {
 console.log(
   await getWeeklyTopPlayers(previousRosterParsed, currentRosterParsed),
 );
+
+console.log(getTopPlayersByRole(currentRosterParsed));
