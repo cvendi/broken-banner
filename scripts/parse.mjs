@@ -1,15 +1,19 @@
-import { readFile } from "fs/promises";
+import fs from "fs";
+import path from "path";
 
-const currentRoster = "src/data/guild-roster-current.json";
-const previousRoster = "src/data/guild-roster-previous.json";
+const dataDir = path.join(process.cwd(), "src/data");
 
-const currentRosterData = await readFile(currentRoster, "utf8");
-const previousRosterData = await readFile(previousRoster, "utf8");
+const parsedDataPath = path.join(dataDir, "parsed-data.json");
+const currentRosterPath = path.join(dataDir, "guild-roster-current.json");
+const previousRosterPath = path.join(dataDir, "guild-roster-previous.json");
+
+const currentRosterData = fs.readFileSync(currentRosterPath, "utf8");
+const previousRosterData = fs.readFileSync(previousRosterPath, "utf8");
 
 const currentRosterParsed = JSON.parse(currentRosterData);
 const previousRosterParsed = JSON.parse(previousRosterData);
 
-async function getWeeklyTopPlayers(previousRosterParsed, currentRosterParsed) {
+function getWeeklyTopPlayers(previousRosterParsed, currentRosterParsed) {
   // compare both rosters to find rating changes per week
   const ratingChanged = [];
 
@@ -18,13 +22,13 @@ async function getWeeklyTopPlayers(previousRosterParsed, currentRosterParsed) {
       (player) => player.name === member.name,
     );
 
-    if (
-      previousPlayer &&
-      member.mythic_plus_scores_by_season[0].scores.all !== 0
-    ) {
-      const ratingChange =
-        member.mythic_plus_scores_by_season[0].scores.all -
-        previousPlayer.mythic_plus_scores_by_season[0].scores.all;
+    const currentScore =
+      member.mythic_plus_scores_by_season[0]?.scores.all ?? 0;
+    const previousScore =
+      previousPlayer?.mythic_plus_scores_by_season[0]?.scores.all ?? 0;
+
+    if (previousPlayer && currentScore !== 0) {
+      const ratingChange = currentScore - previousScore;
       if (ratingChange !== 0) {
         ratingChanged.push({
           player: member.name,
@@ -55,7 +59,7 @@ function getTopPlayersByRole(currentRosterParsed) {
 
     membersByRole[role].push({
       player: member.name,
-      score: member.mythic_plus_scores_by_season[0].scores.all,
+      score: member.mythic_plus_scores_by_season[0]?.scores.all ?? 0,
     });
   }
 
@@ -72,7 +76,7 @@ function getTopPlayersByScore(currentRosterParsed) {
   const topPlayers = [];
 
   for (const member of currentRosterParsed.members) {
-    const score = member.mythic_plus_scores_by_season[0].scores.all;
+    const score = member.mythic_plus_scores_by_season[0]?.scores.all ?? 0;
 
     topPlayers.push({
       player: member.name,
@@ -83,3 +87,23 @@ function getTopPlayersByScore(currentRosterParsed) {
   topPlayers.sort((a, b) => b.score - a.score);
   return topPlayers.slice(0, 5);
 }
+
+function main() {
+  const topPlayersByRole = getTopPlayersByRole(currentRosterParsed);
+  const topPlayersByScore = getTopPlayersByScore(currentRosterParsed);
+  const topWeeklyPlayers = getWeeklyTopPlayers(
+    previousRosterParsed,
+    currentRosterParsed,
+  );
+
+  fs.writeFileSync(
+    parsedDataPath,
+    JSON.stringify({
+      top_players_by_role: topPlayersByRole,
+      top_players_by_score: topPlayersByScore,
+      top_weekly_players: topWeeklyPlayers,
+    }),
+  );
+}
+
+main();
