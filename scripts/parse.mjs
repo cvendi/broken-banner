@@ -3,13 +3,16 @@ import { writeFile, readFile } from "fs/promises";
 const currentRoster = "src/data/guild-roster-current.json";
 const previousRoster = "src/data/guild-roster-previous.json";
 
-async function getWeeklyTopPlayers(previousRoster, currentRoster) {
-  // compare both rosters to find highest rating changes per week
-  const currentRosterData = await readFile(currentRoster, "utf8");
-  const previousRosterData = await readFile(previousRoster, "utf8");
+const currentRosterData = await readFile(currentRoster, "utf8");
+const previousRosterData = await readFile(previousRoster, "utf8");
 
-  const currentRosterParsed = JSON.parse(currentRosterData);
-  const previousRosterParsed = JSON.parse(previousRosterData);
+const currentRosterParsed = JSON.parse(currentRosterData);
+const previousRosterParsed = JSON.parse(previousRosterData);
+
+async function getWeeklyTopPlayers(previousRosterParsed, currentRosterParsed) {
+  // compare both rosters to find rating changes per week
+  const ratingChanged = [];
+  const topFive = [];
 
   for (const member of currentRosterParsed.members) {
     const previousPlayer = previousRosterParsed.members.find(
@@ -24,20 +27,26 @@ async function getWeeklyTopPlayers(previousRoster, currentRoster) {
         member.mythic_plus_scores_by_season[0].scores.all -
         previousPlayer.mythic_plus_scores_by_season[0].scores.all;
       if (ratingChange !== 0) {
-        console.log(
-          `Player ${member.name} has a rating change of ${Math.floor(ratingChange)}`,
-        );
+        ratingChanged.push({
+          name: member.name,
+          ratingChange: Math.floor(ratingChange),
+        });
       }
     }
   }
+
+  ratingChanged.sort((a, b) => b.ratingChange - a.ratingChange);
+  return ratingChanged.slice(0, 5);
 }
 
-function getTopPlayersByRole(currentRoster) {
+function getTopPlayersByRole(currentRosterParsed) {
   // find top 3 players per role in current roster
 }
 
-function getTopPlayersByScore(currentRoster) {
+function getTopPlayersByScore(currentRosterParsed) {
   // find top 5 players per score in current roster
 }
 
-getWeeklyTopPlayers(previousRoster, currentRoster);
+console.log(
+  await getWeeklyTopPlayers(previousRosterParsed, currentRosterParsed),
+);
