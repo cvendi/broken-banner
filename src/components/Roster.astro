@@ -22,47 +22,72 @@ const updatedAt = new Date(guildRoster.updatedAt).toLocaleString("en-US", {
 });
 ---
 
-<div class="roster-hero">
-    <h3>Highest Rating Gains (Weekly)</h3>
-    {
-        parsedData.top_weekly_players.map((player) => (
-            <p>
-                {player.player} +{player.ratingChange}
-            </p>
-        ))
-    }
-    <h3>Top Players by Score</h3>
-    {
-        parsedData.top_players_by_score.map((player) => (
-            <p>
-                {player.player} ({player.score})
-            </p>
-        ))
-    }
-    <h3>Top Tanks</h3>
-    {
-        topTanks.map((player) => (
-            <p>
-                {player.player} ({player.score})
-            </p>
-        ))
-    }
-    <h3>Top Healers</h3>
-    {
-        topHealing.map((player) => (
-            <p>
-                {player.player} ({player.score})
-            </p>
-        ))
-    }
-    <h3>Top DPS</h3>
-    {
-        topDps.map((player) => (
-            <p>
-                {player.player} ({player.score})
-            </p>
-        ))
-    }
+<div class="grid grid-cols-6 mx-auto gap-8 mb-16">
+    <div class="col-span-3 row-1 flex items-center justify-center">
+        <h3 class="text-3xl">Highest Rating Gains (Weekly)</h3>
+    </div>
+    <div class="col-span-3 row-2 flex items-center justify-center gap-8">
+        {
+            parsedData.top_weekly_players.map((player) => (
+                <p class="flex flex-col items-center">
+                    <span>{player.player}</span>
+                    <span>+{player.ratingChange}</span>
+                </p>
+            ))
+        }
+    </div>
+    <div class="col-span-3 flex items-center justify-center">
+        <h3 class="text-3xl">Top Players by Score</h3>
+    </div>
+    <div class="col-span-3 flex items-center justify-center gap-8">
+        {
+            parsedData.top_players_by_score.map((player) => (
+                <p class="flex flex-col items-center">
+                    <span>{player.player}</span>
+                    <span>{player.score}</span>
+                </p>
+            ))
+        }
+    </div>
+    <div class="col-span-2 row-3 flex items-center justify-center">
+        <h3 class="text-3xl">Top Tanks</h3>
+    </div>
+    <div class="col-span-2 row-4 flex items-center justify-center gap-8">
+        {
+            topTanks.map((player) => (
+                <p class="flex flex-col items-center">
+                    <span>{player.player}</span>
+                    <span>{player.score}</span>
+                </p>
+            ))
+        }
+    </div>
+    <div class="col-span-2 row-3 flex items-center justify-center">
+        <h3 class="text-3xl">Top Healers</h3>
+    </div>
+    <div class="col-span-2 row-4 flex items-center justify-center gap-8">
+        {
+            topHealing.map((player) => (
+                <p class="flex flex-col items-center">
+                    <span>{player.player}</span>
+                    <span>{player.score}</span>
+                </p>
+            ))
+        }
+    </div>
+    <div class="col-span-2 row-3 flex items-center justify-center">
+        <h3 class="text-3xl">Top DPS</h3>
+    </div>
+    <div class="col-span-2 row-4 flex items-center justify-center gap-8">
+        {
+            topDps.map((player) => (
+                <p class="flex flex-col items-center">
+                    <span>{player.player}</span>
+                    <span>{player.score}</span>
+                </p>
+            ))
+        }
+    </div>
 </div>
 <div class="roster-table">
     <p class="text-text-muted text-sm text-center">
