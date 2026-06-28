@@ -27,7 +27,7 @@ async function getWeeklyTopPlayers(previousRosterParsed, currentRosterParsed) {
         previousPlayer.mythic_plus_scores_by_season[0].scores.all;
       if (ratingChange !== 0) {
         ratingChanged.push({
-          name: member.name,
+          player: member.name,
           ratingChange: Math.floor(ratingChange),
         });
       }
@@ -68,10 +68,18 @@ function getTopPlayersByRole(currentRosterParsed) {
 
 function getTopPlayersByScore(currentRosterParsed) {
   // find top 5 players per score in current roster
+
+  const topPlayers = [];
+
+  for (const member of currentRosterParsed.members) {
+    const score = member.mythic_plus_scores_by_season[0].scores.all;
+
+    topPlayers.push({
+      player: member.name,
+      score: score,
+    });
+  }
+
+  topPlayers.sort((a, b) => b.score - a.score);
+  return topPlayers.slice(0, 5);
 }
-
-console.log(
-  await getWeeklyTopPlayers(previousRosterParsed, currentRosterParsed),
-);
-
-console.log(getTopPlayersByRole(currentRosterParsed));
