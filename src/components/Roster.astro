@@ -10,12 +10,60 @@ import {
     TableFoot,
 } from "@/components/starwind/table";
 
-import guildRoster from "../data/guild-roster.json";
+import guildRoster from "../data/guild-roster-current.json";
+import parsedData from "../data/parsed-data.json";
+
+const topDps = parsedData.top_players_by_role.DPS;
+const topTanks = parsedData.top_players_by_role.TANK;
+const topHealing = parsedData.top_players_by_role.HEALING;
+
 const updatedAt = new Date(guildRoster.updatedAt).toLocaleString("en-US", {
     timeZone: "America/New_York",
 });
 ---
 
+<div class="roster-hero">
+    <h3>Highest Rating Gains (Weekly)</h3>
+    {
+        parsedData.top_weekly_players.map((player) => (
+            <p>
+                {player.player} +{player.ratingChange}
+            </p>
+        ))
+    }
+    <h3>Top Players by Score</h3>
+    {
+        parsedData.top_players_by_score.map((player) => (
+            <p>
+                {player.player} ({player.score})
+            </p>
+        ))
+    }
+    <h3>Top Tanks</h3>
+    {
+        topTanks.map((player) => (
+            <p>
+                {player.player} ({player.score})
+            </p>
+        ))
+    }
+    <h3>Top Healers</h3>
+    {
+        topHealing.map((player) => (
+            <p>
+                {player.player} ({player.score})
+            </p>
+        ))
+    }
+    <h3>Top DPS</h3>
+    {
+        topDps.map((player) => (
+            <p>
+                {player.player} ({player.score})
+            </p>
+        ))
+    }
+</div>
 <div class="roster-table">
     <p class="text-text-muted text-sm text-center">
         Updated: {updatedAt} EST
@@ -82,7 +130,7 @@ const updatedAt = new Date(guildRoster.updatedAt).toLocaleString("en-US", {
         </TableBody>
         <TableFoot>
             <TableRow>
-                <TableCell colSpan="5">
+                <TableCell colspan="5">
                     Total: {guildRoster.members.length} characters
                 </TableCell>
             </TableRow>
