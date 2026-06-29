@@ -8,7 +8,6 @@ const GUILD_NAME = "Broken Banner";
 
 const dataDir = path.join(process.cwd(), "src/data");
 const currentRosterPath = path.join(dataDir, "guild-roster-current.json");
-const previousRosterPath = path.join(dataDir, "guild-roster-previous.json");
 
 async function fetchGuildRoster() {
   const url = `https://raider.io/api/v1/guilds/profile?region=${REGION}&realm=${REALM}&name=${encodeURIComponent(GUILD_NAME)}&fields=members`;
@@ -53,11 +52,6 @@ async function main() {
     } catch (err) {
       console.warn(`Failed to fetch ${member.character.name}: ${err}`);
     }
-  }
-
-  if (fs.existsSync(currentRosterPath)) {
-    fs.renameSync(currentRosterPath, previousRosterPath);
-    console.log(`Moved current roster to ${previousRosterPath}`);
   }
 
   fs.writeFileSync(
