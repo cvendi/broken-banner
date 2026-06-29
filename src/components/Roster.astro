@@ -10,122 +10,200 @@ import {
     TableFoot,
 } from "@/components/starwind/table";
 
+import {
+    Tabs,
+    TabsList,
+    TabsTrigger,
+    TabsContent,
+} from "@/components/starwind/tabs";
+
 import guildRoster from "../data/guild-roster-current.json";
+import previousGuildRoster from "../data/guild-roster-weekly-snapshot.json";
 import parsedData from "../data/parsed-data.json";
+
+function getClassColor(player) {
+    const playerName = guildRoster.members.find(
+        (member) => member.name === player,
+    );
+    return CLASS_COLORS[playerName?.class] || "#FFFFFF";
+}
+
+function getRoleColor(player) {
+    return ROLE_COLORS[player.active_spec_role] || "#FFFFFF";
+}
 
 const topDps = parsedData.top_players_by_role.DPS;
 const topTanks = parsedData.top_players_by_role.TANK;
 const topHealing = parsedData.top_players_by_role.HEALING;
 
+const CLASS_COLORS = {
+    "Death Knight": "#C41F3B",
+    "Demon Hunter": "#A330C9",
+    Druid: "#FF7D0A",
+    Hunter: "#ABD473",
+    Mage: "#69CCF0",
+    Monk: "#00FF96",
+    Paladin: "#F58CBA",
+    Priest: "#FFFFFF",
+    Rogue: "#FFF569",
+    Shaman: "#0070DE",
+    Warlock: "#8787ED",
+    Warrior: "#C79C6E",
+};
+
+const ROLE_COLORS = {
+    DPS: "red",
+    TANK: "blue",
+    HEALING: "green",
+};
+
 const updatedAt = new Date(guildRoster.updatedAt).toLocaleString("en-US", {
     timeZone: "America/New_York",
 });
+const previousDateString = new Date(
+    previousGuildRoster.updatedAt,
+).toLocaleDateString("en-US", {
+    timeZone: "America/New_York",
+});
+const currentDateString = new Date(guildRoster.updatedAt).toLocaleDateString(
+    "en-US",
+    {
+        timeZone: "America/New_York",
+    },
+);
 ---
 
-<div class="grid grid-cols-6 mx-auto gap-8 mb-16">
-    <div class="col-span-3 row-1 flex items-center justify-center">
-        <h3 class="text-3xl">Highest Rating Gains (Weekly)</h3>
-    </div>
-    <div class="col-span-3 row-2 flex items-center justify-center gap-8">
-        {
-            parsedData.top_weekly_players.map((player) => (
-                <p class="flex flex-col items-center">
-                    <span>{player.player}</span>
-                    <span>+{player.ratingChange}</span>
+<Tabs defaultValue="gains" class="flex flex-col justify-center
+items-center">
+    <TabsList class="gap-8 bg-card-bg text-body-text">
+        <TabsTrigger value="gains">Rating Gains</TabsTrigger>
+        <TabsTrigger value="top">Top Players</TabsTrigger>
+        <TabsTrigger value="top-tanks">Top Tanks</TabsTrigger>
+        <TabsTrigger value="top-healing">Top Healers</TabsTrigger>
+        <TabsTrigger value="top-dps">Top DPS</TabsTrigger>
+    </TabsList>
+    <TabsContent value="gains">
+        <div class="flex flex-col items-center">
+            <div class="flex flex-col items-center justify-center gap-4 mt-8">
+                <h3
+                    class="text-5xl font-header font-bold text-legendary-accent"
+                >
+                    Highest Rating Gains (Weekly)
+                </h3>
+                <p class="text-text-muted text-sm text-center">
+                    {previousDateString} - {currentDateString}
                 </p>
-            ))
-        }
-    </div>
-    <div class="col-span-3 flex items-center justify-center">
-        <h3 class="text-3xl">Top Players by Score</h3>
-    </div>
-    <div class="col-span-3 flex items-center justify-center gap-8">
-        {
-            parsedData.top_players_by_score.map((player) => (
-                <p class="flex flex-col items-center">
-                    <span>{player.player}</span>
-                    <span>{player.score}</span>
-                </p>
-            ))
-        }
-    </div>
-    <div class="col-span-2 row-3 flex items-center justify-center">
-        <h3 class="text-3xl">Top Tanks</h3>
-    </div>
-    <div class="col-span-2 row-4 flex items-center justify-center gap-8">
-        {
-            topTanks.map((player) => (
-                <p class="flex flex-col items-center">
-                    <span>{player.player}</span>
-                    <span>{player.score}</span>
-                </p>
-            ))
-        }
-    </div>
-    <div class="col-span-2 row-3 flex items-center justify-center">
-        <h3 class="text-3xl">Top Healers</h3>
-    </div>
-    <div class="col-span-2 row-4 flex items-center justify-center gap-8">
-        {
-            topHealing.map((player) => (
-                <p class="flex flex-col items-center">
-                    <span>{player.player}</span>
-                    <span>{player.score}</span>
-                </p>
-            ))
-        }
-    </div>
-    <div class="col-span-2 row-3 flex items-center justify-center">
-        <h3 class="text-3xl">Top DPS</h3>
-    </div>
-    <div class="col-span-2 row-4 flex items-center justify-center gap-8">
-        {
-            topDps.map((player) => (
-                <p class="flex flex-col items-center">
-                    <span>{player.player}</span>
-                    <span>{player.score}</span>
-                </p>
-            ))
-        }
-    </div>
-</div>
-<div class="roster-table">
-    <p class="text-text-muted text-sm text-center">
-        Updated: {updatedAt} EST
-    </p>
-    <Table class="max-w-5xl mx-auto mt-12">
+                <div class="flex items-center justify-center gap-8 mt-8">
+                    {
+                        parsedData.top_weekly_players.map((player) => (
+                            <div class="flex flex-col items-center mx-8">
+                                <span
+                                    style={{
+                                        color: getClassColor(player.player),
+                                    }}
+                                    class="text-3xl"
+                                >
+                                    {player.player}
+                                </span>
+                                <span class="text-2xl">
+                                    +{player.ratingChange}
+                                </span>
+                            </div>
+                        ))
+                    }
+                </div>
+            </div>
+        </div>
+    </TabsContent>
+    <TabsContent value="top">
+        <div class="flex items-center justify-center gap-8">
+            {
+                parsedData.top_players_by_score.map((player) => (
+                    <p class="flex flex-col items-center">
+                        <span>{player.player}</span>
+                        <span>{player.score}</span>
+                    </p>
+                ))
+            }
+        </div>
+    </TabsContent>
+    <TabsContent value="top-tanks">
+        <div class="flex items-center justify-center gap-8">
+            {
+                topTanks.map((player) => (
+                    <p class="flex flex-col items-center">
+                        <span>{player.player}</span>
+                        <span>{player.score}</span>
+                    </p>
+                ))
+            }
+        </div>
+    </TabsContent>
+    <TabsContent value="top-dps">
+        <div class="flex items-center justify-center gap-8">
+            {
+                topDps.map((player) => (
+                    <p class="flex flex-col items-center">
+                        <span>{player.player}</span>
+                        <span>{player.score}</span>
+                    </p>
+                ))
+            }
+        </div>
+    </TabsContent>
+    <TabsContent value="top-healing">
+        <div class="flex items-center justify-center gap-8">
+            {
+                topHealing.map((player) => (
+                    <p class="flex flex-col items-center">
+                        <span>{player.player}</span>
+                        <span>{player.score}</span>
+                    </p>
+                ))
+            }
+        </div>
+    </TabsContent>
+</Tabs>
+<div class="roster-table mt-16">
+    <Table class="max-w-5xl mx-auto mt-8">
         <TableCaption>
-            Data provided by{" "}
-            <a href="https://raider.io" class="text-legendary-accent">
-                Raider.IO
-            </a>
+            <div class="flex items-center justify-between">
+                <p>
+                    Updated: {updatedAt} EST
+                </p>
+                <p>
+                    Data provided by <a
+                        href="https://raider.io"
+                        class="text-legendary-accent">Raider.IO</a
+                    >
+                </p>
+            </div>
         </TableCaption>
         <TableHeader>
-            <TableRow>
+            <TableRow class="border-border-accent hover:bg-legendary-accent/10">
                 <TableHead
                     id="name-header"
                     data-direction="desc"
-                    data-sort-key="name">Name</TableHead
-                >
-                <TableHead
-                    id="class-header"
-                    data-direction="desc"
-                    data-sort-key="playerClass">Class</TableHead
+                    data-sort-key="name"
+                    class="text-body-text">Name</TableHead
                 >
                 <TableHead
                     id="spec-header"
                     data-direction="desc"
-                    data-sort-key="active_spec_name">Spec</TableHead
+                    data-sort-key="active_spec_name"
+                    class="text-body-text">Spec</TableHead
                 >
                 <TableHead
                     id="role-header"
                     data-direction="desc"
-                    data-sort-key="active_spec_role">Role</TableHead
+                    data-sort-key="active_spec_role"
+                    class="text-body-text">Role</TableHead
                 >
                 <TableHead
                     id="score-header"
                     data-direction="desc"
-                    data-sort-key="mythic_plus_score">Score</TableHead
+                    data-sort-key="mythic_plus_score"
+                    class="text-body-text">Score</TableHead
                 >
             </TableRow>
         </TableHeader>
@@ -138,11 +216,22 @@ const updatedAt = new Date(guildRoster.updatedAt).toLocaleString("en-US", {
                                 .all !== 0,
                     )
                     .map((member) => (
-                        <TableRow>
-                            <TableCell>{member.name}</TableCell>
-                            <TableCell>{member.class}</TableCell>
+                        <TableRow class="border-border-accent hover:bg-body-text/10">
+                            <TableCell>
+                                <span
+                                    style={{
+                                        color: CLASS_COLORS[member.class],
+                                    }}
+                                >
+                                    {member.name}
+                                </span>
+                            </TableCell>
                             <TableCell>{member.active_spec_name}</TableCell>
-                            <TableCell>{member.active_spec_role}</TableCell>
+                            <TableCell>
+                                <span style={{ color: getRoleColor(member) }}>
+                                    {member.active_spec_role}
+                                </span>
+                            </TableCell>
                             <TableCell>
                                 {
                                     member.mythic_plus_scores_by_season[0]
@@ -153,8 +242,8 @@ const updatedAt = new Date(guildRoster.updatedAt).toLocaleString("en-US", {
                     ))
             }
         </TableBody>
-        <TableFoot>
-            <TableRow>
+        <TableFoot class="bg-card-bg border-border-accent text-body-text">
+            <TableRow class="border-border-accent hover:bg-transparent">
                 <TableCell colspan="5">
                     Total: {guildRoster.members.length} characters
                 </TableCell>
