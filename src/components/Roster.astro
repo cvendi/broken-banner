@@ -96,7 +96,7 @@ items-center">
                 <div class="flex items-center justify-center gap-8 mt-8">
                     {
                         parsedData.top_weekly_players.map((player) => (
-                            <div class="flex flex-col items-center mx-8">
+                            <div class="flex flex-col items-center justify-center mx-8">
                                 <span
                                     style={{
                                         color: getClassColor(player.player),
@@ -105,7 +105,7 @@ items-center">
                                 >
                                     {player.player}
                                 </span>
-                                <span class="text-2xl">
+                                <span class="text-lg">
                                     +{player.ratingChange}
                                 </span>
                             </div>
@@ -116,51 +116,115 @@ items-center">
         </div>
     </TabsContent>
     <TabsContent value="top">
-        <div class="flex items-center justify-center gap-8">
-            {
-                parsedData.top_players_by_score.map((player) => (
-                    <p class="flex flex-col items-center">
-                        <span>{player.player}</span>
-                        <span>{player.score}</span>
-                    </p>
-                ))
-            }
+        <div class="flex flex-col items-center">
+            <div class="flex flex-col items-center justify-center gap-4 mt-8">
+                <h3
+                    class="text-5xl font-header font-bold text-legendary-accent"
+                >
+                    Top Players by Score
+                </h3>
+                <div class="flex items-center justify-center gap-8 mt-8">
+                    {
+                        parsedData.top_players_by_score.map((player) => (
+                            <div class="flex flex-col items-center justify-center mx-8">
+                                <span
+                                    style={{
+                                        color: getClassColor(player.player),
+                                    }}
+                                    class="text-3xl"
+                                >
+                                    {player.player}
+                                </span>
+                                <span class="text-lg">{player.score}</span>
+                            </div>
+                        ))
+                    }
+                </div>
+            </div>
         </div>
     </TabsContent>
     <TabsContent value="top-tanks">
-        <div class="flex items-center justify-center gap-8">
-            {
-                topTanks.map((player) => (
-                    <p class="flex flex-col items-center">
-                        <span>{player.player}</span>
-                        <span>{player.score}</span>
-                    </p>
-                ))
-            }
-        </div>
-    </TabsContent>
-    <TabsContent value="top-dps">
-        <div class="flex items-center justify-center gap-8">
-            {
-                topDps.map((player) => (
-                    <p class="flex flex-col items-center">
-                        <span>{player.player}</span>
-                        <span>{player.score}</span>
-                    </p>
-                ))
-            }
+        <div class="flex flex-col items-center">
+            <div class="flex flex-col items-center justify-center gap-4 mt-8">
+                <h3
+                    class="text-5xl font-header font-bold text-legendary-accent"
+                >
+                    Top Tanks
+                </h3>
+                <div class="flex items-center justify-center gap-8 mt-8">
+                    {
+                        topTanks.map((player) => (
+                            <div class="flex flex-col items-center justify-center mx-8">
+                                <span
+                                    style={{
+                                        color: getClassColor(player.player),
+                                    }}
+                                    class="text-3xl"
+                                >
+                                    {player.player}
+                                </span>
+                                <span class="text-lg">{player.score}</span>
+                            </div>
+                        ))
+                    }
+                </div>
+            </div>
         </div>
     </TabsContent>
     <TabsContent value="top-healing">
-        <div class="flex items-center justify-center gap-8">
-            {
-                topHealing.map((player) => (
-                    <p class="flex flex-col items-center">
-                        <span>{player.player}</span>
-                        <span>{player.score}</span>
-                    </p>
-                ))
-            }
+        <div class="flex flex-col items-center">
+            <div class="flex flex-col items-center justify-center gap-4 mt-8">
+                <h3
+                    class="text-5xl font-header font-bold text-legendary-accent"
+                >
+                    Top Healers
+                </h3>
+                <div class="flex items-center justify-center gap-8 mt-8">
+                    {
+                        topHealing.map((player) => (
+                            <div class="flex flex-col items-center justify-center mx-8">
+                                <span
+                                    style={{
+                                        color: getClassColor(player.player),
+                                    }}
+                                    class="text-3xl"
+                                >
+                                    {player.player}
+                                </span>
+                                <span class="text-lg">{player.score}</span>
+                            </div>
+                        ))
+                    }
+                </div>
+            </div>
+        </div>
+    </TabsContent>
+    <TabsContent value="top-dps">
+        <div class="flex flex-col items-center">
+            <div class="flex flex-col items-center justify-center gap-4 mt-8">
+                <h3
+                    class="text-5xl font-header font-bold text-legendary-accent"
+                >
+                    Top DPS
+                </h3>
+                <div class="flex items-center justify-center gap-8 mt-8">
+                    {
+                        topDps.map((player) => (
+                            <div class="flex flex-col items-center justify-center mx-8">
+                                <span
+                                    style={{
+                                        color: getClassColor(player.player),
+                                    }}
+                                    class="text-3xl"
+                                >
+                                    {player.player}
+                                </span>
+                                <span class="text-lg">{player.score}</span>
+                            </div>
+                        ))
+                    }
+                </div>
+            </div>
         </div>
     </TabsContent>
 </Tabs>
