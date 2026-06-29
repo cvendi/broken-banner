@@ -20,7 +20,7 @@ async function fetchGuildRoster() {
 function filterRoster(members) {
   return members
     .filter((m) => filterConfig.mainRanks.includes(m.rank))
-    .filter((m) => !filterConfig.excludedNames.includes(m.character.name));
+    .filter((m) => !/-\d+$/.test(m.character.name));
 }
 
 async function fetchCharacterScore(realm, name) {
