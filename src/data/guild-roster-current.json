@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T10:33:24.284Z",
+  "updatedAt": "2026-08-09T10:35:25.004Z",
   "members": [
     {
       "name": "Cheating",
@@ -143,7 +143,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/168/166495912-avatar.jpg?alt=/wow/static/images/2d/avatar/26-0.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-08-06T12:12:39.000Z",
+      "last_crawled_at": "2026-08-08T21:38:50.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Rikudosennîn",
       "profile_banner": "classbanner_monk1",
       "mythic_plus_scores_by_season": [
@@ -292,11 +292,11 @@
           "segments": {
             "all": {
               "score": 3025.8,
-              "color": "#2f79d3"
+              "color": "#2e79d3"
             },
             "dps": {
               "score": 3025.8,
-              "color": "#2f79d3"
+              "color": "#2e79d3"
             },
             "healer": {
               "score": 0,
@@ -316,7 +316,7 @@
             },
             "spec_2": {
               "score": 3025.8,
-              "color": "#2f79d3"
+              "color": "#2e79d3"
             },
             "spec_3": {
               "score": 0,
@@ -422,7 +422,7 @@
           "segments": {
             "all": {
               "score": 503.3,
-              "color": "#ecffe4"
+              "color": "#ecffe3"
             },
             "dps": {
               "score": 0,
@@ -434,7 +434,7 @@
             },
             "tank": {
               "score": 503.3,
-              "color": "#ecffe4"
+              "color": "#ecffe3"
             },
             "spec_0": {
               "score": 0,
@@ -446,7 +446,7 @@
             },
             "spec_2": {
               "score": 503.3,
-              "color": "#ecffe4"
+              "color": "#ecffe3"
             },
             "spec_3": {
               "score": 0,
@@ -487,11 +487,11 @@
           "segments": {
             "all": {
               "score": 2217.8,
-              "color": "#4eff34"
+              "color": "#49ff30"
             },
             "dps": {
               "score": 2217.8,
-              "color": "#4eff34"
+              "color": "#49ff30"
             },
             "healer": {
               "score": 0,
@@ -507,7 +507,7 @@
             },
             "spec_1": {
               "score": 2217.8,
-              "color": "#4eff34"
+              "color": "#49ff30"
             },
             "spec_2": {
               "score": 0,
@@ -552,11 +552,11 @@
           "segments": {
             "all": {
               "score": 3003.4,
-              "color": "#397ece"
+              "color": "#387ecf"
             },
             "dps": {
               "score": 3003.4,
-              "color": "#397ece"
+              "color": "#387ecf"
             },
             "healer": {
               "score": 0,
@@ -568,7 +568,7 @@
             },
             "spec_0": {
               "score": 2995.9,
-              "color": "#4183c9"
+              "color": "#387ecf"
             },
             "spec_1": {
               "score": 0,
@@ -576,7 +576,7 @@
             },
             "spec_2": {
               "score": 913.7,
-              "color": "#d0ffbf"
+              "color": "#d0ffbe"
             },
             "spec_3": {
               "score": 0,
@@ -617,11 +617,11 @@
           "segments": {
             "all": {
               "score": 2486.3,
-              "color": "#47eb4a"
+              "color": "#4ce651"
             },
             "dps": {
               "score": 2486.3,
-              "color": "#47eb4a"
+              "color": "#4ce651"
             },
             "healer": {
               "score": 0,
@@ -641,7 +641,7 @@
             },
             "spec_2": {
               "score": 2486.3,
-              "color": "#47eb4a"
+              "color": "#4ce651"
             },
             "spec_3": {
               "score": 0,
@@ -682,7 +682,7 @@
           "segments": {
             "all": {
               "score": 1989.7,
-              "color": "#6fff53"
+              "color": "#6dff51"
             },
             "dps": {
               "score": 0,
@@ -690,7 +690,7 @@
             },
             "healer": {
               "score": 1989.7,
-              "color": "#6fff53"
+              "color": "#6dff51"
             },
             "tank": {
               "score": 0,
@@ -698,7 +698,7 @@
             },
             "spec_0": {
               "score": 1989.7,
-              "color": "#6fff53"
+              "color": "#6dff51"
             },
             "spec_1": {
               "score": 0,
@@ -988,30 +988,30 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/100/167495268-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-08-04T12:01:36.000Z",
+      "last_crawled_at": "2026-08-08T21:38:50.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Kageyaiba",
       "profile_banner": "classbanner_rogue1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 2798.5,
-            "dps": 2798.5,
+            "all": 2838.7,
+            "dps": 2838.7,
             "healer": 0,
             "tank": 0,
             "spec_0": 0,
-            "spec_1": 2798.5,
+            "spec_1": 2838.7,
             "spec_2": 0,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 2798.5,
-              "color": "#5da9a0"
+              "score": 2838.7,
+              "color": "#599eac"
             },
             "dps": {
-              "score": 2798.5,
-              "color": "#5da9a0"
+              "score": 2838.7,
+              "color": "#599eac"
             },
             "healer": {
               "score": 0,
@@ -1026,8 +1026,8 @@
               "color": "#ffffff"
             },
             "spec_1": {
-              "score": 2798.5,
-              "color": "#5da9a0"
+              "score": 2838.7,
+              "color": "#599eac"
             },
             "spec_2": {
               "score": 0,
@@ -1137,11 +1137,11 @@
           "segments": {
             "all": {
               "score": 1905,
-              "color": "#78ff5c"
+              "color": "#76ff5a"
             },
             "dps": {
               "score": 1905,
-              "color": "#78ff5c"
+              "color": "#76ff5a"
             },
             "healer": {
               "score": 0,
@@ -1161,7 +1161,7 @@
             },
             "spec_2": {
               "score": 1905,
-              "color": "#78ff5c"
+              "color": "#76ff5a"
             },
             "spec_3": {
               "score": 0,
@@ -1210,7 +1210,7 @@
             },
             "healer": {
               "score": 1286.8,
-              "color": "#b4ff9c"
+              "color": "#b3ff9b"
             },
             "tank": {
               "score": 0,
@@ -1218,7 +1218,7 @@
             },
             "spec_0": {
               "score": 2470.5,
-              "color": "#47eb4a"
+              "color": "#4ce651"
             },
             "spec_1": {
               "score": 3090.5,
@@ -1230,7 +1230,7 @@
             },
             "spec_3": {
               "score": 1286.8,
-              "color": "#b4ff9c"
+              "color": "#b3ff9b"
             }
           }
         }
@@ -1397,11 +1397,11 @@
           "segments": {
             "all": {
               "score": 2535.4,
-              "color": "#51e05b"
+              "color": "#54dc61"
             },
             "dps": {
               "score": 2535.4,
-              "color": "#51e05b"
+              "color": "#54dc61"
             },
             "healer": {
               "score": 0,
@@ -1421,7 +1421,7 @@
             },
             "spec_2": {
               "score": 2535.4,
-              "color": "#51e05b"
+              "color": "#54dc61"
             },
             "spec_3": {
               "score": 0,
@@ -1657,11 +1657,11 @@
           "segments": {
             "all": {
               "score": 2544.9,
-              "color": "#55db63"
+              "color": "#57d868"
             },
             "dps": {
               "score": 2544.9,
-              "color": "#55db63"
+              "color": "#57d868"
             },
             "healer": {
               "score": 0,
@@ -1673,11 +1673,11 @@
             },
             "spec_0": {
               "score": 2503.5,
-              "color": "#4de553"
+              "color": "#50e159"
             },
             "spec_1": {
               "score": 1453.2,
-              "color": "#a5ff8b"
+              "color": "#a4ff89"
             },
             "spec_2": {
               "score": 0,
@@ -1726,7 +1726,7 @@
             },
             "dps": {
               "score": 1913.7,
-              "color": "#78ff5c"
+              "color": "#76ff5a"
             },
             "healer": {
               "score": 0,
@@ -1742,7 +1742,7 @@
             },
             "spec_1": {
               "score": 1913.7,
-              "color": "#78ff5c"
+              "color": "#76ff5a"
             },
             "spec_2": {
               "score": 3411.2,
@@ -1791,7 +1791,7 @@
             },
             "dps": {
               "score": 663,
-              "color": "#e2ffd6"
+              "color": "#e2ffd5"
             },
             "healer": {
               "score": 0,
@@ -1811,7 +1811,7 @@
             },
             "spec_2": {
               "score": 663,
-              "color": "#e2ffd6"
+              "color": "#e2ffd5"
             },
             "spec_3": {
               "score": 0,
@@ -1852,11 +1852,11 @@
           "segments": {
             "all": {
               "score": 3020.2,
-              "color": "#2f79d3"
+              "color": "#2e79d3"
             },
             "dps": {
               "score": 3020.2,
-              "color": "#2f79d3"
+              "color": "#2e79d3"
             },
             "healer": {
               "score": 0,
@@ -1868,7 +1868,7 @@
             },
             "spec_0": {
               "score": 3020.2,
-              "color": "#2f79d3"
+              "color": "#2e79d3"
             },
             "spec_1": {
               "score": 0,
@@ -1877,72 +1877,6 @@
             "spec_2": {
               "score": 0,
               "color": "#ffffff"
-            },
-            "spec_3": {
-              "score": 0,
-              "color": "#ffffff"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "name": "Mth",
-      "race": "Human",
-      "class": "Death Knight",
-      "active_spec_name": "Frost",
-      "active_spec_role": "DPS",
-      "gender": "female",
-      "faction": "alliance",
-      "achievement_points": 17895,
-      "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/220/252011740-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
-      "region": "us",
-      "realm": "Stormrage",
-      "last_crawled_at": "2026-07-14T13:06:55.000Z",
-      "profile_url": "https://raider.io/characters/us/stormrage/Mth",
-      "profile_banner": "",
-      "use_animated_banner": false,
-      "mythic_plus_scores_by_season": [
-        {
-          "season": "season-mn-1",
-          "scores": {
-            "all": 2683.8,
-            "dps": 2683.8,
-            "healer": 0,
-            "tank": 0,
-            "spec_0": 0,
-            "spec_1": 2097,
-            "spec_2": 2146.6,
-            "spec_3": 0
-          },
-          "segments": {
-            "all": {
-              "score": 2683.8,
-              "color": "#5fc283"
-            },
-            "dps": {
-              "score": 2683.8,
-              "color": "#5fc283"
-            },
-            "healer": {
-              "score": 0,
-              "color": "#ffffff"
-            },
-            "tank": {
-              "score": 0,
-              "color": "#ffffff"
-            },
-            "spec_0": {
-              "score": 0,
-              "color": "#ffffff"
-            },
-            "spec_1": {
-              "score": 2097,
-              "color": "#62ff46"
-            },
-            "spec_2": {
-              "score": 2146.6,
-              "color": "#5aff3f"
             },
             "spec_3": {
               "score": 0,
@@ -1983,11 +1917,11 @@
           "segments": {
             "all": {
               "score": 2416.8,
-              "color": "#2efa22"
+              "color": "#38f532"
             },
             "dps": {
               "score": 2416.8,
-              "color": "#2efa22"
+              "color": "#38f532"
             },
             "healer": {
               "score": 0,
@@ -1999,15 +1933,15 @@
             },
             "spec_0": {
               "score": 2312.6,
-              "color": "#38ff1f"
+              "color": "#31ff18"
             },
             "spec_1": {
               "score": 847.5,
-              "color": "#d6ffc6"
+              "color": "#d5ffc5"
             },
             "spec_2": {
               "score": 1949,
-              "color": "#75ff59"
+              "color": "#73ff57"
             },
             "spec_3": {
               "score": 0,
@@ -2048,11 +1982,11 @@
           "segments": {
             "all": {
               "score": 1449.8,
-              "color": "#a7ff8d"
+              "color": "#a6ff8c"
             },
             "dps": {
               "score": 1449.8,
-              "color": "#a7ff8d"
+              "color": "#a6ff8c"
             },
             "healer": {
               "score": 0,
@@ -2064,7 +1998,7 @@
             },
             "spec_0": {
               "score": 1449.8,
-              "color": "#a7ff8d"
+              "color": "#a6ff8c"
             },
             "spec_1": {
               "score": 0,
@@ -2096,71 +2030,6 @@
       "realm": "Area 52",
       "last_crawled_at": "2026-08-05T11:58:39.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Whitechi",
-      "profile_banner": "hordebanner1",
-      "mythic_plus_scores_by_season": [
-        {
-          "season": "season-mn-1",
-          "scores": {
-            "all": 0,
-            "dps": 0,
-            "healer": 0,
-            "tank": 0,
-            "spec_0": 0,
-            "spec_1": 0,
-            "spec_2": 0,
-            "spec_3": 0
-          },
-          "segments": {
-            "all": {
-              "score": 0,
-              "color": "#ffffff"
-            },
-            "dps": {
-              "score": 0,
-              "color": "#ffffff"
-            },
-            "healer": {
-              "score": 0,
-              "color": "#ffffff"
-            },
-            "tank": {
-              "score": 0,
-              "color": "#ffffff"
-            },
-            "spec_0": {
-              "score": 0,
-              "color": "#ffffff"
-            },
-            "spec_1": {
-              "score": 0,
-              "color": "#ffffff"
-            },
-            "spec_2": {
-              "score": 0,
-              "color": "#ffffff"
-            },
-            "spec_3": {
-              "score": 0,
-              "color": "#ffffff"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "name": "Shankz",
-      "race": "Undead",
-      "class": "Rogue",
-      "active_spec_name": "Subtlety",
-      "active_spec_role": "DPS",
-      "gender": "male",
-      "faction": "horde",
-      "achievement_points": 14050,
-      "thumbnail_url": "https://render.worldofwarcraft.com/us/character/kelthuzad/18/236613138-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
-      "region": "us",
-      "realm": "Kel'Thuzad",
-      "last_crawled_at": "2026-08-04T12:02:25.000Z",
-      "profile_url": "https://raider.io/characters/us/kelthuzad/Shankz",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
         {
@@ -2373,7 +2242,7 @@
           "segments": {
             "all": {
               "score": 3039.1,
-              "color": "#2f79d3"
+              "color": "#2e79d3"
             },
             "dps": {
               "score": 0,
@@ -2381,19 +2250,19 @@
             },
             "healer": {
               "score": 3039.1,
-              "color": "#2f79d3"
+              "color": "#2e79d3"
             },
             "tank": {
               "score": 371.9,
-              "color": "#f6fff1"
+              "color": "#f5fff1"
             },
             "spec_0": {
               "score": 3039.1,
-              "color": "#2f79d3"
+              "color": "#2e79d3"
             },
             "spec_1": {
               "score": 371.9,
-              "color": "#f6fff1"
+              "color": "#f5fff1"
             },
             "spec_2": {
               "score": 0,
@@ -2419,7 +2288,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/226/184307426-avatar.jpg?alt=/wow/static/images/2d/avatar/3-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-08-01T11:15:38.000Z",
+      "last_crawled_at": "2026-08-08T10:30:42.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Madisonx",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -2438,15 +2307,15 @@
           "segments": {
             "all": {
               "score": 2908.2,
-              "color": "#5191ba"
+              "color": "#5090bb"
             },
             "dps": {
               "score": 328.9,
-              "color": "#f7fff4"
+              "color": "#f7fff3"
             },
             "healer": {
               "score": 2908.2,
-              "color": "#5191ba"
+              "color": "#5090bb"
             },
             "tank": {
               "score": 0,
@@ -2454,7 +2323,7 @@
             },
             "spec_0": {
               "score": 2908.2,
-              "color": "#5191ba"
+              "color": "#5090bb"
             },
             "spec_1": {
               "score": 0,
@@ -2462,7 +2331,7 @@
             },
             "spec_2": {
               "score": 328.9,
-              "color": "#f7fff4"
+              "color": "#f7fff3"
             },
             "spec_3": {
               "score": 0,
@@ -2503,7 +2372,7 @@
           "segments": {
             "all": {
               "score": 2718.3,
-              "color": "#5fb88f"
+              "color": "#5fb692"
             },
             "dps": {
               "score": 0,
@@ -2511,19 +2380,19 @@
             },
             "healer": {
               "score": 2642.4,
-              "color": "#5ec77d"
+              "color": "#5ec481"
             },
             "tank": {
               "score": 741.8,
-              "color": "#ddffcf"
+              "color": "#dcffce"
             },
             "spec_0": {
               "score": 2642.4,
-              "color": "#5ec77d"
+              "color": "#5ec481"
             },
             "spec_1": {
               "score": 741.8,
-              "color": "#ddffcf"
+              "color": "#dcffce"
             },
             "spec_2": {
               "score": 0,
@@ -2568,11 +2437,11 @@
           "segments": {
             "all": {
               "score": 1929.5,
-              "color": "#75ff59"
+              "color": "#73ff57"
             },
             "dps": {
               "score": 1929.5,
-              "color": "#75ff59"
+              "color": "#73ff57"
             },
             "healer": {
               "score": 0,
@@ -2588,7 +2457,7 @@
             },
             "spec_1": {
               "score": 1929.5,
-              "color": "#75ff59"
+              "color": "#73ff57"
             },
             "spec_2": {
               "score": 0,
@@ -2614,7 +2483,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/uther/234/155784426-avatar.jpg?alt=/wow/static/images/2d/avatar/28-0.jpg",
       "region": "us",
       "realm": "Uther",
-      "last_crawled_at": "2026-08-04T12:02:25.000Z",
+      "last_crawled_at": "2026-08-08T10:30:43.000Z",
       "profile_url": "https://raider.io/characters/us/uther/Deadlypalm",
       "profile_banner": "",
       "use_animated_banner": false,
@@ -2634,7 +2503,7 @@
           "segments": {
             "all": {
               "score": 660,
-              "color": "#e2ffd6"
+              "color": "#e2ffd5"
             },
             "dps": {
               "score": 0,
@@ -2646,11 +2515,11 @@
             },
             "tank": {
               "score": 660,
-              "color": "#e2ffd6"
+              "color": "#e2ffd5"
             },
             "spec_0": {
               "score": 660,
-              "color": "#e2ffd6"
+              "color": "#e2ffd5"
             },
             "spec_1": {
               "score": 0,
@@ -2699,11 +2568,11 @@
           "segments": {
             "all": {
               "score": 2904.8,
-              "color": "#5191ba"
+              "color": "#5090bb"
             },
             "dps": {
               "score": 2904.8,
-              "color": "#5191ba"
+              "color": "#5090bb"
             },
             "healer": {
               "score": 0,
@@ -2723,7 +2592,7 @@
             },
             "spec_2": {
               "score": 2904.8,
-              "color": "#5191ba"
+              "color": "#5090bb"
             },
             "spec_3": {
               "score": 0,
@@ -2764,7 +2633,7 @@
           "segments": {
             "all": {
               "score": 2395.5,
-              "color": "#1eff00"
+              "color": "#38f532"
             },
             "dps": {
               "score": 0,
@@ -2772,7 +2641,7 @@
             },
             "healer": {
               "score": 2395.5,
-              "color": "#1eff00"
+              "color": "#38f532"
             },
             "tank": {
               "score": 0,
@@ -2792,7 +2661,7 @@
             },
             "spec_3": {
               "score": 2395.5,
-              "color": "#1eff00"
+              "color": "#38f532"
             }
           }
         }
@@ -2829,11 +2698,11 @@
           "segments": {
             "all": {
               "score": 2704,
-              "color": "#5fbd89"
+              "color": "#5fbb8c"
             },
             "dps": {
               "score": 2704,
-              "color": "#5fbd89"
+              "color": "#5fbb8c"
             },
             "healer": {
               "score": 0,
@@ -2849,7 +2718,7 @@
             },
             "spec_1": {
               "score": 2704,
-              "color": "#5fbd89"
+              "color": "#5fbb8c"
             },
             "spec_2": {
               "score": 0,
@@ -2894,11 +2763,11 @@
           "segments": {
             "all": {
               "score": 2867.3,
-              "color": "#579bb0"
+              "color": "#5799b1"
             },
             "dps": {
               "score": 2867.3,
-              "color": "#579bb0"
+              "color": "#5799b1"
             },
             "healer": {
               "score": 0,
@@ -2914,11 +2783,11 @@
             },
             "spec_1": {
               "score": 2867.3,
-              "color": "#579bb0"
+              "color": "#5799b1"
             },
             "spec_2": {
               "score": 1416,
-              "color": "#aaff90"
+              "color": "#a8ff8e"
             },
             "spec_3": {
               "score": 0,
@@ -2959,11 +2828,11 @@
           "segments": {
             "all": {
               "score": 2375.8,
-              "color": "#1eff00"
+              "color": "#2efa22"
             },
             "dps": {
               "score": 2375.8,
-              "color": "#1eff00"
+              "color": "#2efa22"
             },
             "healer": {
               "score": 0,
@@ -2975,7 +2844,7 @@
             },
             "spec_0": {
               "score": 2375.8,
-              "color": "#1eff00"
+              "color": "#2efa22"
             },
             "spec_1": {
               "score": 0,
@@ -3005,7 +2874,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/kelthuzad/158/240532894-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
       "region": "us",
       "realm": "Kel'Thuzad",
-      "last_crawled_at": "2026-08-04T12:02:25.000Z",
+      "last_crawled_at": "2026-08-08T10:30:43.000Z",
       "profile_url": "https://raider.io/characters/us/kelthuzad/Flawkuh",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -3024,7 +2893,7 @@
           "segments": {
             "all": {
               "score": 1065.7,
-              "color": "#c5ffb1"
+              "color": "#c5ffb0"
             },
             "dps": {
               "score": 0,
@@ -3036,11 +2905,11 @@
             },
             "tank": {
               "score": 1065.7,
-              "color": "#c5ffb1"
+              "color": "#c5ffb0"
             },
             "spec_0": {
               "score": 1065.7,
-              "color": "#c5ffb1"
+              "color": "#c5ffb0"
             },
             "spec_1": {
               "score": 0,
@@ -3154,11 +3023,11 @@
           "segments": {
             "all": {
               "score": 1274.9,
-              "color": "#b6ff9e"
+              "color": "#b5ff9d"
             },
             "dps": {
               "score": 1274.9,
-              "color": "#b6ff9e"
+              "color": "#b5ff9d"
             },
             "healer": {
               "score": 0,
@@ -3178,7 +3047,7 @@
             },
             "spec_2": {
               "score": 1274.9,
-              "color": "#b6ff9e"
+              "color": "#b5ff9d"
             },
             "spec_3": {
               "score": 0,
@@ -3265,7 +3134,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/212/158890196-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-07-24T19:33:07.000Z",
+      "last_crawled_at": "2026-08-08T13:23:38.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Wrathios",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -3284,11 +3153,11 @@
           "segments": {
             "all": {
               "score": 1666.8,
-              "color": "#93ff77"
+              "color": "#91ff75"
             },
             "dps": {
               "score": 331.2,
-              "color": "#f7fff4"
+              "color": "#f7fff3"
             },
             "healer": {
               "score": 0,
@@ -3296,11 +3165,11 @@
             },
             "tank": {
               "score": 1666.8,
-              "color": "#93ff77"
+              "color": "#91ff75"
             },
             "spec_0": {
               "score": 1666.8,
-              "color": "#93ff77"
+              "color": "#91ff75"
             },
             "spec_1": {
               "score": 0,
@@ -3308,7 +3177,7 @@
             },
             "spec_2": {
               "score": 331.2,
-              "color": "#f7fff4"
+              "color": "#f7fff3"
             },
             "spec_3": {
               "score": 0,
@@ -3322,7 +3191,7 @@
       "name": "Kegsmage",
       "race": "Dwarf",
       "class": "Mage",
-      "active_spec_name": "Arcane",
+      "active_spec_name": "Frost",
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "alliance",
@@ -3330,30 +3199,30 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/proudmoore/149/244203925-avatar.jpg?alt=/wow/static/images/2d/avatar/3-1.jpg",
       "region": "us",
       "realm": "Proudmoore",
-      "last_crawled_at": "2026-08-07T04:34:33.000Z",
+      "last_crawled_at": "2026-08-08T21:27:46.000Z",
       "profile_url": "https://raider.io/characters/us/proudmoore/Kegsmage",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 2568.3,
-            "dps": 2568.3,
+            "all": 2694.4,
+            "dps": 2694.4,
             "healer": 0,
             "tank": 0,
-            "spec_0": 1750.3,
+            "spec_0": 2201.7,
             "spec_1": 599,
             "spec_2": 2435.2,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 2568.3,
-              "color": "#58d66a"
+              "score": 2694.4,
+              "color": "#5fbb8c"
             },
             "dps": {
-              "score": 2568.3,
-              "color": "#58d66a"
+              "score": 2694.4,
+              "color": "#5fbb8c"
             },
             "healer": {
               "score": 0,
@@ -3364,16 +3233,16 @@
               "color": "#ffffff"
             },
             "spec_0": {
-              "score": 1750.3,
-              "color": "#89ff6d"
+              "score": 2201.7,
+              "color": "#49ff30"
             },
             "spec_1": {
               "score": 599,
-              "color": "#e7ffdd"
+              "color": "#e7ffdc"
             },
             "spec_2": {
               "score": 2435.2,
-              "color": "#39f533"
+              "color": "#40f03e"
             },
             "spec_3": {
               "score": 0,
@@ -3414,11 +3283,11 @@
           "segments": {
             "all": {
               "score": 2081.2,
-              "color": "#62ff46"
+              "color": "#5fff43"
             },
             "dps": {
               "score": 1003.7,
-              "color": "#c9ffb5"
+              "color": "#c8ffb5"
             },
             "healer": {
               "score": 0,
@@ -3426,19 +3295,19 @@
             },
             "tank": {
               "score": 1614.9,
-              "color": "#98ff7c"
+              "color": "#96ff7a"
             },
             "spec_0": {
               "score": 1614.9,
-              "color": "#98ff7c"
+              "color": "#96ff7a"
             },
             "spec_1": {
               "score": 668.7,
-              "color": "#e2ffd6"
+              "color": "#e2ffd5"
             },
             "spec_2": {
               "score": 664.5,
-              "color": "#e2ffd6"
+              "color": "#e2ffd5"
             },
             "spec_3": {
               "score": 0,
@@ -3479,11 +3348,11 @@
           "segments": {
             "all": {
               "score": 2961.9,
-              "color": "#4788c4"
+              "color": "#4687c5"
             },
             "dps": {
               "score": 2961.9,
-              "color": "#4788c4"
+              "color": "#4687c5"
             },
             "healer": {
               "score": 0,
@@ -3495,7 +3364,7 @@
             },
             "spec_0": {
               "score": 2961.9,
-              "color": "#4788c4"
+              "color": "#4687c5"
             },
             "spec_1": {
               "score": 0,
@@ -3544,7 +3413,7 @@
           "segments": {
             "all": {
               "score": 1146.2,
-              "color": "#c0ffaa"
+              "color": "#bfffa9"
             },
             "dps": {
               "score": 680,
@@ -3556,11 +3425,11 @@
             },
             "tank": {
               "score": 805.8,
-              "color": "#d8ffc8"
+              "color": "#d7ffc7"
             },
             "spec_0": {
               "score": 805.8,
-              "color": "#d8ffc8"
+              "color": "#d7ffc7"
             },
             "spec_1": {
               "score": 0,
@@ -3610,11 +3479,11 @@
           "segments": {
             "all": {
               "score": 1808.5,
-              "color": "#84ff67"
+              "color": "#82ff65"
             },
             "dps": {
               "score": 1808.5,
-              "color": "#84ff67"
+              "color": "#82ff65"
             },
             "healer": {
               "score": 0,
@@ -3626,7 +3495,7 @@
             },
             "spec_0": {
               "score": 1808.5,
-              "color": "#84ff67"
+              "color": "#82ff65"
             },
             "spec_1": {
               "score": 0,
@@ -3710,71 +3579,6 @@
       ]
     },
     {
-      "name": "Alydía",
-      "race": "Human",
-      "class": "Warlock",
-      "active_spec_name": "Demonology",
-      "active_spec_role": "DPS",
-      "gender": "female",
-      "faction": "alliance",
-      "achievement_points": 25825,
-      "thumbnail_url": "https://render.worldofwarcraft.com/us/character/zuljin/62/260834110-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
-      "region": "us",
-      "realm": "Zul'jin",
-      "last_crawled_at": "2026-07-07T13:14:29.000Z",
-      "profile_url": "https://raider.io/characters/us/zuljin/Alydía",
-      "profile_banner": "alliancebanner1",
-      "mythic_plus_scores_by_season": [
-        {
-          "season": "season-mn-1",
-          "scores": {
-            "all": 3011.1,
-            "dps": 3011.1,
-            "healer": 0,
-            "tank": 0,
-            "spec_0": 0,
-            "spec_1": 3011.1,
-            "spec_2": 0,
-            "spec_3": 0
-          },
-          "segments": {
-            "all": {
-              "score": 3011.1,
-              "color": "#397ece"
-            },
-            "dps": {
-              "score": 3011.1,
-              "color": "#397ece"
-            },
-            "healer": {
-              "score": 0,
-              "color": "#ffffff"
-            },
-            "tank": {
-              "score": 0,
-              "color": "#ffffff"
-            },
-            "spec_0": {
-              "score": 0,
-              "color": "#ffffff"
-            },
-            "spec_1": {
-              "score": 3011.1,
-              "color": "#397ece"
-            },
-            "spec_2": {
-              "score": 0,
-              "color": "#ffffff"
-            },
-            "spec_3": {
-              "score": 0,
-              "color": "#ffffff"
-            }
-          }
-        }
-      ]
-    },
-    {
       "name": "Mthsv",
       "race": "Human",
       "class": "Hunter",
@@ -3805,11 +3609,11 @@
           "segments": {
             "all": {
               "score": 2743.6,
-              "color": "#5fb395"
+              "color": "#5fb197"
             },
             "dps": {
               "score": 2743.6,
-              "color": "#5fb395"
+              "color": "#5fb197"
             },
             "healer": {
               "score": 0,
@@ -3821,7 +3625,7 @@
             },
             "spec_0": {
               "score": 2743.6,
-              "color": "#5fb395"
+              "color": "#5fb197"
             },
             "spec_1": {
               "score": 0,
@@ -3916,7 +3720,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/192/245390016-avatar.jpg?alt=/wow/static/images/2d/avatar/32-0.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-08-07T10:58:34.000Z",
+      "last_crawled_at": "2026-08-08T21:38:51.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Baahubali",
       "profile_banner": "classbanner_warrior1",
       "mythic_plus_scores_by_season": [
@@ -3935,7 +3739,7 @@
           "segments": {
             "all": {
               "score": 2998.4,
-              "color": "#4183c9"
+              "color": "#387ecf"
             },
             "dps": {
               "score": 275,
@@ -3947,7 +3751,7 @@
             },
             "tank": {
               "score": 2998.4,
-              "color": "#4183c9"
+              "color": "#387ecf"
             },
             "spec_0": {
               "score": 0,
@@ -3959,7 +3763,7 @@
             },
             "spec_2": {
               "score": 2998.4,
-              "color": "#4183c9"
+              "color": "#387ecf"
             },
             "spec_3": {
               "score": 0,
@@ -4065,11 +3869,11 @@
           "segments": {
             "all": {
               "score": 2764.9,
-              "color": "#5eae9a"
+              "color": "#5eac9d"
             },
             "dps": {
               "score": 2764.9,
-              "color": "#5eae9a"
+              "color": "#5eac9d"
             },
             "healer": {
               "score": 0,
@@ -4081,15 +3885,15 @@
             },
             "spec_0": {
               "score": 2757,
-              "color": "#5fb395"
+              "color": "#5eac9d"
             },
             "spec_1": {
               "score": 1235,
-              "color": "#b8ffa0"
+              "color": "#b7ff9f"
             },
             "spec_2": {
               "score": 335,
-              "color": "#f7fff4"
+              "color": "#f7fff3"
             },
             "spec_3": {
               "score": 0,
@@ -4138,7 +3942,7 @@
             },
             "healer": {
               "score": 2351.7,
-              "color": "#28ff0e"
+              "color": "#1eff00"
             },
             "tank": {
               "score": 3537,
@@ -4158,7 +3962,7 @@
             },
             "spec_3": {
               "score": 2351.7,
-              "color": "#28ff0e"
+              "color": "#1eff00"
             }
           }
         }
@@ -4176,42 +3980,42 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/proudmoore/103/244915303-avatar.jpg?alt=/wow/static/images/2d/avatar/9-0.jpg",
       "region": "us",
       "realm": "Proudmoore",
-      "last_crawled_at": "2026-08-08T07:15:54.000Z",
+      "last_crawled_at": "2026-08-09T06:49:45.000Z",
       "profile_url": "https://raider.io/characters/us/proudmoore/Bigkeg",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 2825.2,
+            "all": 2932.8,
             "dps": 2080.7,
-            "healer": 2747,
+            "healer": 2854.6,
             "tank": 0,
-            "spec_0": 2747,
+            "spec_0": 2854.6,
             "spec_1": 0,
             "spec_2": 2080.7,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 2825.2,
-              "color": "#5ca5a5"
+              "score": 2932.8,
+              "color": "#4b8bc0"
             },
             "dps": {
               "score": 2080.7,
-              "color": "#62ff46"
+              "color": "#5fff43"
             },
             "healer": {
-              "score": 2747,
-              "color": "#5fb395"
+              "score": 2854.6,
+              "color": "#599eac"
             },
             "tank": {
               "score": 0,
               "color": "#ffffff"
             },
             "spec_0": {
-              "score": 2747,
-              "color": "#5fb395"
+              "score": 2854.6,
+              "color": "#599eac"
             },
             "spec_1": {
               "score": 0,
@@ -4219,7 +4023,7 @@
             },
             "spec_2": {
               "score": 2080.7,
-              "color": "#62ff46"
+              "color": "#5fff43"
             },
             "spec_3": {
               "score": 0,
@@ -4260,11 +4064,11 @@
           "segments": {
             "all": {
               "score": 2770.2,
-              "color": "#5eae9a"
+              "color": "#5eac9d"
             },
             "dps": {
               "score": 2770.2,
-              "color": "#5eae9a"
+              "color": "#5eac9d"
             },
             "healer": {
               "score": 0,
@@ -4272,19 +4076,19 @@
             },
             "tank": {
               "score": 1219.8,
-              "color": "#baffa3"
+              "color": "#b9ffa2"
             },
             "spec_0": {
               "score": 332.2,
-              "color": "#f7fff4"
+              "color": "#f7fff3"
             },
             "spec_1": {
               "score": 1219.8,
-              "color": "#baffa3"
+              "color": "#b9ffa2"
             },
             "spec_2": {
               "score": 2770.2,
-              "color": "#5eae9a"
+              "color": "#5eac9d"
             },
             "spec_3": {
               "score": 0,
@@ -4325,15 +4129,15 @@
           "segments": {
             "all": {
               "score": 2763.8,
-              "color": "#5eae9a"
+              "color": "#5eac9d"
             },
             "dps": {
               "score": 2757.6,
-              "color": "#5fb395"
+              "color": "#5eac9d"
             },
             "healer": {
               "score": 2629.3,
-              "color": "#5ccc77"
+              "color": "#5dc97b"
             },
             "tank": {
               "score": 0,
@@ -4341,15 +4145,15 @@
             },
             "spec_0": {
               "score": 2746.1,
-              "color": "#5fb395"
+              "color": "#5fb197"
             },
             "spec_1": {
               "score": 1330.2,
-              "color": "#b0ff97"
+              "color": "#afff96"
             },
             "spec_2": {
               "score": 2629.3,
-              "color": "#5ccc77"
+              "color": "#5dc97b"
             },
             "spec_3": {
               "score": 0,
@@ -4410,7 +4214,7 @@
             },
             "spec_1": {
               "score": 2365,
-              "color": "#28ff0e"
+              "color": "#1eff00"
             },
             "spec_2": {
               "score": 485.6,
@@ -4455,15 +4259,15 @@
           "segments": {
             "all": {
               "score": 2698.3,
-              "color": "#5fbd89"
+              "color": "#5fbb8c"
             },
             "dps": {
               "score": 2681.2,
-              "color": "#5fc283"
+              "color": "#5fbf87"
             },
             "healer": {
               "score": 2101.4,
-              "color": "#5eff43"
+              "color": "#5bff40"
             },
             "tank": {
               "score": 0,
@@ -4471,7 +4275,7 @@
             },
             "spec_0": {
               "score": 2101.4,
-              "color": "#5eff43"
+              "color": "#5bff40"
             },
             "spec_1": {
               "score": 0,
@@ -4479,7 +4283,7 @@
             },
             "spec_2": {
               "score": 2681.2,
-              "color": "#5fc283"
+              "color": "#5fbf87"
             },
             "spec_3": {
               "score": 0,
@@ -4566,7 +4370,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/proudmoore/228/245337316-avatar.jpg?alt=/wow/static/images/2d/avatar/70-1.jpg",
       "region": "us",
       "realm": "Proudmoore",
-      "last_crawled_at": "2026-08-07T03:10:32.000Z",
+      "last_crawled_at": "2026-08-09T01:28:50.000Z",
       "profile_url": "https://raider.io/characters/us/proudmoore/Kegroar",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -4585,15 +4389,15 @@
           "segments": {
             "all": {
               "score": 2866.4,
-              "color": "#579bb0"
+              "color": "#5799b1"
             },
             "dps": {
               "score": 2475.5,
-              "color": "#47eb4a"
+              "color": "#4ce651"
             },
             "healer": {
               "score": 2728.6,
-              "color": "#5fb88f"
+              "color": "#5fb692"
             },
             "tank": {
               "score": 0,
@@ -4601,15 +4405,15 @@
             },
             "spec_0": {
               "score": 656.4,
-              "color": "#e2ffd6"
+              "color": "#e2ffd5"
             },
             "spec_1": {
               "score": 2728.6,
-              "color": "#5fb88f"
+              "color": "#5fb692"
             },
             "spec_2": {
               "score": 2467.7,
-              "color": "#41f03f"
+              "color": "#47eb48"
             },
             "spec_3": {
               "score": 0,
@@ -4650,11 +4454,11 @@
           "segments": {
             "all": {
               "score": 2480.7,
-              "color": "#47eb4a"
+              "color": "#4ce651"
             },
             "dps": {
               "score": 2480.7,
-              "color": "#47eb4a"
+              "color": "#4ce651"
             },
             "healer": {
               "score": 0,
@@ -4666,11 +4470,11 @@
             },
             "spec_0": {
               "score": 346.1,
-              "color": "#f7fff4"
+              "color": "#f7fff3"
             },
             "spec_1": {
               "score": 2134.6,
-              "color": "#5aff3f"
+              "color": "#57ff3c"
             },
             "spec_2": {
               "score": 0,
@@ -4715,7 +4519,7 @@
           "segments": {
             "all": {
               "score": 1849.9,
-              "color": "#81ff64"
+              "color": "#7fff62"
             },
             "dps": {
               "score": 0,
@@ -4723,7 +4527,7 @@
             },
             "healer": {
               "score": 1849.9,
-              "color": "#81ff64"
+              "color": "#7fff62"
             },
             "tank": {
               "score": 0,
@@ -4731,7 +4535,7 @@
             },
             "spec_0": {
               "score": 1849.9,
-              "color": "#81ff64"
+              "color": "#7fff62"
             },
             "spec_1": {
               "score": 0,
@@ -4826,29 +4630,29 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/47/264163119-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-08-08T07:05:34.000Z",
+      "last_crawled_at": "2026-08-09T06:50:35.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Baddidaddi",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 3079.5,
-            "dps": 3079.5,
+            "all": 3088.5,
+            "dps": 3088.5,
             "healer": 0,
             "tank": 0,
-            "spec_0": 3079.5,
+            "spec_0": 3088.5,
             "spec_1": 0,
             "spec_2": 0,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3079.5,
+              "score": 3088.5,
               "color": "#2075d8"
             },
             "dps": {
-              "score": 3079.5,
+              "score": 3088.5,
               "color": "#2075d8"
             },
             "healer": {
@@ -4860,7 +4664,7 @@
               "color": "#ffffff"
             },
             "spec_0": {
-              "score": 3079.5,
+              "score": 3088.5,
               "color": "#2075d8"
             },
             "spec_1": {
@@ -4975,11 +4779,11 @@
           "segments": {
             "all": {
               "score": 1242.1,
-              "color": "#b8ffa0"
+              "color": "#b7ff9f"
             },
             "dps": {
               "score": 1242.1,
-              "color": "#b8ffa0"
+              "color": "#b7ff9f"
             },
             "healer": {
               "score": 0,
@@ -4999,7 +4803,7 @@
             },
             "spec_2": {
               "score": 1242.1,
-              "color": "#b8ffa0"
+              "color": "#b7ff9f"
             },
             "spec_3": {
               "score": 0,
@@ -5040,11 +4844,11 @@
           "segments": {
             "all": {
               "score": 3014.2,
-              "color": "#397ece"
+              "color": "#387ecf"
             },
             "dps": {
               "score": 3014.2,
-              "color": "#397ece"
+              "color": "#387ecf"
             },
             "healer": {
               "score": 0,
@@ -5056,7 +4860,7 @@
             },
             "spec_0": {
               "score": 361.5,
-              "color": "#f6fff1"
+              "color": "#f5fff1"
             },
             "spec_1": {
               "score": 170,
@@ -5064,7 +4868,7 @@
             },
             "spec_2": {
               "score": 3014.2,
-              "color": "#397ece"
+              "color": "#387ecf"
             },
             "spec_3": {
               "score": 0,
@@ -5174,7 +4978,7 @@
             },
             "dps": {
               "score": 335,
-              "color": "#f7fff4"
+              "color": "#f7fff3"
             },
             "healer": {
               "score": 0,
@@ -5194,7 +4998,7 @@
             },
             "spec_2": {
               "score": 335,
-              "color": "#f7fff4"
+              "color": "#f7fff3"
             },
             "spec_3": {
               "score": 0,
@@ -5255,7 +5059,7 @@
             },
             "spec_1": {
               "score": 1366,
-              "color": "#aeff95"
+              "color": "#adff93"
             },
             "spec_2": {
               "score": 3090,
@@ -5365,7 +5169,7 @@
           "segments": {
             "all": {
               "score": 2755.1,
-              "color": "#5fb395"
+              "color": "#5eac9d"
             },
             "dps": {
               "score": 0,
@@ -5373,7 +5177,7 @@
             },
             "healer": {
               "score": 2755.1,
-              "color": "#5fb395"
+              "color": "#5eac9d"
             },
             "tank": {
               "score": 0,
@@ -5381,7 +5185,7 @@
             },
             "spec_0": {
               "score": 2755.1,
-              "color": "#5fb395"
+              "color": "#5eac9d"
             },
             "spec_1": {
               "score": 0,
@@ -5430,11 +5234,11 @@
           "segments": {
             "all": {
               "score": 330,
-              "color": "#f7fff4"
+              "color": "#f7fff3"
             },
             "dps": {
               "score": 330,
-              "color": "#f7fff4"
+              "color": "#f7fff3"
             },
             "healer": {
               "score": 0,
@@ -5450,7 +5254,7 @@
             },
             "spec_1": {
               "score": 330,
-              "color": "#f7fff4"
+              "color": "#f7fff3"
             },
             "spec_2": {
               "score": 0,
@@ -5560,11 +5364,11 @@
           "segments": {
             "all": {
               "score": 2970.4,
-              "color": "#4788c4"
+              "color": "#4687c5"
             },
             "dps": {
               "score": 2970.4,
-              "color": "#4788c4"
+              "color": "#4687c5"
             },
             "healer": {
               "score": 0,
@@ -5584,7 +5388,7 @@
             },
             "spec_2": {
               "score": 2970.4,
-              "color": "#4788c4"
+              "color": "#4687c5"
             },
             "spec_3": {
               "score": 0,
@@ -5690,11 +5494,11 @@
           "segments": {
             "all": {
               "score": 2792.8,
-              "color": "#5da9a0"
+              "color": "#5da8a2"
             },
             "dps": {
               "score": 2792.8,
-              "color": "#5da9a0"
+              "color": "#5da8a2"
             },
             "healer": {
               "score": 0,
@@ -5714,7 +5518,7 @@
             },
             "spec_2": {
               "score": 2792.8,
-              "color": "#5da9a0"
+              "color": "#5da8a2"
             },
             "spec_3": {
               "score": 0,
@@ -5801,7 +5605,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/ravencrest/44/236174380-avatar.jpg?alt=/wow/static/images/2d/avatar/25-1.jpg",
       "region": "us",
       "realm": "Ravencrest",
-      "last_crawled_at": "2026-08-01T11:16:39.000Z",
+      "last_crawled_at": "2026-08-08T10:31:37.000Z",
       "profile_url": "https://raider.io/characters/us/ravencrest/Eunjung",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -5885,11 +5689,11 @@
           "segments": {
             "all": {
               "score": 2384,
-              "color": "#1eff00"
+              "color": "#2efa22"
             },
             "dps": {
               "score": 2384,
-              "color": "#1eff00"
+              "color": "#2efa22"
             },
             "healer": {
               "score": 0,
@@ -5905,7 +5709,7 @@
             },
             "spec_1": {
               "score": 2384,
-              "color": "#1eff00"
+              "color": "#2efa22"
             },
             "spec_2": {
               "score": 0,
@@ -5950,11 +5754,11 @@
           "segments": {
             "all": {
               "score": 765.7,
-              "color": "#dbffcd"
+              "color": "#dbffcc"
             },
             "dps": {
               "score": 765.7,
-              "color": "#dbffcd"
+              "color": "#dbffcc"
             },
             "healer": {
               "score": 0,
@@ -5974,7 +5778,7 @@
             },
             "spec_2": {
               "score": 765.7,
-              "color": "#dbffcd"
+              "color": "#dbffcc"
             },
             "spec_3": {
               "score": 0,
@@ -6080,11 +5884,11 @@
           "segments": {
             "all": {
               "score": 2654.1,
-              "color": "#5ec77d"
+              "color": "#5ec481"
             },
             "dps": {
               "score": 1549.2,
-              "color": "#9fff84"
+              "color": "#9dff82"
             },
             "healer": {
               "score": 161.3,
@@ -6092,7 +5896,7 @@
             },
             "tank": {
               "score": 2592.6,
-              "color": "#5ad171"
+              "color": "#5cce75"
             },
             "spec_0": {
               "score": 161.3,
@@ -6100,11 +5904,11 @@
             },
             "spec_1": {
               "score": 2592.6,
-              "color": "#5ad171"
+              "color": "#5cce75"
             },
             "spec_2": {
               "score": 1549.2,
-              "color": "#9fff84"
+              "color": "#9dff82"
             },
             "spec_3": {
               "score": 0,
@@ -6210,7 +6014,7 @@
           "segments": {
             "all": {
               "score": 3007,
-              "color": "#397ece"
+              "color": "#387ecf"
             },
             "dps": {
               "score": 0,
@@ -6218,7 +6022,7 @@
             },
             "healer": {
               "score": 3007,
-              "color": "#397ece"
+              "color": "#387ecf"
             },
             "tank": {
               "score": 0,
@@ -6226,7 +6030,7 @@
             },
             "spec_0": {
               "score": 3007,
-              "color": "#397ece"
+              "color": "#387ecf"
             },
             "spec_1": {
               "score": 163.1,
@@ -6256,7 +6060,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/184/249228472-avatar.jpg?alt=/wow/static/images/2d/avatar/91-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-08-07T03:56:35.000Z",
+      "last_crawled_at": "2026-08-08T14:21:36.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Emmaróids",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -6275,11 +6079,11 @@
           "segments": {
             "all": {
               "score": 3018.7,
-              "color": "#397ece"
+              "color": "#387ecf"
             },
             "dps": {
               "score": 3018.7,
-              "color": "#397ece"
+              "color": "#387ecf"
             },
             "healer": {
               "score": 0,
@@ -6287,11 +6091,11 @@
             },
             "tank": {
               "score": 2435.9,
-              "color": "#39f533"
+              "color": "#40f03e"
             },
             "spec_0": {
               "score": 2435.9,
-              "color": "#39f533"
+              "color": "#40f03e"
             },
             "spec_1": {
               "score": 0,
@@ -6299,7 +6103,7 @@
             },
             "spec_2": {
               "score": 3018.7,
-              "color": "#397ece"
+              "color": "#387ecf"
             },
             "spec_3": {
               "score": 0,
@@ -6356,7 +6160,7 @@
             },
             "spec_0": {
               "score": 743.1,
-              "color": "#ddffcf"
+              "color": "#dcffce"
             },
             "spec_1": {
               "score": 3046.8,
@@ -6405,7 +6209,7 @@
           "segments": {
             "all": {
               "score": 1205.9,
-              "color": "#baffa3"
+              "color": "#b9ffa2"
             },
             "dps": {
               "score": 0,
@@ -6417,7 +6221,7 @@
             },
             "tank": {
               "score": 1205.9,
-              "color": "#baffa3"
+              "color": "#b9ffa2"
             },
             "spec_0": {
               "score": 0,
@@ -6425,7 +6229,7 @@
             },
             "spec_1": {
               "score": 1205.9,
-              "color": "#baffa3"
+              "color": "#b9ffa2"
             },
             "spec_2": {
               "score": 0,
@@ -6535,7 +6339,7 @@
           "segments": {
             "all": {
               "score": 2969.3,
-              "color": "#4788c4"
+              "color": "#4687c5"
             },
             "dps": {
               "score": 0,
@@ -6543,7 +6347,7 @@
             },
             "healer": {
               "score": 2969.3,
-              "color": "#4788c4"
+              "color": "#4687c5"
             },
             "tank": {
               "score": 0,
@@ -6555,7 +6359,7 @@
             },
             "spec_1": {
               "score": 2969.3,
-              "color": "#4788c4"
+              "color": "#4687c5"
             },
             "spec_2": {
               "score": 0,
@@ -6600,11 +6404,11 @@
           "segments": {
             "all": {
               "score": 2390.1,
-              "color": "#1eff00"
+              "color": "#2efa22"
             },
             "dps": {
               "score": 671.8,
-              "color": "#e2ffd6"
+              "color": "#e2ffd5"
             },
             "healer": {
               "score": 0,
@@ -6612,15 +6416,15 @@
             },
             "tank": {
               "score": 2256.6,
-              "color": "#44ff2a"
+              "color": "#3eff25"
             },
             "spec_0": {
               "score": 671.8,
-              "color": "#e2ffd6"
+              "color": "#e2ffd5"
             },
             "spec_1": {
               "score": 2256.6,
-              "color": "#44ff2a"
+              "color": "#3eff25"
             },
             "spec_2": {
               "score": 0,
@@ -6665,11 +6469,11 @@
           "segments": {
             "all": {
               "score": 2709.1,
-              "color": "#5fbd89"
+              "color": "#5fbb8c"
             },
             "dps": {
               "score": 2709.1,
-              "color": "#5fbd89"
+              "color": "#5fbb8c"
             },
             "healer": {
               "score": 0,
@@ -6681,15 +6485,15 @@
             },
             "spec_0": {
               "score": 2574.2,
-              "color": "#58d66a"
+              "color": "#5ad36f"
             },
             "spec_1": {
               "score": 2289.9,
-              "color": "#3eff25"
+              "color": "#38ff1f"
             },
             "spec_2": {
               "score": 331.9,
-              "color": "#f7fff4"
+              "color": "#f7fff3"
             },
             "spec_3": {
               "score": 0,
@@ -6730,11 +6534,11 @@
           "segments": {
             "all": {
               "score": 2655.1,
-              "color": "#5ec77d"
+              "color": "#5ec481"
             },
             "dps": {
               "score": 2655.1,
-              "color": "#5ec77d"
+              "color": "#5ec481"
             },
             "healer": {
               "score": 0,
@@ -6754,7 +6558,7 @@
             },
             "spec_2": {
               "score": 2655.1,
-              "color": "#5ec77d"
+              "color": "#5ec481"
             },
             "spec_3": {
               "score": 0,
@@ -6795,11 +6599,11 @@
           "segments": {
             "all": {
               "score": 2806.3,
-              "color": "#5ca5a5"
+              "color": "#5ba3a7"
             },
             "dps": {
               "score": 2806.3,
-              "color": "#5ca5a5"
+              "color": "#5ba3a7"
             },
             "healer": {
               "score": 0,
@@ -6815,11 +6619,11 @@
             },
             "spec_1": {
               "score": 981.4,
-              "color": "#cbffb8"
+              "color": "#caffb7"
             },
             "spec_2": {
               "score": 2806.3,
-              "color": "#5ca5a5"
+              "color": "#5ba3a7"
             },
             "spec_3": {
               "score": 0,
@@ -6990,11 +6794,11 @@
           "segments": {
             "all": {
               "score": 2816.9,
-              "color": "#5ca5a5"
+              "color": "#5ba3a7"
             },
             "dps": {
               "score": 2816.9,
-              "color": "#5ca5a5"
+              "color": "#5ba3a7"
             },
             "healer": {
               "score": 0,
@@ -7006,7 +6810,7 @@
             },
             "spec_0": {
               "score": 2816.9,
-              "color": "#5ca5a5"
+              "color": "#5ba3a7"
             },
             "spec_1": {
               "score": 0,
@@ -7189,7 +6993,7 @@
             },
             "dps": {
               "score": 552.9,
-              "color": "#e9ffdf"
+              "color": "#e8ffdf"
             },
             "healer": {
               "score": 3079.3,
@@ -7201,7 +7005,7 @@
             },
             "spec_0": {
               "score": 552.9,
-              "color": "#e9ffdf"
+              "color": "#e8ffdf"
             },
             "spec_1": {
               "score": 0,
@@ -7250,11 +7054,11 @@
           "segments": {
             "all": {
               "score": 2029.5,
-              "color": "#69ff4d"
+              "color": "#66ff4a"
             },
             "dps": {
               "score": 2029.5,
-              "color": "#69ff4d"
+              "color": "#66ff4a"
             },
             "healer": {
               "score": 0,
@@ -7274,7 +7078,7 @@
             },
             "spec_2": {
               "score": 2029.5,
-              "color": "#69ff4d"
+              "color": "#66ff4a"
             },
             "spec_3": {
               "score": 0,
@@ -7315,7 +7119,7 @@
           "segments": {
             "all": {
               "score": 1297.8,
-              "color": "#b4ff9c"
+              "color": "#b3ff9b"
             },
             "dps": {
               "score": 0,
@@ -7323,7 +7127,7 @@
             },
             "healer": {
               "score": 1297.8,
-              "color": "#b4ff9c"
+              "color": "#b3ff9b"
             },
             "tank": {
               "score": 0,
@@ -7335,7 +7139,7 @@
             },
             "spec_1": {
               "score": 1297.8,
-              "color": "#b4ff9c"
+              "color": "#b3ff9b"
             },
             "spec_2": {
               "score": 0,
@@ -7380,11 +7184,11 @@
           "segments": {
             "all": {
               "score": 2614.8,
-              "color": "#5ad171"
+              "color": "#5cce75"
             },
             "dps": {
               "score": 2614.8,
-              "color": "#5ad171"
+              "color": "#5cce75"
             },
             "healer": {
               "score": 0,
@@ -7400,7 +7204,7 @@
             },
             "spec_1": {
               "score": 2614.8,
-              "color": "#5ad171"
+              "color": "#5cce75"
             },
             "spec_2": {
               "score": 0,
@@ -7510,11 +7314,11 @@
           "segments": {
             "all": {
               "score": 728.5,
-              "color": "#ddffcf"
+              "color": "#dcffce"
             },
             "dps": {
               "score": 728.5,
-              "color": "#ddffcf"
+              "color": "#dcffce"
             },
             "healer": {
               "score": 0,
@@ -7534,7 +7338,7 @@
             },
             "spec_2": {
               "score": 728.5,
-              "color": "#ddffcf"
+              "color": "#dcffce"
             },
             "spec_3": {
               "score": 0,
@@ -7575,11 +7379,11 @@
           "segments": {
             "all": {
               "score": 3008.1,
-              "color": "#397ece"
+              "color": "#387ecf"
             },
             "dps": {
               "score": 3008.1,
-              "color": "#397ece"
+              "color": "#387ecf"
             },
             "healer": {
               "score": 0,
@@ -7599,7 +7403,7 @@
             },
             "spec_2": {
               "score": 3008.1,
-              "color": "#397ece"
+              "color": "#387ecf"
             },
             "spec_3": {
               "score": 0,
@@ -7640,11 +7444,11 @@
           "segments": {
             "all": {
               "score": 1068.7,
-              "color": "#c5ffb1"
+              "color": "#c5ffb0"
             },
             "dps": {
               "score": 1068.7,
-              "color": "#c5ffb1"
+              "color": "#c5ffb0"
             },
             "healer": {
               "score": 0,
@@ -7664,7 +7468,7 @@
             },
             "spec_2": {
               "score": 1068.7,
-              "color": "#c5ffb1"
+              "color": "#c5ffb0"
             },
             "spec_3": {
               "score": 0,
@@ -7705,7 +7509,7 @@
           "segments": {
             "all": {
               "score": 2884.7,
-              "color": "#5496b5"
+              "color": "#5395b6"
             },
             "dps": {
               "score": 0,
@@ -7713,7 +7517,7 @@
             },
             "healer": {
               "score": 2884.7,
-              "color": "#5496b5"
+              "color": "#5395b6"
             },
             "tank": {
               "score": 0,
@@ -7725,7 +7529,7 @@
             },
             "spec_1": {
               "score": 2884.7,
-              "color": "#5496b5"
+              "color": "#5395b6"
             },
             "spec_2": {
               "score": 0,
@@ -7812,11 +7616,11 @@
       "active_spec_role": "HEALING",
       "gender": "female",
       "faction": "horde",
-      "achievement_points": 10110,
+      "achievement_points": 10235,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/142/249718158-avatar.jpg?alt=/wow/static/images/2d/avatar/91-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-08-05T13:19:29.000Z",
+      "last_crawled_at": "2026-08-09T02:05:41.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Elunalora",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -7835,7 +7639,7 @@
           "segments": {
             "all": {
               "score": 3007.6,
-              "color": "#397ece"
+              "color": "#387ecf"
             },
             "dps": {
               "score": 0,
@@ -7843,7 +7647,7 @@
             },
             "healer": {
               "score": 3007.6,
-              "color": "#397ece"
+              "color": "#387ecf"
             },
             "tank": {
               "score": 0,
@@ -7863,7 +7667,7 @@
             },
             "spec_3": {
               "score": 3007.6,
-              "color": "#397ece"
+              "color": "#387ecf"
             }
           }
         }
@@ -7900,11 +7704,11 @@
           "segments": {
             "all": {
               "score": 2093.2,
-              "color": "#62ff46"
+              "color": "#5fff43"
             },
             "dps": {
               "score": 2093.2,
-              "color": "#62ff46"
+              "color": "#5fff43"
             },
             "healer": {
               "score": 0,
@@ -7924,7 +7728,7 @@
             },
             "spec_2": {
               "score": 2093.2,
-              "color": "#62ff46"
+              "color": "#5fff43"
             },
             "spec_3": {
               "score": 0,
@@ -8030,11 +7834,11 @@
           "segments": {
             "all": {
               "score": 2553.2,
-              "color": "#55db63"
+              "color": "#57d868"
             },
             "dps": {
               "score": 1646.9,
-              "color": "#95ff7a"
+              "color": "#94ff78"
             },
             "healer": {
               "score": 0,
@@ -8042,15 +7846,15 @@
             },
             "tank": {
               "score": 2526,
-              "color": "#51e05b"
+              "color": "#54dc61"
             },
             "spec_0": {
               "score": 2526,
-              "color": "#51e05b"
+              "color": "#54dc61"
             },
             "spec_1": {
               "score": 945.8,
-              "color": "#cfffbc"
+              "color": "#ceffbc"
             },
             "spec_2": {
               "score": 701.1,
@@ -8172,7 +7976,7 @@
             },
             "tank": {
               "score": 1093.7,
-              "color": "#c4ffaf"
+              "color": "#c3ffae"
             },
             "spec_0": {
               "score": 0,
@@ -8184,7 +7988,7 @@
             },
             "spec_2": {
               "score": 1093.7,
-              "color": "#c4ffaf"
+              "color": "#c3ffae"
             },
             "spec_3": {
               "score": 0,
@@ -8225,11 +8029,11 @@
           "segments": {
             "all": {
               "score": 1286,
-              "color": "#b4ff9c"
+              "color": "#b3ff9b"
             },
             "dps": {
               "score": 1286,
-              "color": "#b4ff9c"
+              "color": "#b3ff9b"
             },
             "healer": {
               "score": 0,
@@ -8249,7 +8053,7 @@
             },
             "spec_2": {
               "score": 1286,
-              "color": "#b4ff9c"
+              "color": "#b3ff9b"
             },
             "spec_3": {
               "score": 0,
@@ -8290,11 +8094,11 @@
           "segments": {
             "all": {
               "score": 503,
-              "color": "#ecffe4"
+              "color": "#ecffe3"
             },
             "dps": {
               "score": 503,
-              "color": "#ecffe4"
+              "color": "#ecffe3"
             },
             "healer": {
               "score": 0,
@@ -8310,7 +8114,7 @@
             },
             "spec_1": {
               "score": 503,
-              "color": "#ecffe4"
+              "color": "#ecffe3"
             },
             "spec_2": {
               "score": 0,
@@ -8424,7 +8228,7 @@
             },
             "dps": {
               "score": 2579,
-              "color": "#58d66a"
+              "color": "#5ad36f"
             },
             "healer": {
               "score": 3184.6,
@@ -8432,11 +8236,11 @@
             },
             "tank": {
               "score": 2736.2,
-              "color": "#5fb395"
+              "color": "#5fb197"
             },
             "spec_0": {
               "score": 2736.2,
-              "color": "#5fb395"
+              "color": "#5fb197"
             },
             "spec_1": {
               "score": 3184.6,
@@ -8444,7 +8248,7 @@
             },
             "spec_2": {
               "score": 2579,
-              "color": "#58d66a"
+              "color": "#5ad36f"
             },
             "spec_3": {
               "score": 0,
@@ -8550,11 +8354,11 @@
           "segments": {
             "all": {
               "score": 2275.5,
-              "color": "#3eff25"
+              "color": "#38ff1f"
             },
             "dps": {
               "score": 2275.5,
-              "color": "#3eff25"
+              "color": "#38ff1f"
             },
             "healer": {
               "score": 0,
@@ -8574,7 +8378,7 @@
             },
             "spec_2": {
               "score": 2275.5,
-              "color": "#3eff25"
+              "color": "#38ff1f"
             },
             "spec_3": {
               "score": 0,
@@ -8615,7 +8419,7 @@
           "segments": {
             "all": {
               "score": 2872.7,
-              "color": "#579bb0"
+              "color": "#5799b1"
             },
             "dps": {
               "score": 0,
@@ -8623,7 +8427,7 @@
             },
             "healer": {
               "score": 2872.7,
-              "color": "#579bb0"
+              "color": "#5799b1"
             },
             "tank": {
               "score": 0,
@@ -8635,7 +8439,7 @@
             },
             "spec_1": {
               "score": 2872.7,
-              "color": "#579bb0"
+              "color": "#5799b1"
             },
             "spec_2": {
               "score": 0,
@@ -8680,11 +8484,11 @@
           "segments": {
             "all": {
               "score": 2513.4,
-              "color": "#4de553"
+              "color": "#50e159"
             },
             "dps": {
               "score": 2513.4,
-              "color": "#4de553"
+              "color": "#50e159"
             },
             "healer": {
               "score": 0,
@@ -8704,7 +8508,7 @@
             },
             "spec_2": {
               "score": 2513.4,
-              "color": "#4de553"
+              "color": "#50e159"
             },
             "spec_3": {
               "score": 0,
@@ -8745,11 +8549,11 @@
           "segments": {
             "all": {
               "score": 2149.3,
-              "color": "#5aff3f"
+              "color": "#57ff3c"
             },
             "dps": {
               "score": 1265.8,
-              "color": "#b6ff9e"
+              "color": "#b5ff9d"
             },
             "healer": {
               "score": 0,
@@ -8757,11 +8561,11 @@
             },
             "tank": {
               "score": 1321.7,
-              "color": "#b2ff99"
+              "color": "#b1ff98"
             },
             "spec_0": {
               "score": 1321.7,
-              "color": "#b2ff99"
+              "color": "#b1ff98"
             },
             "spec_1": {
               "score": 0,
@@ -8769,7 +8573,7 @@
             },
             "spec_2": {
               "score": 1265.8,
-              "color": "#b6ff9e"
+              "color": "#b5ff9d"
             },
             "spec_3": {
               "score": 0,
@@ -8810,11 +8614,11 @@
           "segments": {
             "all": {
               "score": 2878.8,
-              "color": "#579bb0"
+              "color": "#5395b6"
             },
             "dps": {
               "score": 2878.8,
-              "color": "#579bb0"
+              "color": "#5395b6"
             },
             "healer": {
               "score": 0,
@@ -8822,19 +8626,19 @@
             },
             "tank": {
               "score": 579.9,
-              "color": "#e7ffdd"
+              "color": "#e7ffdc"
             },
             "spec_0": {
               "score": 1628.9,
-              "color": "#95ff7a"
+              "color": "#94ff78"
             },
             "spec_1": {
               "score": 579.9,
-              "color": "#e7ffdd"
+              "color": "#e7ffdc"
             },
             "spec_2": {
               "score": 2876.9,
-              "color": "#579bb0"
+              "color": "#5395b6"
             },
             "spec_3": {
               "score": 0,
@@ -8875,11 +8679,11 @@
           "segments": {
             "all": {
               "score": 2737.1,
-              "color": "#5fb395"
+              "color": "#5fb197"
             },
             "dps": {
               "score": 2737.1,
-              "color": "#5fb395"
+              "color": "#5fb197"
             },
             "healer": {
               "score": 0,
@@ -8895,11 +8699,11 @@
             },
             "spec_1": {
               "score": 2409.7,
-              "color": "#2efa22"
+              "color": "#38f532"
             },
             "spec_2": {
               "score": 1366.4,
-              "color": "#aeff95"
+              "color": "#adff93"
             },
             "spec_3": {
               "score": 0,
@@ -8944,7 +8748,7 @@
             },
             "dps": {
               "score": 1686,
-              "color": "#90ff74"
+              "color": "#8fff73"
             },
             "healer": {
               "score": 0,
@@ -8956,7 +8760,7 @@
             },
             "spec_0": {
               "score": 1686,
-              "color": "#90ff74"
+              "color": "#8fff73"
             },
             "spec_1": {
               "score": 0,
@@ -9070,11 +8874,11 @@
           "segments": {
             "all": {
               "score": 2201.4,
-              "color": "#4eff34"
+              "color": "#49ff30"
             },
             "dps": {
               "score": 2201.4,
-              "color": "#4eff34"
+              "color": "#49ff30"
             },
             "healer": {
               "score": 0,
@@ -9090,7 +8894,7 @@
             },
             "spec_1": {
               "score": 2201.4,
-              "color": "#4eff34"
+              "color": "#49ff30"
             },
             "spec_2": {
               "score": 0,
@@ -9135,7 +8939,7 @@
           "segments": {
             "all": {
               "score": 2959.2,
-              "color": "#4788c4"
+              "color": "#4687c5"
             },
             "dps": {
               "score": 0,
@@ -9147,7 +8951,7 @@
             },
             "tank": {
               "score": 2959.2,
-              "color": "#4788c4"
+              "color": "#4687c5"
             },
             "spec_0": {
               "score": 0,
@@ -9155,7 +8959,7 @@
             },
             "spec_1": {
               "score": 2959.2,
-              "color": "#4788c4"
+              "color": "#4687c5"
             },
             "spec_2": {
               "score": 0,
@@ -9330,15 +9134,15 @@
           "segments": {
             "all": {
               "score": 1698.1,
-              "color": "#90ff74"
+              "color": "#8fff73"
             },
             "dps": {
               "score": 1338.2,
-              "color": "#b0ff97"
+              "color": "#afff96"
             },
             "healer": {
               "score": 944.2,
-              "color": "#cfffbc"
+              "color": "#ceffbc"
             },
             "tank": {
               "score": 0,
@@ -9346,7 +9150,7 @@
             },
             "spec_0": {
               "score": 1338.2,
-              "color": "#b0ff97"
+              "color": "#afff96"
             },
             "spec_1": {
               "score": 0,
@@ -9354,7 +9158,7 @@
             },
             "spec_2": {
               "score": 944.2,
-              "color": "#cfffbc"
+              "color": "#ceffbc"
             },
             "spec_3": {
               "score": 0,
@@ -9395,15 +9199,15 @@
           "segments": {
             "all": {
               "score": 2377.4,
-              "color": "#1eff00"
+              "color": "#2efa22"
             },
             "dps": {
               "score": 2377.4,
-              "color": "#1eff00"
+              "color": "#2efa22"
             },
             "healer": {
               "score": 1005.3,
-              "color": "#c9ffb5"
+              "color": "#c8ffb5"
             },
             "tank": {
               "score": 0,
@@ -9411,7 +9215,7 @@
             },
             "spec_0": {
               "score": 1005.3,
-              "color": "#c9ffb5"
+              "color": "#c8ffb5"
             },
             "spec_1": {
               "score": 0,
@@ -9419,7 +9223,7 @@
             },
             "spec_2": {
               "score": 2377.4,
-              "color": "#1eff00"
+              "color": "#2efa22"
             },
             "spec_3": {
               "score": 0,
@@ -9525,7 +9329,7 @@
           "segments": {
             "all": {
               "score": 1913.2,
-              "color": "#78ff5c"
+              "color": "#76ff5a"
             },
             "dps": {
               "score": 0,
@@ -9533,7 +9337,7 @@
             },
             "healer": {
               "score": 1913.2,
-              "color": "#78ff5c"
+              "color": "#76ff5a"
             },
             "tank": {
               "score": 0,
@@ -9549,7 +9353,7 @@
             },
             "spec_2": {
               "score": 1913.2,
-              "color": "#78ff5c"
+              "color": "#76ff5a"
             },
             "spec_3": {
               "score": 0,
@@ -9590,11 +9394,11 @@
           "segments": {
             "all": {
               "score": 1701,
-              "color": "#8eff72"
+              "color": "#8cff70"
             },
             "dps": {
               "score": 1699.5,
-              "color": "#90ff74"
+              "color": "#8fff73"
             },
             "healer": {
               "score": 0,
@@ -9602,7 +9406,7 @@
             },
             "tank": {
               "score": 1626.4,
-              "color": "#95ff7a"
+              "color": "#94ff78"
             },
             "spec_0": {
               "score": 0,
@@ -9610,11 +9414,11 @@
             },
             "spec_1": {
               "score": 1699.5,
-              "color": "#90ff74"
+              "color": "#8fff73"
             },
             "spec_2": {
               "score": 1626.4,
-              "color": "#95ff7a"
+              "color": "#94ff78"
             },
             "spec_3": {
               "score": 0,
@@ -9655,11 +9459,11 @@
           "segments": {
             "all": {
               "score": 2144.9,
-              "color": "#5aff3f"
+              "color": "#57ff3c"
             },
             "dps": {
               "score": 2144.9,
-              "color": "#5aff3f"
+              "color": "#57ff3c"
             },
             "healer": {
               "score": 0,
@@ -9671,7 +9475,7 @@
             },
             "spec_0": {
               "score": 2144.9,
-              "color": "#5aff3f"
+              "color": "#57ff3c"
             },
             "spec_1": {
               "score": 0,
@@ -9697,11 +9501,11 @@
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "horde",
-      "achievement_points": 4690,
+      "achievement_points": 4700,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/64/249930304-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-07-18T11:04:20.000Z",
+      "last_crawled_at": "2026-08-08T15:19:46.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Fxbz",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -9720,11 +9524,11 @@
           "segments": {
             "all": {
               "score": 2317,
-              "color": "#38ff1f"
+              "color": "#31ff18"
             },
             "dps": {
               "score": 2317,
-              "color": "#38ff1f"
+              "color": "#31ff18"
             },
             "healer": {
               "score": 0,
@@ -9744,7 +9548,7 @@
             },
             "spec_2": {
               "score": 2317,
-              "color": "#38ff1f"
+              "color": "#31ff18"
             },
             "spec_3": {
               "score": 0,
@@ -9785,11 +9589,11 @@
           "segments": {
             "all": {
               "score": 2468.6,
-              "color": "#41f03f"
+              "color": "#47eb48"
             },
             "dps": {
               "score": 2468.6,
-              "color": "#41f03f"
+              "color": "#47eb48"
             },
             "healer": {
               "score": 0,
@@ -9809,7 +9613,7 @@
             },
             "spec_2": {
               "score": 2468.6,
-              "color": "#41f03f"
+              "color": "#47eb48"
             },
             "spec_3": {
               "score": 0,
@@ -9980,11 +9784,11 @@
           "segments": {
             "all": {
               "score": 2802.2,
-              "color": "#5da9a0"
+              "color": "#5da8a2"
             },
             "dps": {
               "score": 1405.2,
-              "color": "#aaff90"
+              "color": "#a8ff8e"
             },
             "healer": {
               "score": 0,
@@ -9992,7 +9796,7 @@
             },
             "tank": {
               "score": 2746.2,
-              "color": "#5fb395"
+              "color": "#5fb197"
             },
             "spec_0": {
               "score": 300,
@@ -10000,11 +9804,11 @@
             },
             "spec_1": {
               "score": 1105.2,
-              "color": "#c2ffac"
+              "color": "#c1ffab"
             },
             "spec_2": {
               "score": 2746.2,
-              "color": "#5fb395"
+              "color": "#5fb197"
             },
             "spec_3": {
               "score": 0,
@@ -10046,11 +9850,11 @@
           "segments": {
             "all": {
               "score": 1571,
-              "color": "#9cff81"
+              "color": "#9bff7f"
             },
             "dps": {
               "score": 1571,
-              "color": "#9cff81"
+              "color": "#9bff7f"
             },
             "healer": {
               "score": 0,
@@ -10066,7 +9870,7 @@
             },
             "spec_1": {
               "score": 1571,
-              "color": "#9cff81"
+              "color": "#9bff7f"
             },
             "spec_2": {
               "score": 0,
@@ -10088,11 +9892,11 @@
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "alliance",
-      "achievement_points": 16855,
+      "achievement_points": 16895,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/151/267570327-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-08-04T12:04:29.000Z",
+      "last_crawled_at": "2026-08-08T10:33:38.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Mustardtiger",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -10180,7 +9984,7 @@
             },
             "dps": {
               "score": 665.4,
-              "color": "#e2ffd6"
+              "color": "#e2ffd5"
             },
             "healer": {
               "score": 3087.1,
@@ -10192,7 +9996,7 @@
             },
             "spec_0": {
               "score": 665.4,
-              "color": "#e2ffd6"
+              "color": "#e2ffd5"
             },
             "spec_1": {
               "score": 0,
@@ -10241,7 +10045,7 @@
           "segments": {
             "all": {
               "score": 670.5,
-              "color": "#e2ffd6"
+              "color": "#e2ffd5"
             },
             "dps": {
               "score": 485.5,
@@ -10371,11 +10175,11 @@
           "segments": {
             "all": {
               "score": 1619.3,
-              "color": "#98ff7c"
+              "color": "#96ff7a"
             },
             "dps": {
               "score": 1619.3,
-              "color": "#98ff7c"
+              "color": "#96ff7a"
             },
             "healer": {
               "score": 0,
@@ -10395,7 +10199,7 @@
             },
             "spec_2": {
               "score": 1619.3,
-              "color": "#98ff7c"
+              "color": "#96ff7a"
             },
             "spec_3": {
               "score": 0,
@@ -10631,11 +10435,11 @@
           "segments": {
             "all": {
               "score": 2816.5,
-              "color": "#5ca5a5"
+              "color": "#5ba3a7"
             },
             "dps": {
               "score": 2816.5,
-              "color": "#5ca5a5"
+              "color": "#5ba3a7"
             },
             "healer": {
               "score": 0,
@@ -10647,7 +10451,7 @@
             },
             "spec_0": {
               "score": 2816.5,
-              "color": "#5ca5a5"
+              "color": "#5ba3a7"
             },
             "spec_1": {
               "score": 0,
@@ -10742,7 +10546,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/196/250037188-avatar.jpg?alt=/wow/static/images/2d/avatar/29-0.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-08-07T21:37:45.000Z",
+      "last_crawled_at": "2026-08-08T21:38:50.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Ulquiôrra",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -10761,11 +10565,11 @@
           "segments": {
             "all": {
               "score": 2411.9,
-              "color": "#2efa22"
+              "color": "#38f532"
             },
             "dps": {
               "score": 2411.9,
-              "color": "#2efa22"
+              "color": "#38f532"
             },
             "healer": {
               "score": 0,
@@ -10785,7 +10589,7 @@
             },
             "spec_2": {
               "score": 2411.9,
-              "color": "#2efa22"
+              "color": "#38f532"
             },
             "spec_3": {
               "score": 0,
@@ -10826,11 +10630,11 @@
           "segments": {
             "all": {
               "score": 2751.9,
-              "color": "#5fb395"
+              "color": "#5fb197"
             },
             "dps": {
               "score": 2751.9,
-              "color": "#5fb395"
+              "color": "#5fb197"
             },
             "healer": {
               "score": 0,
@@ -10838,7 +10642,7 @@
             },
             "tank": {
               "score": 2154.4,
-              "color": "#56ff3c"
+              "color": "#52ff38"
             },
             "spec_0": {
               "score": 0,
@@ -10846,11 +10650,11 @@
             },
             "spec_1": {
               "score": 2751.9,
-              "color": "#5fb395"
+              "color": "#5fb197"
             },
             "spec_2": {
               "score": 2154.4,
-              "color": "#56ff3c"
+              "color": "#52ff38"
             },
             "spec_3": {
               "score": 0,
@@ -10891,11 +10695,11 @@
           "segments": {
             "all": {
               "score": 2337.3,
-              "color": "#31ff18"
+              "color": "#29ff0e"
             },
             "dps": {
               "score": 2337.3,
-              "color": "#31ff18"
+              "color": "#29ff0e"
             },
             "healer": {
               "score": 0,
@@ -10915,7 +10719,7 @@
             },
             "spec_2": {
               "score": 2337.3,
-              "color": "#31ff18"
+              "color": "#29ff0e"
             },
             "spec_3": {
               "score": 0,
@@ -11262,7 +11066,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/illidan/230/237620710-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
       "region": "us",
       "realm": "Illidan",
-      "last_crawled_at": "2026-08-04T12:05:28.000Z",
+      "last_crawled_at": "2026-08-08T10:33:39.000Z",
       "profile_url": "https://raider.io/characters/us/illidan/Cosmicjane",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -11281,11 +11085,11 @@
           "segments": {
             "all": {
               "score": 2710.9,
-              "color": "#5fb88f"
+              "color": "#5fb692"
             },
             "dps": {
               "score": 2601,
-              "color": "#5ad171"
+              "color": "#5cce75"
             },
             "healer": {
               "score": 0,
@@ -11293,7 +11097,7 @@
             },
             "tank": {
               "score": 2564.5,
-              "color": "#55db63"
+              "color": "#57d868"
             },
             "spec_0": {
               "score": 0,
@@ -11301,11 +11105,11 @@
             },
             "spec_1": {
               "score": 2564.5,
-              "color": "#55db63"
+              "color": "#57d868"
             },
             "spec_2": {
               "score": 2601,
-              "color": "#5ad171"
+              "color": "#5cce75"
             },
             "spec_3": {
               "score": 0,
@@ -11411,7 +11215,7 @@
           "segments": {
             "all": {
               "score": 2796.4,
-              "color": "#5da9a0"
+              "color": "#5da8a2"
             },
             "dps": {
               "score": 0,
@@ -11419,7 +11223,7 @@
             },
             "healer": {
               "score": 2796.4,
-              "color": "#5da9a0"
+              "color": "#5da8a2"
             },
             "tank": {
               "score": 0,
@@ -11439,7 +11243,7 @@
             },
             "spec_3": {
               "score": 2796.4,
-              "color": "#5da9a0"
+              "color": "#5da8a2"
             }
           }
         }
@@ -11453,13 +11257,13 @@
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "horde",
-      "achievement_points": 14575,
+      "achievement_points": 14895,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/135/250120327-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-08-07T18:07:38.000Z",
+      "last_crawled_at": "2026-08-09T06:50:36.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Paju",
-      "profile_banner": "hordebanner1",
+      "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-1",
