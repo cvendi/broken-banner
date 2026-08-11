@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T11:09:28.887Z",
+  "updatedAt": "2026-08-11T10:51:18.731Z",
   "members": [
     {
       "name": "Cheating",
@@ -269,11 +269,11 @@
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "horde",
-      "achievement_points": 20155,
+      "achievement_points": 20235,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/echo-isles/245/147441909-avatar.jpg?alt=/wow/static/images/2d/avatar/27-1.jpg",
       "region": "us",
       "realm": "Echo Isles",
-      "last_crawled_at": "2026-08-05T11:58:29.000Z",
+      "last_crawled_at": "2026-08-10T11:06:38.000Z",
       "profile_url": "https://raider.io/characters/us/echo-isles/Estella",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -1443,7 +1443,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/119/234896759-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-08-09T15:07:37.000Z",
+      "last_crawled_at": "2026-08-10T20:41:39.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Panicbear",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -1833,7 +1833,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/237/251742189-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-08-07T10:58:34.000Z",
+      "last_crawled_at": "2026-08-10T23:50:47.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Dassk",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -2622,19 +2622,19 @@
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 660,
+            "all": 732.2,
             "dps": 0,
             "healer": 0,
-            "tank": 660,
-            "spec_0": 660,
+            "tank": 732.2,
+            "spec_0": 732.2,
             "spec_1": 0,
             "spec_2": 0,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 660,
-              "color": "#e2ffd5"
+              "score": 732.2,
+              "color": "#dcffce"
             },
             "dps": {
               "score": 0,
@@ -2645,12 +2645,12 @@
               "color": "#ffffff"
             },
             "tank": {
-              "score": 660,
-              "color": "#e2ffd5"
+              "score": 732.2,
+              "color": "#dcffce"
             },
             "spec_0": {
-              "score": 660,
-              "color": "#e2ffd5"
+              "score": 732.2,
+              "color": "#dcffce"
             },
             "spec_1": {
               "score": 0,
@@ -2875,7 +2875,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/172/233464748-avatar.jpg?alt=/wow/static/images/2d/avatar/31-0.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-08-10T01:44:42.000Z",
+      "last_crawled_at": "2026-08-11T02:28:40.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Jukêm",
       "profile_banner": "covenantbanner_necrolord",
       "mythic_plus_scores_by_season": [
@@ -3851,7 +3851,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/17/196759057-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-08-06T11:05:30.000Z",
+      "last_crawled_at": "2026-08-10T11:07:39.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Crypt",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -3912,29 +3912,29 @@
       "active_spec_role": "TANK",
       "gender": "male",
       "faction": "alliance",
-      "achievement_points": 29505,
+      "achievement_points": 29515,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/192/245390016-avatar.jpg?alt=/wow/static/images/2d/avatar/32-0.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-08-08T21:38:51.000Z",
+      "last_crawled_at": "2026-08-11T05:54:48.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Baahubali",
       "profile_banner": "classbanner_warrior1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 2998.4,
+            "all": 3012.9,
             "dps": 275,
             "healer": 0,
-            "tank": 2998.4,
+            "tank": 3012.9,
             "spec_0": 0,
             "spec_1": 275,
-            "spec_2": 2998.4,
+            "spec_2": 3012.9,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 2998.4,
+              "score": 3012.9,
               "color": "#2f79d3"
             },
             "dps": {
@@ -3946,7 +3946,7 @@
               "color": "#ffffff"
             },
             "tank": {
-              "score": 2998.4,
+              "score": 3012.9,
               "color": "#2f79d3"
             },
             "spec_0": {
@@ -3958,7 +3958,7 @@
               "color": "#fafff8"
             },
             "spec_2": {
-              "score": 2998.4,
+              "score": 3012.9,
               "color": "#2f79d3"
             },
             "spec_3": {
@@ -5277,11 +5277,11 @@
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "alliance",
-      "achievement_points": 26780,
+      "achievement_points": 26855,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/130/264505986-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-07-31T11:59:36.000Z",
+      "last_crawled_at": "2026-08-10T11:07:40.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Ninym",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -6256,7 +6256,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/184/249228472-avatar.jpg?alt=/wow/static/images/2d/avatar/91-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-08-09T14:22:36.000Z",
+      "last_crawled_at": "2026-08-10T22:21:38.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Emmaróids",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -6646,7 +6646,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/proudmoore/225/246708193-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
       "region": "us",
       "realm": "Proudmoore",
-      "last_crawled_at": "2026-08-07T11:02:38.000Z",
+      "last_crawled_at": "2026-08-10T11:08:37.000Z",
       "profile_url": "https://raider.io/characters/us/proudmoore/Keglocks",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -7292,11 +7292,11 @@
       "active_spec_role": "HEALING",
       "gender": "female",
       "faction": "horde",
-      "achievement_points": 19355,
+      "achievement_points": 19385,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/146/249538962-avatar.jpg?alt=/wow/static/images/2d/avatar/8-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-08-06T12:12:40.000Z",
+      "last_crawled_at": "2026-08-10T11:08:38.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Sløwdoc",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -8401,7 +8401,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/101/249724517-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-08-09T14:49:36.000Z",
+      "last_crawled_at": "2026-08-10T11:17:37.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Panicbearz",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -8921,7 +8921,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/uther/49/160312369-avatar.jpg?alt=/wow/static/images/2d/avatar/86-0.jpg",
       "region": "us",
       "realm": "Uther",
-      "last_crawled_at": "2026-08-07T11:02:39.000Z",
+      "last_crawled_at": "2026-08-10T11:08:42.000Z",
       "profile_url": "https://raider.io/characters/us/uther/Kfc",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -10092,7 +10092,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/254/267711742-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-08-09T14:24:37.000Z",
+      "last_crawled_at": "2026-08-10T20:43:41.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Panicbeard",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -11002,7 +11002,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/106/260217450-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-08-07T11:02:39.000Z",
+      "last_crawled_at": "2026-08-10T17:25:44.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Eigar",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -11241,6 +11241,71 @@
             "spec_2": {
               "score": 2601,
               "color": "#5ccc77"
+            },
+            "spec_3": {
+              "score": 0,
+              "color": "#ffffff"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Zalmari",
+      "race": "Troll",
+      "class": "Shaman",
+      "active_spec_name": "Restoration",
+      "active_spec_role": "HEALING",
+      "gender": "female",
+      "faction": "horde",
+      "achievement_points": 10175,
+      "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/81/250093905-avatar.jpg?alt=/wow/static/images/2d/avatar/8-1.jpg",
+      "region": "us",
+      "realm": "Area 52",
+      "last_crawled_at": "2026-08-06T16:13:31.000Z",
+      "profile_url": "https://raider.io/characters/us/area-52/Zalmari",
+      "profile_banner": "hordebanner1",
+      "mythic_plus_scores_by_season": [
+        {
+          "season": "season-mn-1",
+          "scores": {
+            "all": 0,
+            "dps": 0,
+            "healer": 0,
+            "tank": 0,
+            "spec_0": 0,
+            "spec_1": 0,
+            "spec_2": 0,
+            "spec_3": 0
+          },
+          "segments": {
+            "all": {
+              "score": 0,
+              "color": "#ffffff"
+            },
+            "dps": {
+              "score": 0,
+              "color": "#ffffff"
+            },
+            "healer": {
+              "score": 0,
+              "color": "#ffffff"
+            },
+            "tank": {
+              "score": 0,
+              "color": "#ffffff"
+            },
+            "spec_0": {
+              "score": 0,
+              "color": "#ffffff"
+            },
+            "spec_1": {
+              "score": 0,
+              "color": "#ffffff"
+            },
+            "spec_2": {
+              "score": 0,
+              "color": "#ffffff"
             },
             "spec_3": {
               "score": 0,
